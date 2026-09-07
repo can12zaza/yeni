@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-
 CAN TV - Playlist Builder v5
 
 Özellikler:
@@ -19,7 +18,7 @@ CAN TV - Playlist Builder v5
 - update_named_channels.py tarafından bulunan kaynaklara öncelik verir
 - Film tespiti kontrollüdür
 - Film ve Diğer kategorilerini otomatik ekler
-"""
+
 
 import json
 import re
