@@ -86,13 +86,17 @@ https://tinyurl.com/Fiat-linea-multijet/yula/ceydus2.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
 http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
-http://umperisn.mywire.org/index.php?id=2206&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=2207&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein3/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=2210&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Spor",BEIN SPORTS 4
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein4/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=2213&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein5/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=423873&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
+http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
+http://umperisn.mywire.org/index.php?id=2194&token=DeaTHLesS
 #EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
@@ -106,17 +110,17 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
 http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197364&extension=ts&play_token=FkdL4n4O9g
 #EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
 https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NR1" group-title="Müzik",NR1
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197359&extension=ts&play_token=VTomsfRgFY
 #EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
-http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a
 #EXTINF:-1 tvg-name="NUMBER1 TÜRK" group-title="Müzik",NUMBER1 TÜRK
-http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Dini",TRT DİYANET ÇOCUK
@@ -131,6 +135,8 @@ http://umperisn.mywire.org/index.php?id=591393&token=DeaTHLesS
 http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN MOVIES ACTION" group-title="Sinema",BEIN MOVIES ACTION
 http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES FAMILY" group-title="Sinema",BEIN MOVIES FAMILY
+http://umperisn.mywire.org/index.php?id=591397&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
 http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN BOXOFFICE 2" group-title="Sinema",BEIN BOXOFFICE 2
@@ -143,6 +149,12 @@ http://umperisn.mywire.org/index.php?id=591415&token=DeaTHLesS
 http://umperisn.mywire.org/index.php?id=591429&token=DeaTHLesS
 #EXTINF:-1 tvg-name="SİNEMA 1002" group-title="Sinema",SİNEMA 1002
 https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
+https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8
+#EXTINF:-1 tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
+https://sharelink.anonimltc.workers.dev/g/8m95e5.m3u8
+#EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
+https://sharelink.anonimltc.workers.dev/g/hy364t.m3u8
 #EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471685&extension=ts&play_token=t39wCHGH3S
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
