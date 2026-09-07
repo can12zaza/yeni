@@ -1,33 +1,36 @@
 #!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 
 """
-CAN TV - Playlist Builder v5
+CAN TV - Playlist Builder v6
 
 Özellikler:
-- categories.json sırasını birebir korur
-- data/kanal_kaynaklari.m3u kaynaklarını öncelikli kullanır
-- sources.txt kaynaklarını da kullanır
-- Aynı URL'yi tekrar etmez
-- Aynı kanalı farklı isimlerle tekrar etmez
-- TV8 / TV 8 -> TV8
-- TV8.5 / TV 8.5 / TV8 5 -> TV8.5
-- BENGUTURK / BENGÜTÜRK -> BENGUTURK
-- HABERTURK / HABER TÜRK -> HABERTURK
-- Bozuk EXTINF kayıtlarını mümkün olduğunca düzeltir
-- Kaliteli kaynağı tercih eder
-- update_named_channels.py tarafından bulunan kaynaklara öncelik verir
-- Film tespiti kontrollüdür
-- Film ve Diğer kategorilerini otomatik ekler
-"""
+
+* categories.json sırasını birebir korur
+* categories.json içindeki kanal sırasını korur
+* data/kanal_kaynaklari.m3u en yüksek önceliğe sahiptir
+* sources.txt kaynaklarının sırasını öncelik olarak kullanır
+* Aynı URL'yi tekrar etmez
+* Aynı kanalı farklı isimlerle tekrar etmez
+* TV8 / TV 8 -> TV8
+* TV8.5 / TV 8.5 / TV8 5 -> TV8.5
+* BENGUTURK / BENGÜTÜRK -> BENGUTURK
+* HABERTURK / HABER TÜRK -> HABERTURK
+* Bozuk EXTINF kayıtlarını mümkün olduğunca düzeltir
+* Kaliteli kaynağı tercih eder
+* Named channel kaynaklarına öncelik verir
+* Kontrollü Film tespiti yapar
+* Film ve Diğer kategorilerini otomatik oluşturur
+* Diğer kategorisini her zaman sona koyar
+  """
 
 import json
 import re
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(**file**).resolve().parent
 
 SOURCES = ROOT / "sources.txt"
 NAMED_SOURCES = ROOT / "data" / "kanal_kaynaklari.m3u"
@@ -35,1088 +38,1276 @@ CATEGORIES = ROOT / "categories.json"
 CONFIG = ROOT / "config.json"
 OUTPUT = ROOT / "playlist.m3u"
 
-UA = "Mozilla/5.0 (CAN-TV-Builder/5.0)"
-
+UA = "Mozilla/5.0 (CAN-TV-Builder/6.0)"
 
 # ============================================================
+
 # NORMALIZE
+
 # ============================================================
 
 def norm(value):
 
-    s = str(value or "").upper().strip()
+```
+s = str(value or "").upper().strip()
 
-    tr_map = str.maketrans({
-        "İ": "I",
-        "Ş": "S",
-        "Ğ": "G",
-        "Ü": "U",
-        "Ö": "O",
-        "Ç": "C",
-        "Â": "A",
-        "Î": "I",
-        "Û": "U",
-    })
+tr_map = str.maketrans({
+    "İ": "I",
+    "Ş": "S",
+    "Ğ": "G",
+    "Ü": "U",
+    "Ö": "O",
+    "Ç": "C",
+    "Â": "A",
+    "Î": "I",
+    "Û": "U",
+})
 
-    s = s.translate(tr_map)
+s = s.translate(tr_map)
 
-    # Kalite bilgilerini kaldır
-    s = re.sub(
-        r"\b(FHD|UHD|HD|SD|4K|HEVC|H265|H264|FULL HD)\b",
-        " ",
-        s,
-    )
+# Kalite bilgilerini kaldır
+s = re.sub(
+    r"\b(FHD|UHD|HD|SD|4K|HEVC|H265|H264|FULL HD)\b",
+    " ",
+    s,
+)
 
-    # Noktalama işaretleri
-    s = re.sub(
-        r"[^A-Z0-9]+",
-        " ",
-        s,
-    )
+# Noktalama işaretlerini boşluğa çevir
+s = re.sub(
+    r"[^A-Z0-9]+",
+    " ",
+    s,
+)
 
-    return re.sub(
-        r"\s+",
-        " ",
-        s,
-    ).strip()
-
+return re.sub(
+    r"\s+",
+    " ",
+    s,
+).strip()
+```
 
 # ============================================================
+
 # CANONICAL CHANNEL KEY
+
 # ============================================================
 
 def channel_key(name):
 
-    n = norm(name)
+```
+n = norm(name)
 
-    if not n:
-        return ""
+if not n:
+    return ""
 
-    # --------------------------------------------------------
-    # TV8
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# TV8.5 ÖNCE KONTROL EDİLİR
+# --------------------------------------------------------
 
-    if n in {
-        "TV8",
-        "TV 8",
-    }:
-        return "TV8"
+if n in {
+    "TV85",
+    "TV8 5",
+    "TV 8 5",
+    "TV 85",
+}:
+    return "TV8.5"
 
-    # --------------------------------------------------------
-    # TV8.5
-    # --------------------------------------------------------
+if re.search(
+    r"\bTV\s*8\s*5\b",
+    n,
+):
+    return "TV8.5"
 
-    if n in {
-        "TV85",
-        "TV8 5",
-        "TV 8 5",
-        "TV 85",
-        "TV8 5",
-    }:
-        return "TV8.5"
+# --------------------------------------------------------
+# TV8
+# --------------------------------------------------------
 
-    # Bozuk metnin içinde TV 8.5 geçiyorsa
-    if re.search(r"\bTV\s*8\s*5\b", n):
-        return "TV8.5"
+if n in {
+    "TV8",
+    "TV 8",
+}:
+    return "TV8"
 
-    # --------------------------------------------------------
-    # BENGÜTÜRK
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# BENGÜTÜRK
+# --------------------------------------------------------
 
-    if n in {
-        "BENGUTURK",
-        "BENGU TURK",
-    }:
-        return "BENGUTURK"
+if n in {
+    "BENGUTURK",
+    "BENGU TURK",
+}:
+    return "BENGUTURK"
 
-    # --------------------------------------------------------
-    # HABERTÜRK
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# HABERTÜRK
+# --------------------------------------------------------
 
-    if n in {
-        "HABERTURK",
-        "HABER TURK",
-    }:
-        return "HABERTURK"
+if n in {
+    "HABERTURK",
+    "HABER TURK",
+}:
+    return "HABERTURK"
 
-    # --------------------------------------------------------
-    # TRT MÜZİK
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# TRT MÜZİK
+# --------------------------------------------------------
 
-    if n == "TRT MUZIK":
-        return "TRT MUZIK"
+if n == "TRT MUZIK":
+    return "TRT MUZIK"
 
-    # --------------------------------------------------------
-    # TRT DİYANET
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# TRT DİYANET
+# --------------------------------------------------------
 
-    if n == "TRT DIYANET":
-        return "TRT DIYANET"
+if n == "TRT DIYANET":
+    return "TRT DIYANET"
 
-    # --------------------------------------------------------
-    # TRT DİYANET ÇOCUK
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# TRT DİYANET ÇOCUK
+# --------------------------------------------------------
 
-    if n == "TRT DIYANET COCUK":
-        return "TRT DIYANET COCUK"
+if n == "TRT DIYANET COCUK":
+    return "TRT DIYANET COCUK"
 
-    # --------------------------------------------------------
-    # NATIONAL GEOGRAPHIC
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# NATIONAL GEOGRAPHIC
+# --------------------------------------------------------
 
-    if n in {
-        "NAT GEO",
-        "NATIONAL GEOGRAPHIC",
-    }:
-        return "NATIONAL GEOGRAPHIC"
+if n in {
+    "NAT GEO",
+    "NATIONAL GEOGRAPHIC",
+}:
+    return "NATIONAL GEOGRAPHIC"
 
-    # --------------------------------------------------------
-    # NATIONAL GEOGRAPHIC WILD
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# NATIONAL GEOGRAPHIC WILD
+# --------------------------------------------------------
 
-    if n in {
-        "NAT GEO WILD",
-        "NAT WILD",
-        "NATIONAL GEOGRAPHIC WILD",
-    }:
-        return "NATIONAL GEOGRAPHIC WILD"
+if n in {
+    "NAT GEO WILD",
+    "NAT WILD",
+    "NATIONAL GEOGRAPHIC WILD",
+}:
+    return "NATIONAL GEOGRAPHIC WILD"
 
-    # --------------------------------------------------------
-    # DISCOVERY ID
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# DISCOVERY ID
+# --------------------------------------------------------
 
-    if n in {
-        "ID DISCOVERY",
-        "DISCOVERY ID",
-        "INVESTIGATION DISCOVERY",
-    }:
-        return "DISCOVERY ID"
+if n in {
+    "ID DISCOVERY",
+    "DISCOVERY ID",
+    "INVESTIGATION DISCOVERY",
+}:
+    return "DISCOVERY ID"
 
-    # --------------------------------------------------------
-    # BLOOMBERG
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# BLOOMBERG
+# --------------------------------------------------------
 
-    if n in {
-        "BLOOMBERG HT",
-        "BLOOMBERGHT",
-    }:
-        return "BLOOMBERG HT"
+if n in {
+    "BLOOMBERG HT",
+    "BLOOMBERGHT",
+}:
+    return "BLOOMBERG HT"
 
-    # --------------------------------------------------------
-    # EKOTÜRK
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# EKOTÜRK
+# --------------------------------------------------------
 
-    if n == "EKOTURK":
-        return "EKOTURK"
+if n == "EKOTURK":
+    return "EKOTURK"
 
-    # --------------------------------------------------------
-    # LIFETIME
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# LIFETIME
+# --------------------------------------------------------
 
-    if n in {
-        "LIFETIME",
-        "LIFE TIME",
-    }:
-        return "LIFETIME"
+if n in {
+    "LIFETIME",
+    "LIFE TIME",
+}:
+    return "LIFETIME"
 
-    # --------------------------------------------------------
-    # KRAL FM
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# KRAL FM
+# --------------------------------------------------------
 
-    if n in {
-        "KRAL FM",
-        "KIRAL FM",
-    }:
-        return "KRAL FM"
+if n in {
+    "KRAL FM",
+    "KIRAL FM",
+}:
+    return "KRAL FM"
 
-    # --------------------------------------------------------
-    # KRAL POP
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# KRAL POP
+# --------------------------------------------------------
 
-    if n in {
-        "KRAL POP",
-        "KIRAL POP",
-    }:
-        return "KRAL POP"
+if n in {
+    "KRAL POP",
+    "KIRAL POP",
+}:
+    return "KRAL POP"
 
-    return n
-
+return n
+```
 
 # ============================================================
+
 # KATEGORİLERDEN KANONİK İSİM BUL
+
 # ============================================================
 
 def build_canonical_names(categories):
 
-    result = {}
+```
+result = {}
 
-    for category, names in categories.items():
+for category, names in categories.items():
 
-        if not isinstance(names, list):
-            continue
+    if not isinstance(names, list):
+        continue
 
-        for name in names:
+    for name in names:
 
-            key = channel_key(name)
+        key = channel_key(name)
 
-            if key:
-                result[key] = name
+        if key and key not in result:
+            result[key] = name
 
-    return result
-
+return result
+```
 
 # ============================================================
-# BOZUK KANAL İSMİNİ TEMİZLE
+
+# KANAL İSMİ TEMİZLE
+
 # ============================================================
 
-def clean_channel_name(name, categories):
+def clean_channel_name(
+name,
+canonical_names,
+):
 
-    original = str(name or "").strip()
+```
+original = str(name or "").strip()
 
-    if not original:
-        return "KANAL"
+if not original:
+    return "KANAL"
 
-    key = channel_key(original)
+key = channel_key(original)
 
-    canonical_names = build_canonical_names(categories)
+# Tam eşleşme
+if key in canonical_names:
+    return canonical_names[key]
 
-    # Tam eşleşme
-    if key in canonical_names:
-        return canonical_names[key]
+n = norm(original)
 
-    n = norm(original)
+# --------------------------------------------------------
+# TV8.5
+# --------------------------------------------------------
 
-    # --------------------------------------------------------
-    # Özel: TV 8.5
-    # --------------------------------------------------------
+if re.search(
+    r"\bTV\s*8\s*5\b",
+    n,
+):
+    return canonical_names.get(
+        "TV8.5",
+        "TV 8.5",
+    )
 
-    if re.search(
+# --------------------------------------------------------
+# TV8
+# --------------------------------------------------------
+
+if re.search(
+    r"\bTV\s*8\b",
+    n,
+):
+    if not re.search(
         r"\bTV\s*8\s*5\b",
         n,
     ):
         return canonical_names.get(
-            "TV8.5",
-            "TV 8.5",
+            "TV8",
+            "TV8",
         )
 
-    # --------------------------------------------------------
-    # Özel: TV8
-    # --------------------------------------------------------
+# --------------------------------------------------------
+# Kategori listesindeki isimlerden
+# metin içinde geçenleri ara.
+#
+# Uzun isimler önce aranır.
+# --------------------------------------------------------
 
-    if re.search(
-        r"\bTV\s*8\b",
-        n,
-    ):
-        # TV8.5 değilse TV8
-        if not re.search(r"\bTV\s*8\s*5\b", n):
-            return canonical_names.get(
-                "TV8",
-                "TV8",
-            )
+candidates = sorted(
+    canonical_names.items(),
+    key=lambda x: len(norm(x[1])),
+    reverse=True,
+)
 
-    # --------------------------------------------------------
-    # Kategori listesindeki kanallardan
-    # bozuk metin içinde geçenleri ara.
-    # Uzun isimler önce.
-    # --------------------------------------------------------
+for candidate_key, candidate_name in candidates:
 
-    candidates = sorted(
-        canonical_names.items(),
-        key=lambda x: len(norm(x[1])),
-        reverse=True,
+    candidate_norm = norm(candidate_name)
+
+    if not candidate_norm:
+        continue
+
+    if len(candidate_norm) < 4:
+        continue
+
+    # Tam kelime sınırı
+    pattern = (
+        r"(?<![A-Z0-9])"
+        + re.escape(candidate_norm)
+        + r"(?![A-Z0-9])"
     )
 
-    for candidate_key, candidate_name in candidates:
+    if re.search(
+        pattern,
+        n,
+    ):
+        return candidate_name
 
-        candidate_norm = norm(candidate_name)
-
-        if not candidate_norm:
-            continue
-
-        if len(candidate_norm) < 4:
-            continue
-
-        if candidate_norm in n:
-            return candidate_name
-
-    return original
-
+return original
+```
 
 # ============================================================
+
 # SOURCES.TXT OKU
+
 # ============================================================
 
 def read_sources():
 
-    if not SOURCES.exists():
+```
+if not SOURCES.exists():
 
-        print("[UYARI] sources.txt bulunamadı.")
-
-        return []
-
-    result = []
-
-    for line in SOURCES.read_text(
-        encoding="utf-8",
-        errors="ignore",
-    ).splitlines():
-
-        line = line.strip()
-
-        if not line:
-            continue
-
-        if line.startswith("#"):
-            continue
-
-        result.append(line)
-
-    return result
-
-
-# ============================================================
-# FETCH
-# ============================================================
-
-def fetch(url, timeout):
-
-    req = Request(
-        url,
-        headers={
-            "User-Agent": UA,
-            "Accept": "*/*",
-        },
+    print(
+        "[UYARI] sources.txt bulunamadı."
     )
 
-    with urlopen(
-        req,
-        timeout=timeout,
-    ) as response:
+    return []
 
-        return response.read().decode(
-            "utf-8",
-            errors="ignore",
+result = []
+
+lines = SOURCES.read_text(
+    encoding="utf-8",
+    errors="ignore",
+).splitlines()
+
+for line_number, line in enumerate(
+    lines,
+    start=1,
+):
+
+    line = line.strip()
+
+    if not line:
+        continue
+
+    if line.startswith("#"):
+        continue
+
+    result.append(
+        (
+            line,
+            line_number,
         )
+    )
 
+return result
+```
 
 # ============================================================
-# EXTINF'TEN TVG-NAME ÇIKAR
+
+# FETCH
+
+# ============================================================
+
+def fetch(
+url,
+timeout,
+):
+
+```
+req = Request(
+    url,
+    headers={
+        "User-Agent": UA,
+        "Accept": "*/*",
+    },
+)
+
+with urlopen(
+    req,
+    timeout=timeout,
+) as response:
+
+    return response.read().decode(
+        "utf-8",
+        errors="ignore",
+    )
+```
+
+# ============================================================
+
+# EXTINF'TEN TVG-NAME
+
 # ============================================================
 
 def extract_tvg_name(ext):
 
-    # Önce normal tvg-name
-    match = re.search(
-        r'tvg-name\s*=\s*"([^"]+)"',
-        ext,
-        flags=re.IGNORECASE,
-    )
+```
+match = re.search(
+    r'tvg-name\s*=\s*"([^"]+)"',
+    ext,
+    flags=re.IGNORECASE,
+)
 
-    if match:
+if match:
 
-        value = match.group(1).strip()
+    value = match.group(1).strip()
 
-        if value:
-            return value
+    if value:
+        return value
 
-    # Tek tırnak
-    match = re.search(
-        r"tvg-name\s*=\s*'([^']+)'",
-        ext,
-        flags=re.IGNORECASE,
-    )
+match = re.search(
+    r"tvg-name\s*=\s*'([^']+)'",
+    ext,
+    flags=re.IGNORECASE,
+)
 
-    if match:
+if match:
 
-        value = match.group(1).strip()
+    value = match.group(1).strip()
 
-        if value:
-            return value
+    if value:
+        return value
 
-    return ""
-
+return ""
+```
 
 # ============================================================
-# EXTINF'TEN İSİM ÇIKAR
+
+# EXTINF'TEN İSİM
+
 # ============================================================
 
-def extract_name(ext, categories=None):
+def extract_name(
+ext,
+canonical_names=None,
+):
 
-    tvg_name = extract_tvg_name(ext)
+```
+tvg_name = extract_tvg_name(ext)
 
-    if tvg_name:
+if tvg_name:
 
-        if categories:
+    if canonical_names:
 
-            cleaned = clean_channel_name(
-                tvg_name,
-                categories,
-            )
+        return clean_channel_name(
+            tvg_name,
+            canonical_names,
+        )
 
-            return cleaned
+    return tvg_name
 
-        return tvg_name
+if "," in ext:
 
-    # Virgülden sonraki isim
-    if "," in ext:
+    name = ext.split(
+        ",",
+        1,
+    )[1].strip()
 
-        name = ext.split(
-            ",",
-            1,
-        )[1].strip()
+    name = re.sub(
+        r'\s+group-title=.*$',
+        "",
+        name,
+        flags=re.IGNORECASE,
+    ).strip()
 
-        # Metadata artığı
-        name = re.sub(
-            r'\s+group-title=.*$',
-            "",
+    if canonical_names:
+
+        name = clean_channel_name(
             name,
-            flags=re.IGNORECASE,
-        ).strip()
+            canonical_names,
+        )
 
-        if categories:
+    return name or "KANAL"
 
-            name = clean_channel_name(
-                name,
-                categories,
-            )
-
-        return name or "KANAL"
-
-    return "KANAL"
-
+return "KANAL"
+```
 
 # ============================================================
+
 # M3U PARSER
+
 # ============================================================
 
-def parse_m3u(text, categories=None):
+def parse_m3u(
+text,
+canonical_names=None,
+):
 
-    lines = text.splitlines()
+```
+lines = text.splitlines()
+
+result = []
+
+i = 0
+
+while i < len(lines):
+
+    line = lines[i].strip()
+
+    if line.startswith(
+        "#EXTINF"
+    ):
+
+        ext = line
+
+        j = i + 1
+
+        while j < len(lines):
+
+            candidate = lines[j].strip()
+
+            if candidate:
+                break
+
+            j += 1
+
+        if j < len(lines):
+
+            url = lines[j].strip()
+
+            if (
+                url
+                and not url.startswith("#")
+                and (
+                    url.startswith("http://")
+                    or url.startswith("https://")
+                )
+            ):
+
+                name = extract_name(
+                    ext,
+                    canonical_names,
+                )
+
+                result.append(
+                    (
+                        name,
+                        ext,
+                        url,
+                    )
+                )
+
+                i = j + 1
+
+                continue
+
+    i += 1
+
+return result
+```
+
+# ============================================================
+
+# KATEGORİ INDEX
+
+# ============================================================
+
+def make_category_index(
+categories,
+):
+
+```
+index = {}
+
+for category, names in categories.items():
+
+    if not isinstance(names, list):
+        continue
+
+    for name in names:
+
+        key = channel_key(name)
+
+        if key and key not in index:
+
+            index[key] = category
+
+return index
+```
+
+# ============================================================
+
+# KATEGORİ
+
+# ============================================================
+
+def category_for(
+name,
+ext,
+index,
+):
+
+```
+key = channel_key(name)
+
+# Önce categories.json
+if key in index:
+    return index[key]
+
+ext_upper = (
+    ext or ""
+).upper()
+
+name_upper = (
+    name or ""
+).upper()
+
+# --------------------------------------------------------
+# FILM
+# --------------------------------------------------------
+
+# tvg-year
+if re.search(
+    r'tvg[-_ ]?year\s*=\s*["\']?\d{4}',
+    ext_upper,
+):
+    return "Film"
+
+# TMDB logo
+if "IMAGE.TMDB.ORG" in ext_upper:
+    return "Film"
+
+if "IMAGE.TMDB.ORG" in name_upper:
+    return "Film"
+
+# Film isminde yıl
+#
+# Örnek:
+# Avatar 2009
+# Titanic 1997
+#
+if re.search(
+    r"\b(?:19|20)\d{2}\s*$",
+    norm(name),
+):
+    return "Film"
+
+# --------------------------------------------------------
+# DİĞER
+# --------------------------------------------------------
+
+return "Diğer"
+```
+
+# ============================================================
+
+# QUALITY
+
+# ============================================================
+
+def quality(
+name,
+ext="",
+):
+
+```
+value = (
+    (name or "")
+    + " "
+    + (ext or "")
+).upper()
+
+if re.search(
+    r"\b(4K|UHD)\b",
+    value,
+):
+    return 4
+
+if re.search(
+    r"\b(FHD|FULL HD)\b",
+    value,
+):
+    return 3
+
+if re.search(
+    r"\bHD\b",
+    value,
+):
+    return 2
+
+if re.search(
+    r"\bSD\b",
+    value,
+):
+    return 1
+
+return 0
+```
+
+# ============================================================
+
+# EXTINF TEMİZLE
+
+# ============================================================
+
+def rewrite_ext(
+ext,
+name,
+group,
+):
+
+```
+tvg_id = ""
+tvg_logo = ""
+
+# --------------------------------------------------------
+# TVG-ID
+# --------------------------------------------------------
+
+match = re.search(
+    r'tvg-id\s*=\s*"([^"]+)"',
+    ext,
+    flags=re.IGNORECASE,
+)
+
+if match:
+
+    value = match.group(1).strip()
+
+    if (
+        value
+        and "TVG-NAME" not in value.upper()
+        and "GROUP-TITLE" not in value.upper()
+    ):
+        tvg_id = value
+
+# --------------------------------------------------------
+# TVG-LOGO
+# --------------------------------------------------------
+
+match = re.search(
+    r'tvg-logo\s*=\s*"([^"]+)"',
+    ext,
+    flags=re.IGNORECASE,
+)
+
+if match:
+
+    value = match.group(1).strip()
+
+    if value.startswith(
+        (
+            "http://",
+            "https://",
+        )
+    ):
+        tvg_logo = value
+
+# --------------------------------------------------------
+# YENİ TEMİZ EXTINF
+# --------------------------------------------------------
+
+attributes = []
+
+if tvg_id:
+
+    attributes.append(
+        f'tvg-id="{tvg_id}"'
+    )
+
+if tvg_logo:
+
+    attributes.append(
+        f'tvg-logo="{tvg_logo}"'
+    )
+
+attributes.append(
+    f'tvg-name="{name}"'
+)
+
+attributes.append(
+    f'group-title="{group}"'
+)
+
+return (
+    "#EXTINF:-1 "
+    + " ".join(attributes)
+    + ","
+    + name
+)
+```
+
+# ============================================================
+
+# KATEGORİ SIRASI
+
+# ============================================================
+
+def category_order(
+categories,
+):
+
+```
+result = {}
+
+number = 0
+
+# categories.json sırası
+for category in categories.keys():
+
+    # Diğer'i aşağıda özel olarak ele alacağız
+    if category == "Diğer":
+        continue
+
+    result[category] = number
+
+    number += 1
+
+# Film yoksa kategori sırasına ekle
+if "Film" not in result:
+
+    result["Film"] = number
+
+    number += 1
+
+# Diğer HER ZAMAN EN SON
+result["Diğer"] = number
+
+return result
+```
+
+# ============================================================
+
+# KANAL SIRASI
+
+# ============================================================
+
+def channel_order(
+categories,
+):
+
+```
+result = {}
+
+for category, names in categories.items():
+
+    if not isinstance(names, list):
+        continue
+
+    for number, name in enumerate(names):
+
+        key = channel_key(name)
+
+        if key and key not in result:
+
+            result[key] = number
+
+return result
+```
+
+# ============================================================
+
+# SIRALA
+
+# ============================================================
+
+def sort_items(
+items,
+categories,
+index,
+):
+
+```
+cat_order = category_order(
+    categories
+)
+
+ch_order = channel_order(
+    categories
+)
+
+def sort_key(item):
+
+    name, ext, url = item
+
+    category = category_for(
+        name,
+        ext,
+        index,
+    )
+
+    category_no = cat_order.get(
+        category,
+        999999,
+    )
+
+    channel_no = ch_order.get(
+        channel_key(name),
+        999999,
+    )
+
+    # categories.json'da olan kanal:
+    # önce kategori,
+    # sonra listedeki sıra.
+    #
+    # categories.json'da olmayan:
+    # alfabetik olarak kendi kategorisinde.
+    return (
+        category_no,
+        channel_no,
+        channel_key(name),
+    )
+
+return sorted(
+    items,
+    key=sort_key,
+)
+```
+
+# ============================================================
+
+# DAHA İYİ KAYIT
+
+# ============================================================
+
+def better_item(
+new,
+old,
+):
+
+```
+new_name, new_ext, new_url, *new_meta = new
+old_name, old_ext, old_url, *old_meta = old
+
+# --------------------------------------------------------
+# 1. KAYNAK ÖNCELİĞİ
+# --------------------------------------------------------
+
+new_priority = (
+    new_meta[0]
+    if new_meta
+    else 1
+)
+
+old_priority = (
+    old_meta[0]
+    if old_meta
+    else 1
+)
+
+if new_priority != old_priority:
+
+    return (
+        new_priority
+        > old_priority
+    )
+
+# --------------------------------------------------------
+# 2. KALİTE
+# --------------------------------------------------------
+
+new_quality = quality(
+    new_name,
+    new_ext,
+)
+
+old_quality = quality(
+    old_name,
+    old_ext,
+)
+
+if new_quality != old_quality:
+
+    return (
+        new_quality
+        > old_quality
+    )
+
+# --------------------------------------------------------
+# 3. TEMİZ METADATA
+# --------------------------------------------------------
+
+new_clean = cleanliness_score(
+    new_name,
+    new_ext,
+)
+
+old_clean = cleanliness_score(
+    old_name,
+    old_ext,
+)
+
+if new_clean != old_clean:
+
+    return (
+        new_clean
+        > old_clean
+    )
+
+# --------------------------------------------------------
+# 4. İLK GELEN KAYIT
+# --------------------------------------------------------
+
+return False
+```
+
+# ============================================================
+
+# TEMİZLİK PUANI
+
+# ============================================================
+
+def cleanliness_score(
+name,
+ext,
+):
+
+```
+score = 0
+
+name_upper = (
+    name or ""
+).upper()
+
+ext_upper = (
+    ext or ""
+).upper()
+
+if len(name_upper) < 80:
+    score += 2
+
+if "TVG-NAME=" not in name_upper:
+    score += 1
+
+if "GROUP-TITLE=" not in name_upper:
+    score += 1
+
+if ext_upper.count('"') % 2 == 0:
+    score += 2
+
+if ext_upper.count(
+    "TVG-NAME"
+) <= 1:
+    score += 1
+
+return score
+```
+
+# ============================================================
+
+# NAMED SOURCE OKU
+
+# ============================================================
+
+def read_named_source(
+canonical_names,
+):
+
+```
+if not NAMED_SOURCES.exists():
+
+    print(
+        "[BİLGİ] data/kanal_kaynaklari.m3u bulunamadı."
+    )
+
+    return []
+
+try:
+
+    text = NAMED_SOURCES.read_text(
+        encoding="utf-8",
+        errors="ignore",
+    )
+
+    records = parse_m3u(
+        text,
+        canonical_names,
+    )
 
     result = []
 
-    i = 0
+    for name, ext, url in records:
 
-    while i < len(lines):
-
-        line = lines[i].strip()
-
-        if line.startswith("#EXTINF"):
-
-            ext = line
-
-            j = i + 1
-
-            while j < len(lines):
-
-                candidate = lines[j].strip()
-
-                if candidate:
-                    break
-
-                j += 1
-
-            if j < len(lines):
-
-                url = lines[j].strip()
-
-                if (
-                    url
-                    and not url.startswith("#")
-                    and (
-                        url.startswith("http://")
-                        or url.startswith("https://")
-                    )
-                ):
-
-                    name = extract_name(
-                        ext,
-                        categories,
-                    )
-
-                    result.append(
-                        (
-                            name,
-                            ext,
-                            url,
-                        )
-                    )
-
-                    i = j + 1
-
-                    continue
-
-        i += 1
-
-    return result
-
-
-# ============================================================
-# KATEGORİ INDEX
-# ============================================================
-
-def make_category_index(categories):
-
-    index = {}
-
-    for category, names in categories.items():
-
-        if not isinstance(names, list):
-            continue
-
-        for name in names:
-
-            key = channel_key(name)
-
-            if key:
-                index[key] = category
-
-    return index
-
-
-# ============================================================
-# KATEGORİ
-# ============================================================
-
-def category_for(name, ext, index):
-
-    key = channel_key(name)
-
-    # Önce categories.json
-    if key in index:
-        return index[key]
-
-    ext_upper = (ext or "").upper()
-
-    # --------------------------------------------------------
-    # Film
-    # --------------------------------------------------------
-
-    if re.search(
-        r'tvg[-_ ]?year\s*=\s*["\']?\d{4}',
-        ext_upper,
-    ):
-        return "Film"
-
-    if "IMAGE.TMDB.ORG" in ext_upper:
-        return "Film"
-
-    if "IMAGE.TMDB.ORG" in (name or "").upper():
-        return "Film"
-
-    if re.search(
-        r"\b(?:19|20)\d{2}\s*$",
-        norm(name),
-    ):
-        return "Film"
-
-    return "Diğer"
-
-
-# ============================================================
-# QUALITY
-# ============================================================
-
-def quality(name, ext=""):
-
-    value = (
-        (name or "")
-        + " "
-        + (ext or "")
-    ).upper()
-
-    if re.search(
-        r"\b(4K|UHD)\b",
-        value,
-    ):
-        return 4
-
-    if re.search(
-        r"\b(FHD|FULL HD)\b",
-        value,
-    ):
-        return 3
-
-    if re.search(
-        r"\bHD\b",
-        value,
-    ):
-        return 2
-
-    if re.search(
-        r"\bSD\b",
-        value,
-    ):
-        return 1
-
-    return 0
-
-
-# ============================================================
-# EXTINF TEMİZLE
-# ============================================================
-
-def rewrite_ext(ext, name, group):
-
-    tvg_id = ""
-
-    tvg_logo = ""
-
-    # --------------------------------------------------------
-    # tvg-id
-    # --------------------------------------------------------
-
-    match = re.search(
-        r'tvg-id\s*=\s*"([^"]+)"',
-        ext,
-        flags=re.IGNORECASE,
-    )
-
-    if match:
-
-        value = match.group(1).strip()
-
-        # Bozuk metadata içeriyorsa alma
-        if (
-            value
-            and "TVG-NAME" not in value.upper()
-            and "GROUP-TITLE" not in value.upper()
-        ):
-            tvg_id = value
-
-    # --------------------------------------------------------
-    # tvg-logo
-    # --------------------------------------------------------
-
-    match = re.search(
-        r'tvg-logo\s*=\s*"([^"]+)"',
-        ext,
-        flags=re.IGNORECASE,
-    )
-
-    if match:
-
-        value = match.group(1).strip()
-
-        if value.startswith(
+        result.append(
             (
-                "http://",
-                "https://",
+                name,
+                ext,
+                url,
+                3,
+                0,
             )
-        ):
-            tvg_logo = value
-
-    # --------------------------------------------------------
-    # Yeni temiz EXTINF
-    # --------------------------------------------------------
-
-    attributes = []
-
-    if tvg_id:
-        attributes.append(
-            f'tvg-id="{tvg_id}"'
         )
 
-    if tvg_logo:
-        attributes.append(
-            f'tvg-logo="{tvg_logo}"'
-        )
-
-    attributes.append(
-        f'tvg-name="{name}"'
+    print(
+        f"[NAMED] {len(result)} sabit kanal kaynağı"
     )
-
-    attributes.append(
-        f'group-title="{group}"'
-    )
-
-    return (
-        "#EXTINF:-1 "
-        + " ".join(attributes)
-        + ","
-        + name
-    )
-
-
-# ============================================================
-# KATEGORİ SIRASI
-# ============================================================
-
-def category_order(categories):
-
-    result = {}
-
-    number = 0
-
-    for category in categories.keys():
-
-        result[category] = number
-
-        number += 1
-
-    # Film yoksa sona ekle
-    if "Film" not in result:
-
-        result["Film"] = number
-
-        number += 1
-
-    # Diğer her zaman en son
-    result["Diğer"] = number
 
     return result
 
+except Exception as e:
 
-# ============================================================
-# KANAL SIRASI
-# ============================================================
-
-def channel_order(categories):
-
-    result = {}
-
-    for category, names in categories.items():
-
-        if not isinstance(names, list):
-            continue
-
-        for number, name in enumerate(names):
-
-            key = channel_key(name)
-
-            if key and key not in result:
-
-                result[key] = number
-
-    return result
-
-
-# ============================================================
-# SIRALA
-# ============================================================
-
-def sort_items(items, categories, index):
-
-    cat_order = category_order(
-        categories
+    print(
+        f"[UYARI] kanal_kaynaklari okunamadı: {e}"
     )
 
-    ch_order = channel_order(
-        categories
-    )
-
-    def sort_key(item):
-
-        name, ext, url = item
-
-        category = category_for(
-            name,
-            ext,
-            index,
-        )
-
-        category_no = cat_order.get(
-            category,
-            999999,
-        )
-
-        channel_no = ch_order.get(
-            channel_key(name),
-            999999,
-        )
-
-        return (
-            category_no,
-            channel_no,
-            channel_key(name),
-        )
-
-    return sorted(
-        items,
-        key=sort_key,
-    )
-
+    return []
+```
 
 # ============================================================
-# KAYNAK ÖNCELİĞİ
-# ============================================================
 
-def source_priority(item):
-
-    """
-    3 = data/kanal_kaynaklari.m3u
-    2 = sources.txt'nin ilk kaynakları
-    1 = diğer
-    """
-
-    if len(item) >= 4:
-
-        priority = item[3]
-
-        return priority
-
-    return 1
-
+# NORMAL SOURCES
 
 # ============================================================
-# KAYIT TEMİZLİK PUANI
-# ============================================================
 
-def cleanliness_score(name, ext):
+def read_normal_sources(
+sources,
+canonical_names,
+timeout,
+):
 
-    score = 0
+```
+result = []
 
-    name_upper = (name or "").upper()
-    ext_upper = (ext or "").upper()
+successful = 0
 
-    # Normal kanal ismi
-    if len(name_upper) < 80:
-        score += 2
-
-    # Bozuk metadata işaretleri
-    if "TVG-NAME=" not in name_upper:
-        score += 1
-
-    if "GROUP-TITLE=" not in name_upper:
-        score += 1
-
-    if ext_upper.count('"') % 2 == 0:
-        score += 2
-
-    if ext_upper.count("TVG-NAME") <= 1:
-        score += 1
-
-    return score
-
-
-# ============================================================
-# DAHA İYİ KAYIT
-# ============================================================
-
-def better_item(new, old):
-
-    new_name, new_ext, new_url, *new_meta = new
-    old_name, old_ext, old_url, *old_meta = old
-
-    # 1. Named channel kaynağı öncelikli
-    new_priority = (
-        new_meta[0]
-        if new_meta
-        else 1
-    )
-
-    old_priority = (
-        old_meta[0]
-        if old_meta
-        else 1
-    )
-
-    if new_priority != old_priority:
-
-        return new_priority > old_priority
-
-    # 2. Kalite
-    new_quality = quality(
-        new_name,
-        new_ext,
-    )
-
-    old_quality = quality(
-        old_name,
-        old_ext,
-    )
-
-    if new_quality != old_quality:
-
-        return new_quality > old_quality
-
-    # 3. Temiz metadata
-    new_clean = cleanliness_score(
-        new_name,
-        new_ext,
-    )
-
-    old_clean = cleanliness_score(
-        old_name,
-        old_ext,
-    )
-
-    if new_clean != old_clean:
-
-        return new_clean > old_clean
-
-    # 4. İlk gelen
-    return False
-
-
-# ============================================================
-# NAMED SOURCE OKU
-# ============================================================
-
-def read_named_source(categories):
-
-    if not NAMED_SOURCES.exists():
-
-        print(
-            "[BİLGİ] data/kanal_kaynaklari.m3u bulunamadı."
-        )
-
-        return []
+for source_index, (
+    source,
+    source_line,
+) in enumerate(
+    sources,
+    start=1,
+):
 
     try:
 
-        text = NAMED_SOURCES.read_text(
-            encoding="utf-8",
-            errors="ignore",
+        text = fetch(
+            source,
+            timeout,
         )
 
         records = parse_m3u(
             text,
-            categories,
+            canonical_names,
         )
 
-        result = []
-
         for name, ext, url in records:
+
+            # ------------------------------------------------
+            # Kaynak sırası:
+            #
+            # İlk kaynak = 2.000000
+            # İkinci kaynak = 1.999999
+            #
+            # Böylece sources.txt'nin ilk kaynağı
+            # daha öncelikli olur.
+            # ------------------------------------------------
+
+            priority = (
+                2_000_000
+                - source_index
+            )
 
             result.append(
                 (
                     name,
                     ext,
                     url,
-                    3,
+                    priority,
+                    source_index,
                 )
             )
 
-        print(
-            f"[NAMED] {len(result)} sabit kanal kaynağı"
-        )
+        successful += 1
 
-        return result
+        print(
+            f"[OK] {len(records):>6} kayıt | "
+            f"Kaynak #{source_index} | "
+            f"{source}"
+        )
 
     except Exception as e:
 
         print(
-            f"[UYARI] kanal_kaynaklari okunamadı: {e}"
+            f"[HATA] Kaynak #{source_index}"
         )
 
-        return []
+        print(
+            f"       {source}"
+        )
 
+        print(
+            f"       {e}"
+        )
 
-# ============================================================
-# NORMAL SOURCE KAYNAKLARINI OKU
-# ============================================================
-
-def read_normal_sources(
-    sources,
-    categories,
-    timeout,
-):
-
-    result = []
-
-    successful = 0
-
-    for source_number, source in enumerate(
-        sources,
-        start=1,
-    ):
-
-        try:
-
-            text = fetch(
-                source,
-                timeout,
-            )
-
-            records = parse_m3u(
-                text,
-                categories,
-            )
-
-            for name, ext, url in records:
-
-                # Normal kaynak önceliği 2
-                result.append(
-                    (
-                        name,
-                        ext,
-                        url,
-                        2,
-                    )
-                )
-
-            successful += 1
-
-            print(
-                f"[OK] {len(records):>6} kayıt | {source}"
-            )
-
-        except Exception as e:
-
-            print(
-                f"[HATA] {source}"
-            )
-
-            print(
-                f"       {e}"
-            )
-
-    return result, successful
-
+return (
+    result,
+    successful,
+)
+```
 
 # ============================================================
+
 # MAIN
+
 # ============================================================
 
 def main():
 
-    print()
-    print("=" * 70)
-    print("CAN TV PLAYLIST BUILDER v5")
-    print("=" * 70)
-    print()
+```
+print()
+print("=" * 70)
+print("CAN TV PLAYLIST BUILDER v6")
+print("=" * 70)
+print()
 
-    # --------------------------------------------------------
-    # CONFIG
-    # --------------------------------------------------------
+# ========================================================
+# CONFIG
+# ========================================================
 
-    if CONFIG.exists():
+if CONFIG.exists():
 
-        try:
+    try:
 
-            config = json.loads(
-                CONFIG.read_text(
-                    encoding="utf-8",
-                )
+        config = json.loads(
+            CONFIG.read_text(
+                encoding="utf-8",
             )
+        )
 
-        except Exception:
-
-            config = {}
-
-    else:
+    except Exception:
 
         config = {}
 
-    timeout = int(
-        config.get(
-            "request_timeout",
-            15,
-        )
+else:
+
+    config = {}
+
+timeout = int(
+    config.get(
+        "request_timeout",
+        15,
+    )
+)
+
+# ========================================================
+# CATEGORIES
+# ========================================================
+
+if not CATEGORIES.exists():
+
+    print(
+        "[HATA] categories.json bulunamadı."
     )
 
-    # --------------------------------------------------------
-    # CATEGORIES
-    # --------------------------------------------------------
+    return
 
-    if not CATEGORIES.exists():
-
-        print(
-            "[HATA] categories.json bulunamadı."
-        )
-
-        return
+try:
 
     categories = json.loads(
         CATEGORIES.read_text(
@@ -1124,316 +1315,356 @@ def main():
         )
     )
 
-    index = make_category_index(
-        categories
-    )
-
-    # --------------------------------------------------------
-    # SOURCES
-    # --------------------------------------------------------
-
-    sources = read_sources()
-
-    if not sources:
-
-        print(
-            "[UYARI] sources.txt boş veya bulunamadı."
-        )
-
-    # --------------------------------------------------------
-    # NAMED SOURCES
-    # --------------------------------------------------------
-
-    named_items = read_named_source(
-        categories
-    )
-
-    # --------------------------------------------------------
-    # NORMAL SOURCES
-    # --------------------------------------------------------
-
-    normal_items, successful = (
-        read_normal_sources(
-            sources,
-            categories,
-            timeout,
-        )
-    )
-
-    # --------------------------------------------------------
-    # TÜM KAYITLAR
-    # --------------------------------------------------------
-
-    all_items = (
-        named_items
-        + normal_items
-    )
-
-    print()
+except Exception as e:
 
     print(
-        f"[TOPLAM] {len(all_items)} kayıt toplandı."
+        f"[HATA] categories.json okunamadı: {e}"
     )
 
-    # ========================================================
-    # 1. URL DUPLICATE
-    # ========================================================
+    return
 
-    by_url = {}
+if not isinstance(
+    categories,
+    dict,
+):
 
-    for item in all_items:
+    print(
+        "[HATA] categories.json sözlük formatında olmalı."
+    )
 
-        name, ext, url, *meta = item
+    return
 
-        if not url:
-            continue
+# Bir kez oluşturuyoruz.
+canonical_names = (
+    build_canonical_names(
+        categories
+    )
+)
 
-        old = by_url.get(url)
+index = make_category_index(
+    categories
+)
 
-        if old is None:
+# ========================================================
+# SOURCES
+# ========================================================
+
+sources = read_sources()
+
+if not sources:
+
+    print(
+        "[UYARI] sources.txt boş veya bulunamadı."
+    )
+
+# ========================================================
+# NAMED SOURCES
+# ========================================================
+
+named_items = read_named_source(
+    canonical_names
+)
+
+# ========================================================
+# NORMAL SOURCES
+# ========================================================
+
+normal_items, successful = (
+    read_normal_sources(
+        sources,
+        canonical_names,
+        timeout,
+    )
+)
+
+# ========================================================
+# TÜM KAYITLAR
+# ========================================================
+
+all_items = (
+    named_items
+    + normal_items
+)
+
+print()
+
+print(
+    f"[TOPLAM] {len(all_items)} kayıt toplandı."
+)
+
+# ========================================================
+# 1. URL DUPLICATE
+# ========================================================
+
+by_url = {}
+
+url_duplicate_count = 0
+
+for item in all_items:
+
+    name, ext, url, *meta = item
+
+    if not url:
+        continue
+
+    old = by_url.get(url)
+
+    if old is None:
+
+        by_url[url] = item
+
+    else:
+
+        url_duplicate_count += 1
+
+        if better_item(
+            item,
+            old,
+        ):
 
             by_url[url] = item
 
-        else:
+# ========================================================
+# 2. CHANNEL DUPLICATE
+# ========================================================
 
-            if better_item(
-                item,
-                old,
-            ):
+by_channel = {}
 
-                by_url[url] = item
+channel_duplicate_count = 0
 
-    # ========================================================
-    # 2. CHANNEL DUPLICATE
-    # ========================================================
+for item in by_url.values():
 
-    by_channel = {}
+    name, ext, url, *meta = item
 
-    duplicate_count = 0
+    # İsmi yeniden temizle
+    clean_name = clean_channel_name(
+        name,
+        canonical_names,
+    )
 
-    for item in by_url.values():
+    item = (
+        clean_name,
+        ext,
+        url,
+        *(meta or [1]),
+    )
 
-        name, ext, url, *meta = item
+    key = channel_key(
+        clean_name
+    )
 
-        # İsmi yeniden temizle
-        clean_name = clean_channel_name(
-            name,
-            categories,
-        )
+    if not key:
+        continue
 
-        item = (
-            clean_name,
-            ext,
-            url,
-            *(meta or [1]),
-        )
+    old = by_channel.get(key)
 
-        key = channel_key(
-            clean_name
-        )
+    if old is None:
 
-        if not key:
-            continue
+        by_channel[key] = item
 
-        old = by_channel.get(key)
+    else:
 
-        if old is None:
+        channel_duplicate_count += 1
+
+        if better_item(
+            item,
+            old,
+        ):
 
             by_channel[key] = item
 
-        else:
+# ========================================================
+# 3. TEKİL LİSTE
+# ========================================================
 
-            duplicate_count += 1
+items = list(
+    by_channel.values()
+)
 
-            if better_item(
-                item,
-                old,
-            ):
+# ========================================================
+# 4. SIRALAMA
+# ========================================================
 
-                by_channel[key] = item
+sort_input = [
+    (
+        item[0],
+        item[1],
+        item[2],
+    )
+    for item in items
+]
 
-            print(
-                f"[DUP] {clean_name}"
-            )
+sorted_items = sort_items(
+    sort_input,
+    categories,
+    index,
+)
 
-    # ========================================================
-    # 3. LİSTE
-    # ========================================================
+# ========================================================
+# 5. GERÇEK KAYITLARLA EŞLEŞTİR
+# ========================================================
 
-    items = list(
-        by_channel.values()
+item_map = {}
+
+for item in items:
+
+    key = channel_key(
+        item[0]
     )
 
-    # ========================================================
-    # 4. SIRALA
-    # ========================================================
+    if key:
+        item_map[key] = item
 
-    # sort_items yalnızca ilk 3 alanı bekliyor.
-    sort_input = [
-        (
-            item[0],
-            item[1],
-            item[2],
+final_items = []
+
+for simple_item in sorted_items:
+
+    key = channel_key(
+        simple_item[0]
+    )
+
+    original_item = item_map.get(
+        key
+    )
+
+    if original_item:
+
+        final_items.append(
+            original_item
         )
-        for item in items
-    ]
 
-    sorted_items = sort_items(
-        sort_input,
-        categories,
+# ========================================================
+# OUTPUT
+# ========================================================
+
+output = [
+    "#EXTM3U"
+]
+
+counts = {}
+
+for item in final_items:
+
+    name, ext, url, *meta = item
+
+    group = category_for(
+        name,
+        ext,
         index,
     )
 
-    # ========================================================
-    # Aynı sırayı gerçek metadata ile eşleştir
-    # ========================================================
-
-    item_map = {}
-
-    for item in items:
-
-        key = channel_key(
-            item[0]
-        )
-
-        item_map[key] = item
-
-    final_items = []
-
-    for simple_item in sorted_items:
-
-        key = channel_key(
-            simple_item[0]
-        )
-
-        original_item = item_map.get(
-            key
-        )
-
-        if original_item:
-
-            final_items.append(
-                original_item
-            )
-
-    # ========================================================
-    # OUTPUT
-    # ========================================================
-
-    output = [
-        "#EXTM3U"
-    ]
-
-    counts = {}
-
-    for item in final_items:
-
-        name, ext, url, *meta = item
-
-        group = category_for(
-            name,
+    output.append(
+        rewrite_ext(
             ext,
-            index,
+            name,
+            group,
         )
+    )
 
-        output.append(
-            rewrite_ext(
-                ext,
-                name,
-                group,
-            )
+    output.append(
+        url
+    )
+
+    counts[group] = (
+        counts.get(
+            group,
+            0,
         )
-
-        output.append(
-            url
-        )
-
-        counts[group] = (
-            counts.get(
-                group,
-                0,
-            )
-            + 1
-        )
-
-    OUTPUT.write_text(
-        "\n".join(output)
-        + "\n",
-        encoding="utf-8",
+        \+ 1
     )
 
-    # ========================================================
-    # SONUÇ
-    # ========================================================
+OUTPUT.write_text(
+    "\n".join(output)
+    + "\n",
+    encoding="utf-8",
+)
 
-    print()
-    print("=" * 70)
-    print("SONUÇ")
-    print("=" * 70)
+# ========================================================
+# SONUÇ
+# ========================================================
+
+print()
+print("=" * 70)
+print("SONUÇ")
+print("=" * 70)
+
+print(
+    f"Normal kaynak       : {len(sources)}"
+)
+
+print(
+    f"Başarılı kaynak     : {successful}"
+)
+
+print(
+    f"Named kanal         : {len(named_items)}"
+)
+
+print(
+    f"Toplam kayıt        : {len(all_items)}"
+)
+
+print(
+    f"Tekil URL           : {len(by_url)}"
+)
+
+print(
+    f"URL duplicate       : {url_duplicate_count}"
+)
+
+print(
+    f"Tekil kanal         : {len(by_channel)}"
+)
+
+print(
+    f"Kanal duplicate     : {channel_duplicate_count}"
+)
+
+print()
+
+print("KATEGORİLER")
+print("-" * 70)
+
+# categories.json sırası
+printed = set()
+
+for category in categories.keys():
 
     print(
-        f"Normal kaynak       : {len(sources)}"
+        f"{category}: "
+        f"{counts.get(category, 0)}"
     )
+
+    printed.add(category)
+
+# Film yoksa bile göster
+if "Film" not in printed:
 
     print(
-        f"Başarılı kaynak     : {successful}"
+        f"Film: {counts.get('Film', 0)}"
     )
 
-    print(
-        f"Named kanal         : {len(named_items)}"
-    )
-
-    print(
-        f"Toplam kayıt        : {len(all_items)}"
-    )
-
-    print(
-        f"Tekil URL           : {len(by_url)}"
-    )
-
-    print(
-        f"Tekil kanal         : {len(by_channel)}"
-    )
-
-    print(
-        f"Silinen duplicate   : {duplicate_count}"
-    )
-
-    print()
-
-    print("KATEGORİLER")
-    print("-" * 70)
-
-    for category in categories.keys():
-
-        print(
-            f"{category}: "
-            f"{counts.get(category, 0)}"
-        )
-
-    if "Film" in counts:
-
-        print(
-            f"Film: {counts['Film']}"
-        )
+# Diğer her zaman göster
+if "Diğer" not in printed:
 
     print(
         f"Diğer: {counts.get('Diğer', 0)}"
     )
 
-    print()
+print()
 
-    print(
-        f"Çıktı: {OUTPUT}"
-    )
+print(
+    f"Çıktı: {OUTPUT}"
+)
 
-    print("=" * 70)
-
+print("=" * 70)
+```
 
 # ============================================================
+
 # RUN
+
 # ============================================================
 
-if __name__ == "__main__":
-    main()
-
+if **name** == "**main**":
+main()
