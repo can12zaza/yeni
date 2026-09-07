@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
+
 CAN TV - Playlist Builder v5
 
 Özellikler:
