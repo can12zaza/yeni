@@ -582,35 +582,122 @@ def category_for(name, ext, index):
 
     key = channel_key(name)
 
-    # Önce categories.json
+    # Önce TV kanal kategorileri
     if key in index:
         return index[key]
 
-    ext_upper = (ext or "").upper()
-
-    # --------------------------------------------------------
-    # Film
-    # --------------------------------------------------------
-
-    if re.search(
-        r'tvg[-_ ]?year\s*=\s*["\']?\d{4}',
-        ext_upper,
-    ):
+    # Film tespiti
+    if extract_film_year(name, ext):
         return "Film"
+
+    ext_upper = (ext or "").upper()
 
     if "IMAGE.TMDB.ORG" in ext_upper:
         return "Film"
 
-    if "IMAGE.TMDB.ORG" in (name or "").upper():
-        return "Film"
-
-    if re.search(
-        r"\b(?:19|20)\d{2}\s*$",
-        norm(name),
-    ):
+    if "TMDB.ORG" in ext_upper:
         return "Film"
 
     return "Diğer"
+
+
+# ============================================================
+# FILM YILINI BUL
+# ============================================================
+
+def extract_film_year(name, ext=""):
+
+    text = f"{ext or ''} {name or ''}"
+
+    patterns = [
+        r'tvg[-_ ]?year\s*=\s*["\']?(19|20)\d{2}',
+        r'year\s*=\s*["\']?(19|20)\d{2}',
+        r'\b(19|20)\d{2}\b',
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            year = re.search(r'(?:19|20)\d{2}', match.group(0))
+            if year:
+                return int(year.group(0))
+
+    return None
+
+
+# ============================================================
+# FILM TÜRÜNÜ BUL
+# ============================================================
+
+def extract_film_genre(name, ext=""):
+
+    text = f"{ext or ''} {name or ''}"
+
+    patterns = [
+        r'tvg[-_ ]?genre\s*=\s*["\']([^"\']+)',
+        r'tvg[-_ ]?genres\s*=\s*["\']([^"\']+)',
+        r'genre\s*=\s*["\']([^"\']+)',
+        r'genres\s*=\s*["\']([^"\']+)',
+    ]
+
+    raw = ""
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            raw = match.group(1).strip()
+            break
+
+    aliases = {
+        "AKSIYON": "Aksiyon", "ACTION": "Aksiyon",
+        "KOMEDI": "Komedi", "COMEDY": "Komedi",
+        "DRAM": "Dram", "DRAMA": "Dram",
+        "GERILIM": "Gerilim", "THRILLER": "Gerilim",
+        "KORKU": "Korku", "HORROR": "Korku",
+        "MACERA": "Macera", "ADVENTURE": "Macera",
+        "ANIMASYON": "Animasyon", "ANIMATION": "Animasyon",
+        "SUC": "Suç", "CRIME": "Suç",
+        "GIZEM": "Gizem", "MYSTERY": "Gizem",
+        "ROMANTIK": "Romantik", "ROMANCE": "Romantik",
+        "FANTASTIK": "Fantastik", "FANTASY": "Fantastik",
+        "BILIM KURGU": "Bilim Kurgu", "SCI FI": "Bilim Kurgu",
+        "SCIENCE FICTION": "Bilim Kurgu",
+        "BELGESEL": "Belgesel", "DOCUMENTARY": "Belgesel",
+    }
+
+    if raw:
+        parts = re.split(r'[,|/;]+', raw)
+        for part in parts:
+            key = norm(part)
+            if key in aliases:
+                return aliases[key]
+        first = next((x.strip() for x in parts if x.strip()), "")
+        return first.title() if first else "Diğer"
+
+    # Tür bilgisi isimde varsa kullan
+    upper = norm(name)
+    for key, label in aliases.items():
+        if key in upper:
+            return label
+
+    return "Diğer"
+
+
+# ============================================================
+# FILM GRUBU
+# ============================================================
+
+def film_group(name, ext=""):
+
+    year = extract_film_year(name, ext)
+    genre = extract_film_genre(name, ext)
+
+    if year and genre != "Diğer":
+        return f"Film | {year} | {genre}"
+    if year:
+        return f"Film | {year}"
+    if genre != "Diğer":
+        return f"Film | {genre}"
+    return "Film | Diğer"
 
 
 # ============================================================
@@ -824,6 +911,16 @@ def sort_items(items, categories, index):
             channel_key(name),
             999999,
         )
+
+        if category == "Film":
+            year = extract_film_year(name, ext) or 0
+            genre = extract_film_genre(name, ext)
+            return (
+                category_no,
+                -year,
+                norm(genre),
+                norm(name),
+            )
 
         return (
             category_no,
@@ -1330,11 +1427,13 @@ def main():
 
         name, ext, url, *meta = item
 
-        group = category_for(
+        base_group = category_for(
             name,
             ext,
             index,
         )
+
+        group = film_group(name, ext) if base_group == "Film" else base_group
 
         output.append(
             rewrite_ext(
@@ -1436,4 +1535,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
