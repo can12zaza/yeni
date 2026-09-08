@@ -49,14 +49,14 @@ https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197258&extension=ts&play_token=kT246ZR7mz
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197266&extension=ts&play_token=4Nw50op3di
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/haber/haberturk.png" tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
-http://superiptv21.com/live/erayrende/ilttuta39/8493c4c4-d037-42cd-b4ff-d41984ebf633.m3u?output=ts
+#EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
+http://umperisn.mywire.org/index.php?id=1979&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197263&extension=ts&play_token=c53adoDCo6
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 tvg-id="tv100.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/tv100.png" tvg-name="TV100" group-title="Haber",TV100
-http://elit64.eu:2086/barisakin643564/kin643564/65?output=ts
+#EXTINF:-1 tvg-name="TV100" group-title="Haber",TV100
+http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8
 #EXTINF:-1 tvg-name="A HABER" group-title="Haber",A HABER
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197259&extension=ts&play_token=lETzv8vz
 #EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
@@ -69,22 +69,22 @@ http://elit64.eu:2086/barisakin643564/kin643564/205508?output=ts
 http://elit64.eu:2086/barisakin643564/kin643564/205509?output=ts
 #EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197261&extension=ts&play_token=cdx7DrYc71
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/trtspor.png" tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
-http://superiptv21.com/live/erayrende/ilttuta39/8a5f372f-59a9-4fe2-af11-adf72e216039.m3u?output=ts
+#EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
+http://umperisn.mywire.org/index.php?id=2015&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor&ppid=e67f6aa79d604002f37ace34d2ca101c
+http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
 #EXTINF:-1 tvg-name="TJK TV" group-title="Spor",TJK TV
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/eurosport1.png" tvg-name="EUROSPORT 1" group-title="Spor",EUROSPORT 1
-http://superiptv21.com/live/erayrende/ilttuta39/8055ead7-7bbd-4c51-82d6-7633bd3efc4f.m3u?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/eurosport2.png" tvg-name="EUROSPORT 2" group-title="Spor",EUROSPORT 2
-http://superiptv21.com/live/erayrende/ilttuta39/788e1c7a-9217-4ee6-a899-75c352d58f4f.m3u?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/nbatv.png" tvg-name="NBA TV" group-title="Spor",NBA TV
-http://superiptv21.com/live/erayrende/ilttuta39/43318fc7-6304-4681-a79c-671eb9755b2b.m3u?output=ts
+#EXTINF:-1 tvg-name="EUROSPORT 1" group-title="Spor",EUROSPORT 1
+http://umperisn.mywire.org/index.php?id=2036&token=DeaTHLesS
+#EXTINF:-1 tvg-name="EUROSPORT 2" group-title="Spor",EUROSPORT 2
+http://umperisn.mywire.org/index.php?id=2037&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NBA TV" group-title="Spor",NBA TV
+http://umperisn.mywire.org/index.php?id=2048&token=DeaTHLesS
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/spor/cbc.png" tvg-name="CBC SPORT" group-title="Spor",CBC SPORT
 http://superiptv21.com/live/erayrende/ilttuta39/f15927ae-d34c-4efd-98a0-d684456961ff.m3u?output=ts
 #EXTINF:-1 tvg-name="S SPORT" group-title="Spor",S SPORT
@@ -100,29 +100,31 @@ http://superiptv21.com/live/erayrende/ilttuta39/2f1ffd52-59b7-40b1-8c37-1e0ff02b
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
 http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein2/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=2206&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein3/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=2210&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Spor",BEIN SPORTS 4
 https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein4/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
 #EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein5/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=491885&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX" group-title="Spor",BEIN SPORTS MAX
 http://umperisn.mywire.org/index.php?id=551691&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
-http://umperisn.mywire.org/index.php?id=551689&token=DeaTHLesS
-#EXTINF:-1 tvg-id="beIN SPORTS HABER" tvg-logo="http://logo.multicms.info/logoslar/bein-sports-haber-qa-tr.png" tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
-http://190502.tomtv.eu:80/LiudmilaSheremet/233v9m9kjc/76
+http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
+http://umperisn.mywire.org/index.php?id=2194&token=DeaTHLesS
 #EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197363&extension=ts&play_token=bHBz9ZRpwX
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
+#EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/dream-tv.png" tvg-name="DREAM TV" group-title="Müzik",DREAM TV
-http://superiptv21.com/live/erayrende/ilttuta39/d8d9294f-5f4a-4d17-b4cb-c02d940154c1.m3u?output=ts
+#EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
+http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS
 #EXTINF:-1 tvg-id="powertv.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/powerturk.png" tvg-name="POWER" group-title="Müzik",POWER
 http://elit64.eu:2086/barisakin643564/kin643564/207?output=ts
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
@@ -134,7 +136,7 @@ https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NR1" group-title="Müzik",NR1
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197359&extension=ts&play_token=VTomsfRgFY
 #EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a
+http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://138.199.27.237:8080/TURKIYE/TRTDIYANET.png" tvg-name="TRT DİYANET" group-title="Dini",TRT DİYANET
@@ -157,31 +159,37 @@ http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS
 http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN MOVIES FAMILY" group-title="Sinema",BEIN MOVIES FAMILY
 http://umperisn.mywire.org/index.php?id=591397&token=DeaTHLesS
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinema1002.png" tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
-http://superiptv21.com/live/erayrende/ilttuta39/9d3ab7ed-e8fb-4de1-8aa0-cdfa4d212ffa.m3u?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek2/sinematv2.png" tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
-http://superiptv21.com/live/erayrende/ilttuta39/b7c7dca9-7f97-45f8-8551-40265f873c14.m3u?output=ts
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
+http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 2" group-title="Sinema",BEIN BOXOFFICE 2
+http://umperisn.mywire.org/index.php?id=591403&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 3" group-title="Sinema",BEIN BOXOFFICE 3
+http://umperisn.mywire.org/index.php?id=591401&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
+http://umperisn.mywire.org/index.php?id=591415&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
+http://umperisn.mywire.org/index.php?id=591429&token=DeaTHLesS
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinema1001.png" tvg-name="SİNEMA 1001" group-title="Sinema",SİNEMA 1001
 http://superiptv21.com/live/erayrende/ilttuta39/65e1ac06-d193-425b-8e6c-68543c4f82f2.m3u?output=ts
 #EXTINF:-1 tvg-name="SİNEMA 1002" group-title="Sinema",SİNEMA 1002
 https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
-https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinemaaksiyon.png" tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
+http://superiptv21.com/live/erayrende/ilttuta39/26b75dec-2cdf-430a-ad96-51f83fcf4aa6.m3u?output=ts
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinemaaksiyon2.png" tvg-name="SİNEMA AKSİYON 2" group-title="Sinema",SİNEMA AKSİYON 2
 http://superiptv21.com/live/erayrende/ilttuta39/a51c62e1-199f-4271-bd9c-d2d714204230.m3u?output=ts
-#EXTINF:-1 tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
-https://sharelink.anonimltc.workers.dev/g/8m95e5.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinemaaile.png" tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
+http://superiptv21.com/live/erayrende/ilttuta39/1e91357c-9f6b-4aa4-8551-2a1c60cd6df9.m3u?output=ts
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek2/sinemaaile2.png" tvg-name="SİNEMA AİLE 2" group-title="Sinema",SİNEMA AİLE 2
 http://superiptv21.com/live/erayrende/ilttuta39/dd0008aa-5436-4fdd-b779-b69da6dfb6c7.m3u?output=ts
-#EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
-https://sharelink.anonimltc.workers.dev/g/hy364t.m3u8
+#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinemakomedi.png" tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
+http://superiptv21.com/live/erayrende/ilttuta39/b8b7176a-e659-4aa4-80d8-6220cb5a2ee6.m3u?output=ts
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/ek1/sinemakomedi2.png" tvg-name="SİNEMA KOMEDİ 2" group-title="Sinema",SİNEMA KOMEDİ 2
 http://superiptv21.com/live/erayrende/ilttuta39/a4c160b5-0c65-450e-99f3-8d404968f237.m3u?output=ts
 #EXTINF:-1 tvg-logo="http://logodmtv.ddns.net/VOD/logo/MOVIESMART-HD.jpg" tvg-name="MOVIESMART" group-title="Sinema",MOVIESMART
 http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=12377&extension=ts
 #EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471685&extension=ts&play_token=t39wCHGH3S
-#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ TiviOne PLATFORM/TiviOne SERIES.png" tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
+#EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471673&extension=ts&play_token=fDOWsHHnSf
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471674&extension=ts&play_token=5gfhIkzuQg
@@ -191,36 +199,36 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471675&e
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471676&extension=ts&play_token=x3dLMvs808
 #EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/D%c4%b0Z%c4%b0SMART%20MAX%20RAW.jpg" tvg-name="DİZİ SMART" group-title="Dizi",DİZİ SMART
 http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=151778&extension=ts
-#EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/D%c4%b0Z%c4%b0SMART%20MAX%20RAW.jpg" tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
-http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=151777&extension=ts
+#EXTINF:-1 tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
+http://umperisn.mywire.org/index.php?id=591441&token=DeaTHLesS
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/bbc-first.png" tvg-name="BBC FIRST" group-title="Dizi",BBC FIRST
 http://superiptv21.com/live/erayrende/ilttuta39/693b652d-6aa0-49c8-933a-29d873130ab3.m3u?output=ts
-#EXTINF:-1 tvg-id="trtbelgesel.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/trtbelgesel.png" tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
-http://elit64.eu:2086/barisakin643564/kin643564/98?output=ts
-#EXTINF:-1 tvg-logo="http://2kapak.plustvmedia.com/plustr/idx.png" tvg-name="DISCOVERY" group-title="Belgesel",DISCOVERY
-http://elit64.eu:2086/barisakin643564/kin643564/118?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/discovery.png" tvg-name="DISCOVERY CHANNEL" group-title="Belgesel",DISCOVERY CHANNEL
-http://superiptv21.com/live/erayrende/ilttuta39/db3008c7-02fb-41af-8b99-34e10d569f12.m3u?output=ts
+#EXTINF:-1 tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
+http://umperisn.mywire.org/index.php?id=1993&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DISCOVERY" group-title="Belgesel",DISCOVERY
+http://umperisn.mywire.org/index.php?id=594675&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DISCOVERY CHANNEL" group-title="Belgesel",DISCOVERY CHANNEL
+http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS
 #EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Belgesel",INVESTIGATION DISCOVERY
-https://proud-river-e20b.pantonum1.workers.dev/discs.m3u8
+http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
 http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW
-#EXTINF:-1 tvg-id="NationalGeographicWildTurkey.tr" tvg-logo="http://xopen.xyz/wp-content/uploads/2020/06/national_geo.png" tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
-http://45.138.173.72:8080/OERXRGdCUExrankyVkxTNitZY2tXeDVuaFNja3EvZ0MzWEZPYU1iRE9vVT0?output=ts
+#EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
+http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
 https://dogus.daioncdn.net/dmax/dmax.m3u8?app=dmax_web
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/bbcearth.png" tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
-http://superiptv21.com/live/erayrende/ilttuta39/bba3f221-e4da-4a6d-b835-fab9c3197b4d.m3u?output=ts
-#EXTINF:-1 tvg-id="historychannel.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/history.png" tvg-name="HISTORY" group-title="Belgesel",HISTORY
-http://elit64.eu:2086/barisakin643564/kin643564/108?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/hvasiat.png" tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
-http://superiptv21.com/live/erayrende/ilttuta39/fca0bcec-69fe-42e8-8942-a766563eb82b.m3u?output=ts
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/viasat.png" tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://superiptv21.com/live/erayrende/ilttuta39/a9d14c3c-b7b2-4a47-83aa-a361ada39615.m3u?output=ts
+#EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
+http://umperisn.mywire.org/index.php?id=594660&token=DeaTHLesS
+#EXTINF:-1 tvg-name="HISTORY" group-title="Belgesel",HISTORY
+http://umperisn.mywire.org/index.php?id=594667&token=DeaTHLesS
+#EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
+http://umperisn.mywire.org/index.php?id=594656&token=DeaTHLesS
+#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
+http://umperisn.mywire.org/index.php?id=594657&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
-#EXTINF:-1 tvg-logo="http://2kapak.plustvmedia.com/plustr/lovenature.png" tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://elit64.eu:2086/barisakin643564/kin643564/34657?output=ts
+#EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
+http://umperisn.mywire.org/index.php?id=594669&token=DeaTHLesS
 #EXTINF:-1 tvg-id="davinci.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/davincilearning.png" tvg-name="DA VINCI LEARNING" group-title="Belgesel",DA VINCI LEARNING
 http://elit64.eu:2086/barisakin643564/kin643564/114?output=ts
 #EXTINF:-1 tvg-logo="http://2kapak.plustvmedia.com/plustr/naturescape.png" tvg-name="NATURE ESCAPE" group-title="Belgesel",NATURE ESCAPE
@@ -233,10 +241,10 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe46
 http://elit64.eu:2086/barisakin643564/kin643564/265762?output=ts
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
-#EXTINF:-1 tvg-logo="http://2kapak.plustvmedia.com/plustr/habitattv.png" tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
-http://elit64.eu:2086/barisakin643564/kin643564/243379?output=ts
+#EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
+http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/tarih-tv/playlist.m3u8
+http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/belgesel/chasse.png" tvg-name="CHASSE & PECHE" group-title="Belgesel",CHASSE & PECHE
@@ -263,12 +271,12 @@ http://elit64.eu:2086/barisakin643564/kin643564/207673?output=ts
 https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8
 #EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197272&extension=ts&play_token=YMedtQj0VQ
-#EXTINF:-1 tvg-id="ekoturk.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/ekoturk.png" tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
-http://elit64.eu:2086/barisakin643564/kin643564/62?output=ts
+#EXTINF:-1 tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
+http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
 https://dogus.daioncdn.net/tlc/tlc.m3u8?app=tlc_web
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/2/tarimtv.png" tvg-name="TARIM TV" group-title="Tarım",TARIM TV
-http://superiptv21.com/live/erayrende/ilttuta39/e00b8d1e-8f3b-46c0-8741-358beff7dbd5.m3u?output=ts
+#EXTINF:-1 tvg-name="TARIM TV" group-title="Tarım",TARIM TV
+http://umperisn.mywire.org/index.php?id=594649&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT TÜRK" group-title="Uluslararası",TRT TÜRK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197240&extension=ts&play_token=KJkY5hTnHv
 #EXTINF:-1 tvg-name="TRT AVAZ" group-title="Uluslararası",TRT AVAZ
@@ -285,8 +293,6 @@ https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
 https://gtrk-volga.ru/media/hr24/stream1.m3u8
 #EXTINF:-1 tvg-logo="http://138.199.27.237:8080/TURKIYE/EURONEWSTURK.png" tvg-name="EURONEWS" group-title="Uluslararası",EURONEWS
 http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10779&extension=ts
-#EXTINF:-1 tvg-name="KIRAL POP" group-title="Radyo",KIRAL POP
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="KIRAL FM" group-title="Radyo",KIRAL FM
 https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8?listeningSessionID=689a71b34a7d0fef_650218_ELAz7Pop__000000061yg&downloadSessionID=0&listenerid=3239e3f5e40f1819ee16c17a3a5f5b3e&awparams=companionAds%3Atrue
 #EXTINF:-1 tvg-name="LIVE CAM" group-title="WebCam",LIVE CAM
@@ -20178,11 +20184,11 @@ http://45.138.173.72:8080/bGpwajArbHRyaERQek1RSmFpcE1pd2hOSGJ6TlE5U0JXSm5wZm1MTG
 #EXTINF:-1 tvg-name="beIN" group-title="Diğer",beIN
 http://umperisn.mywire.org/index.php?id=2752&token=DeaTHLesS
 #EXTINF:-1 tvg-name="beIN BOX OFFICE 1" group-title="Diğer",beIN BOX OFFICE 1
-http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=591404&token=DeaTHLesS
 #EXTINF:-1 tvg-name="beIN BOX OFFICE 2" group-title="Diğer",beIN BOX OFFICE 2
-http://umperisn.mywire.org/index.php?id=591403&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=591402&token=DeaTHLesS
 #EXTINF:-1 tvg-name="beIN BOX OFFICE 3" group-title="Diğer",beIN BOX OFFICE 3
-http://umperisn.mywire.org/index.php?id=591401&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=591400&token=DeaTHLesS
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/xTTxc9G3/Bein-gurme-removebg-preview.png" tvg-name="BEIN GURME" group-title="Diğer",BEIN GURME
 https://vavoo.biz-az.workers.dev/play/9503946568377e1ba14c8.m3u8
 #EXTINF:-1 tvg-name="BEIN SPORT 1" group-title="Diğer",BEIN SPORT 1
@@ -22799,12 +22805,6 @@ http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314406&extension=ts
 http://elit64.eu:2086/barisakin643564/kin643564/216278?output=ts
 #EXTINF:-1 tvg-logo="https://ginikoturkish.com/thumb/epg/gt-tytturk/20260907193000.jpg" tvg-name="KRAL ANALIZ" group-title="Diğer",KRAL ANALIZ
 https://trn03.tulix.tv/gt-tytturk/index-1788809400-3600.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
-#EXTINF:-1 tvg-logo="https://r.resimlink.com/3mXOfILsRv.png" tvg-name="KRAL POP RADYO" group-title="Diğer",KRAL POP RADYO
-https://dygedge.radyotvonline.net/kralpop/playlist.m3u8?listeningSessionID=689a71670b9b8fe5_10447267_HwbwtuT7__0000001I9eN&downloadSessionID=0
-#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="KRAL Pop TV (720p)" group-title="Diğer",KRAL Pop TV (720p)
-https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-name="KRAL POP TV F" group-title="Diğer",KRAL POP TV F
-http://dygvideo.dygdigital.com/live/hls/kralpop
 #EXTINF:-1 tvg-logo="https://ginikoturkish.com/thumb/epg/gt-cartoontr/20260905043000.jpg" tvg-name="KRAL SAKIR" group-title="Diğer",KRAL SAKIR
 https://trn03.tulix.tv/gt-cartoontr/index-1788582600-900.m3u8?token=0631e8753bcdf25bb2a5015db22ec082
 #EXTINF:-1 tvg-logo="http://138.199.27.237:8080/TURKIYE/KRALPOP.png" tvg-name="KRALPOP" group-title="Diğer",KRALPOP
@@ -26129,12 +26129,6 @@ http://superiptv21.com/live/erayrende/ilttuta39/e8207910-3a99-42b0-a1f6-4978015a
 http://elit64.eu:2086/barisakin643564/kin643564/261521?output=ts
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/yerel/koza.png" tvg-name="TR:KOZA TV HD" group-title="Diğer",TR:KOZA TV HD
 http://superiptv21.com/live/erayrende/ilttuta39/14f62dc6-afae-46e6-bc93-459edb88ef7d.m3u?output=ts
-#EXTINF:-1 tvg-id="kralpop.tr" tvg-logo="http://2kapak.plustvmedia.com/plustr/kralpop.png" tvg-name="TR: KRAL POP FHD" group-title="Diğer",TR: KRAL POP FHD
-http://elit64.eu:2086/barisakin643564/kin643564/206?output=ts
-#EXTINF:-1 tvg-logo="http://2kapak.plustvmedia.com/plustr/kralpopakustik.png" tvg-name="TR: KRAL POP AKUSTIK" group-title="Diğer",TR: KRAL POP AKUSTIK
-http://elit64.eu:2086/barisakin643564/kin643564/85900?output=ts
-#EXTINF:-1 tvg-logo="http://xopen.xyz/wp-content/uploads/2020/06/kralPop.png" tvg-name="Tr: KRAL POP TV HD" group-title="Diğer",Tr: KRAL POP TV HD
-http://45.138.173.72:8080/OERXRGdCUExrankyVkxTNitZY2tXMG5DZndCVVM3OWpZY3NSWjY4dnFlcz0?output=ts
 #EXTINF:-1 tvg-id="Kral Pop" tvg-logo="http://logo.multicms.info/tvlogo/kral.png" tvg-name="TR: KRALPOP" group-title="Diğer",TR: KRALPOP
 http://190502.tomtv.eu:80/MustafaozdemR7808/z189b8mv2r/15012
 #EXTINF:-1 tvg-id="KRT.tr" tvg-logo="http://xopen.xyz/wp-content/uploads/2019/06/KRT_HD.png" tvg-name="Tr: KRT HD" group-title="Diğer",Tr: KRT HD
@@ -27215,8 +27209,8 @@ https://trn03.tulix.tv/gt-star-tv1/index-1788282000-16200.m3u8?token=0631e8753bc
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/tv1kayseri.png" tvg-name="TV 1 KAYSERI" group-title="Diğer",TV 1 KAYSERI
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197171&extension=ts&play_token=wgCB9rueyY
-#EXTINF:-1 tvg-name="TV 100" group-title="Diğer",TV 100
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197273&extension=ts&play_token=fIy9sX6ocp
+#EXTINF:-1 tvg-name="TV 100 ʜᴅ FHD" group-title="Diğer",TV 100 ʜᴅ FHD
+http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=1165402&extension=ts
 #EXTINF:-1 tvg-id="24TV.tr@SD" tvg-name="TV 24 (720p)" group-title="Diğer",TV 24 (720p)
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 tvg-id="TV264.tr@SD" tvg-name="TV 264" group-title="Diğer",TV 264
