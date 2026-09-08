@@ -56,10 +56,10 @@ REPORT_FILE = DATA / "kanal_raporu.json"
 # =========================================================
 
 # Önceki 12 saniyeye göre çok daha hızlı.
-TIMEOUT = 5
+TIMEOUT = 15
 
 # Bir kanal için en fazla kaç aday URL kontrol edilsin?
-MAX_CANDIDATES_PER_CHANNEL = 8
+MAX_CANDIDATES_PER_CHANNEL = 20
 
 UA = "Mozilla/5.0 (compatible; CAN-TV-Channel-Matcher/3.0)"
 
