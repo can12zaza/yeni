@@ -11,16 +11,24 @@ on:
       - "config.json"
       - "build.py"
       - "update_named_channels.py"
+      - "data/kanal_kaynaklari.m3u"
 
 permissions:
   contents: write
 
+concurrency:
+  group: playlist-update
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Depoyu al
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python
         uses: actions/setup-python@v5
@@ -40,7 +48,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u data/kanal_kaynaklari.m3u data/kanal_raporu.json
-          git diff --cached --quiet && echo "Değişiklik yok" && exit 0
+
+          git add playlist.m3u
+          git add data/kanal_kaynaklari.m3u
+          git add data/kanal_raporu.json
+
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok"
+            exit 0
+          fi
+
           git commit -m "chore: update playlist"
-          git push
+
+          git pull --rebase origin main
+
+          git push origin main
