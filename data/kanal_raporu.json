@@ -1,10 +1,10 @@
 {
   "total_channels": 189,
-  "matched": 28,
-  "not_found": 161,
+  "matched": 114,
+  "not_found": 75,
   "source_count": 6,
-  "candidate_count": 54725,
-  "indexed_channels": 50189,
+  "candidate_count": 86049,
+  "indexed_channels": 74499,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -12,85 +12,204 @@
     {
       "name": "TRT 4K",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350777.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350777.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT 1",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401536.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401536.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT 2",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/787.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/787.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ATV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKtj6IsFzyqtOVohGvQoQ5s",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKtj6IsFzyqtOVohGvQoQ5s",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEYAZ TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/693.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/693.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL D",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDIl1cYBiyxVMzhjIGIx-CVY",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDIl1cYBiyxVMzhjIGIx-CVY",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SHOW TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJDzSXam97x1ASEJVEXhbQo",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJDzSXam97x1ASEJVEXhbQo",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "STAR TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKRK6hpYKbd402MSuatkRym",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKRK6hpYKbd402MSuatkRym",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV8",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJUqxDT8YvTXAj1uOTmUzJJ",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJUqxDT8YvTXAj1uOTmUzJJ",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV8.5",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59410.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59410.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL 7",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160000.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160000.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TEVE2",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/159999.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/159999.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A2",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/726.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/726.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "360",
       "category": "Ulusal",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360144.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452178.ts",
@@ -99,47 +218,81 @@
           "reason": "TimeoutError"
         },
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452179.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360144.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "EKOL TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335100.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335100.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL B",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/213256.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/213256.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BENGÜTÜRK",
       "category": "Ulusal",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/802.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": false,
+          "reason": "TimeoutError"
+        }
+      ]
     },
     {
       "name": "AKİT TV",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121056.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121056.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT HABER",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337952.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401544.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337952.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401544.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -149,12 +302,12 @@
       "name": "HABER GLOBAL",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337951.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/26605.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337951.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/26605.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -164,12 +317,12 @@
       "name": "CNN TÜRK",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401543.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401543.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -194,24 +347,12 @@
       "name": "24",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9449.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452570.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452453.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9449.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -220,25 +361,28 @@
     {
       "name": "ÜLKE TV",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/676.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/676.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NTV",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337946.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/776.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452299.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337946.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/776.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -248,12 +392,12 @@
       "name": "HABERTÜRK",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337945.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/91202.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337945.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/91202.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -262,13 +406,15 @@
     {
       "name": "TGRT HABER",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/10425.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337953.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/10425.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -276,12 +422,12 @@
       "name": "CNBC-E",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337960.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/332388.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337960.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/332388.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -306,12 +452,12 @@
       "name": "A HABER",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337948.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/696.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337948.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/696.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -320,8 +466,17 @@
     {
       "name": "FLASH HABER",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/198042.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/198042.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ULUSAL KANAL",
@@ -350,19 +505,28 @@
     {
       "name": "TRT WORLD",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12775.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12775.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT SPOR",
       "category": "Spor",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337940.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158685.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337940.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158685.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -371,44 +535,107 @@
     {
       "name": "TRT SPOR YILDIZ",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197433.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197433.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A SPOR",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197434.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197434.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HT SPOR",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335678.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335678.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TJK TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449090.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449090.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EUROSPORT 1",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/806.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/806.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EUROSPORT 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/805.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/805.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NBA TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/817.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/817.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CBC SPORT",
@@ -432,14 +659,32 @@
     {
       "name": "S SPORT 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/36881.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/36881.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SPORTS TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/686.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/686.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SPOR SMART",
@@ -457,12 +702,12 @@
       "name": "BEIN SPORTS 1",
       "category": "Spor",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418442.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/318926.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418442.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/318926.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -558,20 +803,47 @@
     {
       "name": "FIGHTSCREEN",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/321249.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/321249.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "FB TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/687.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/687.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT MÜZİK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/671.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/671.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KRAL TV",
@@ -582,8 +854,17 @@
     {
       "name": "KRAL POP",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449140.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449140.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KRALPOP AKUSTİK",
@@ -595,12 +876,12 @@
       "name": "DREAM TÜRK",
       "category": "Müzik",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12755.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12755.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -609,8 +890,17 @@
     {
       "name": "DREAM TV",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449139.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449139.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "POWER",
@@ -622,12 +912,12 @@
       "name": "POWER TÜRK",
       "category": "Müzik",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4552.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4552.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -636,14 +926,32 @@
     {
       "name": "POWER TÜRK SLOW",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360180.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360180.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "POWER TÜRK TAPTAZE",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360182.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360182.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NR1",
@@ -691,14 +999,32 @@
     {
       "name": "TRT DİYANET",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257651.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257651.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT DİYANET ÇOCUK",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/301035.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/301035.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SEMERKAND TV",
@@ -709,8 +1035,17 @@
     {
       "name": "LALEGÜL TV",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257630.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257630.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MEKKE CANLI",
@@ -745,20 +1080,47 @@
     {
       "name": "BEIN MOVIES PREMIERE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236518.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236518.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES TURK",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236515.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236515.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES STARS",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236516.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236516.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES ACTION",
@@ -781,68 +1143,167 @@
     {
       "name": "BEIN BOXOFFICE 1",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1699.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1699.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1700.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1700.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 3",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1701.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1701.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA TV",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9842.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9842.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA TV 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160033.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160033.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA 1001",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28586.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28586.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA 1002",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28587.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28587.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AKSİYON",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/816.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/816.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AKSİYON 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59414.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59414.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AİLE",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/721.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/721.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AİLE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/29587.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/29587.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA KOMEDİ",
@@ -853,8 +1314,17 @@
     {
       "name": "SİNEMA KOMEDİ 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59413.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59413.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MOVIESMART",
@@ -883,26 +1353,62 @@
     {
       "name": "BEIN SERIES 1",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236519.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236519.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 2",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236520.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236520.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 3",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236521.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236521.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 4",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236522.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236522.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DİZİ SMART",
@@ -919,14 +1425,32 @@
     {
       "name": "BBC FIRST",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/320011.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/320011.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT BELGESEL",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/682.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/682.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISCOVERY",
@@ -1015,8 +1539,17 @@
     {
       "name": "DMAX",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/692.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/692.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BBC EARTH",
@@ -1039,8 +1572,17 @@
     {
       "name": "VIASAT EXPLORE",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139272.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139272.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN IZ",
@@ -1051,14 +1593,32 @@
     {
       "name": "LOVE NATURE",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/179240.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/179240.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DA VINCI LEARNING",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121107.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121107.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NATURE ESCAPE",
@@ -1075,38 +1635,90 @@
     {
       "name": "TGRT BELGESEL",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197424.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197424.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DOCUSCREEN",
       "category": "Belgesel",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/345622.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": false,
+          "reason": "TimeoutError"
+        }
+      ]
     },
     {
       "name": "YABAN TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/304525.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/304525.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HABITAT TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449115.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449115.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TARİH TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/224469.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/224469.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ÇİFTÇİ TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160039.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160039.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CHASSE & PECHE",
@@ -1117,38 +1729,92 @@
     {
       "name": "TRT ÇOCUK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/786.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/786.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MİNİKA ÇOCUK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/667.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/667.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MİNİKA GO",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/670.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/670.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CARTOON NETWORK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4933.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4933.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CARTOONITO",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/701.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/701.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BABY TV",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/13269.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/13269.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISNEY JUNIOR",
@@ -1160,7 +1826,14 @@
       "name": "SPACETOON",
       "category": "Çocuk",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/363405.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": false,
+          "reason": "TimeoutError"
+        }
+      ]
     },
     {
       "name": "MOONBUG",
@@ -1186,25 +1859,43 @@
     {
       "name": "BLOOMBERG HT",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BLOOMBERGHT",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A PARA",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337955.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59429.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337955.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59429.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -1214,12 +1905,12 @@
       "name": "EKOTÜRK",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -1229,12 +1920,12 @@
       "name": "EKOTURK",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -1243,8 +1934,17 @@
     {
       "name": "TLC",
       "category": "Yaşam",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "LIFE TIME",
@@ -1279,8 +1979,17 @@
     {
       "name": "TLC HD",
       "category": "Yaşam",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TARIM TV",
@@ -1291,31 +2000,58 @@
     {
       "name": "AGRO TV",
       "category": "Tarım",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350613.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350613.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT TÜRK",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12774.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12774.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT AVAZ",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121064.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121064.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT KURDİ",
       "category": "Uluslararası",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/694.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
       "attempts": [
         {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/694.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
           "ok": true,
           "reason": "http-200"
         }
@@ -1324,14 +2060,32 @@
     {
       "name": "TRT ARABİ",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158688.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158688.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A NEWS",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139365.ts",
+      "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+      "attempts": [
+        {
+          "url": "http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139365.ts",
+          "source": "http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NHK WORLD",
@@ -1348,19 +2102,15 @@
     {
       "name": "RUSSIA 24",
       "category": "Uluslararası",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452339.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
