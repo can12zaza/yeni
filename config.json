@@ -1,6 +1,6 @@
 {
   "output": "playlist.m3u",
-  "request_timeout": 15,
+  "request_timeout": 30,
   "remove_duplicates": true,
   "prefer_quality": true,
   "categorize": true,
