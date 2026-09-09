@@ -8,7 +8,7 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts
 #EXTINF:-1 tvg-name="TV NET" group-title="Haber",TV NET
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337957.ts
 #EXTINF:-1 tvg-name="24" group-title="Haber",24
-http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337946.ts
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
@@ -33,10 +33,6 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418449.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418451.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418439.ts
-#EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
@@ -59,5 +55,3 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts
 #EXTINF:-1 tvg-name="TRT KURDİ" group-title="Uluslararası",TRT KURDİ
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts
-#EXTINF:-1 tvg-name="RUSSIA 24" group-title="Uluslararası",RUSSIA 24
-http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts

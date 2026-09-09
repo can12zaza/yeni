@@ -1,10 +1,10 @@
 {
   "total_channels": 189,
-  "matched": 31,
-  "not_found": 158,
-  "source_count": 7,
-  "candidate_count": 55100,
-  "indexed_channels": 50469,
+  "matched": 28,
+  "not_found": 161,
+  "source_count": 6,
+  "candidate_count": 54725,
+  "indexed_channels": 50189,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -194,7 +194,7 @@
       "name": "24",
       "category": "Haber",
       "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts",
       "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
@@ -212,12 +212,6 @@
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "TimeoutError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
           "ok": true,
           "reason": "http-200"
         }
@@ -227,14 +221,7 @@
       "name": "ÜLKE TV",
       "category": "Haber",
       "status": "not_found",
-      "attempts": [
-        {
-          "url": "http://217.174.229.138:8000/play/a0el",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        }
-      ]
+      "attempts": []
     },
     {
       "name": "NTV",
@@ -281,7 +268,7 @@
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337953.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
           "ok": false,
-          "reason": "TimeoutError"
+          "reason": "HTTPError"
         }
       ]
     },
@@ -446,14 +433,7 @@
       "name": "S SPORT 2",
       "category": "Spor",
       "status": "not_found",
-      "attempts": [
-        {
-          "url": "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        }
-      ]
+      "attempts": []
     },
     {
       "name": "SPORTS TV",
@@ -584,32 +564,14 @@
     {
       "name": "FB TV",
       "category": "Spor",
-      "status": "working",
-      "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-      "attempts": [
-        {
-          "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-          "ok": true,
-          "reason": "http-200"
-        }
-      ]
+      "status": "not_found",
+      "attempts": []
     },
     {
       "name": "TRT MÜZİK",
       "category": "Müzik",
-      "status": "working",
-      "url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-      "attempts": [
-        {
-          "url": "https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
-          "ok": true,
-          "reason": "http-200"
-        }
-      ]
+      "status": "not_found",
+      "attempts": []
     },
     {
       "name": "KRAL TV",
@@ -1386,15 +1348,19 @@
     {
       "name": "RUSSIA 24",
       "category": "Uluslararası",
-      "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "status": "not_found",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": true,
-          "reason": "http-200"
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452339.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
         }
       ]
     },
