@@ -1,88 +1,28 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="TRT 4K" group-title="Ulusal",TRT 4K
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350777.ts
-#EXTINF:-1 tvg-name="TRT 1" group-title="Ulusal",TRT 1
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401536.ts
-#EXTINF:-1 tvg-name="TRT 2" group-title="Ulusal",TRT 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/787.ts
-#EXTINF:-1 tvg-name="ATV" group-title="Ulusal",ATV
-http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKtj6IsFzyqtOVohGvQoQ5s
-#EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/693.ts
-#EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
-http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDIl1cYBiyxVMzhjIGIx-CVY
-#EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
-http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJDzSXam97x1ASEJVEXhbQo
-#EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
-http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDKRK6hpYKbd402MSuatkRym
-#EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
-http://uls.plusmain01.com:80/play/F99irXv4qhThIxxa5YbPd4j3SRRpDGxKrMMvhVc8eDJUqxDT8YvTXAj1uOTmUzJJ
-#EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59410.ts
-#EXTINF:-1 tvg-name="KANAL 7" group-title="Ulusal",KANAL 7
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160000.ts
-#EXTINF:-1 tvg-name="TEVE2" group-title="Ulusal",TEVE2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/159999.ts
-#EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/726.ts
-#EXTINF:-1 tvg-name="360" group-title="Ulusal",360
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360144.ts
-#EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335100.ts
-#EXTINF:-1 tvg-name="KANAL B" group-title="Ulusal",KANAL B
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/213256.ts
-#EXTINF:-1 tvg-name="AKİT TV" group-title="Haber",AKİT TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121056.ts
 #EXTINF:-1 tvg-name="TRT HABER" group-title="Haber",TRT HABER
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401544.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337952.ts
 #EXTINF:-1 tvg-name="HABER GLOBAL" group-title="Haber",HABER GLOBAL
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/26605.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337951.ts
 #EXTINF:-1 tvg-name="CNN TÜRK" group-title="Haber",CNN TÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/401543.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts
 #EXTINF:-1 tvg-name="TV NET" group-title="Haber",TV NET
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337957.ts
 #EXTINF:-1 tvg-name="24" group-title="Haber",24
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9449.ts
-#EXTINF:-1 tvg-name="ÜLKE TV" group-title="Haber",ÜLKE TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/676.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/776.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337946.ts
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/91202.ts
-#EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/10425.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337945.ts
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/332388.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337960.ts
 #EXTINF:-1 tvg-name="TV100" group-title="Haber",TV100
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337949.ts
 #EXTINF:-1 tvg-name="A HABER" group-title="Haber",A HABER
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/696.ts
-#EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/198042.ts
-#EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12775.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337948.ts
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158685.ts
-#EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197433.ts
-#EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197434.ts
-#EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/335678.ts
-#EXTINF:-1 tvg-name="TJK TV" group-title="Spor",TJK TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449090.ts
-#EXTINF:-1 tvg-name="EUROSPORT 1" group-title="Spor",EUROSPORT 1
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/806.ts
-#EXTINF:-1 tvg-name="EUROSPORT 2" group-title="Spor",EUROSPORT 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/805.ts
-#EXTINF:-1 tvg-name="NBA TV" group-title="Spor",NBA TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/817.ts
-#EXTINF:-1 tvg-name="S SPORT 2" group-title="Spor",S SPORT 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/36881.ts
-#EXTINF:-1 tvg-name="SPORTS TV" group-title="Spor",SPORTS TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/686.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337940.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/318926.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418442.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418445.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
@@ -93,72 +33,12 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418449.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418451.ts
 #EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418439.ts
-#EXTINF:-1 tvg-name="FIGHTSCREEN" group-title="Spor",FIGHTSCREEN
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/321249.ts
-#EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/687.ts
-#EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/671.ts
-#EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449140.ts
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12755.ts
-#EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449139.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4552.ts
-#EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360180.ts
-#EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/360182.ts
-#EXTINF:-1 tvg-name="TRT DİYANET" group-title="Dini",TRT DİYANET
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257651.ts
-#EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Dini",TRT DİYANET ÇOCUK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/301035.ts
-#EXTINF:-1 tvg-name="LALEGÜL TV" group-title="Dini",LALEGÜL TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/257630.ts
-#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE 2" group-title="Sinema",BEIN MOVIES PREMIERE 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236518.ts
-#EXTINF:-1 tvg-name="BEIN MOVIES TURK" group-title="Sinema",BEIN MOVIES TURK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236515.ts
-#EXTINF:-1 tvg-name="BEIN MOVIES STARS" group-title="Sinema",BEIN MOVIES STARS
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236516.ts
-#EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1699.ts
-#EXTINF:-1 tvg-name="BEIN BOXOFFICE 2" group-title="Sinema",BEIN BOXOFFICE 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1700.ts
-#EXTINF:-1 tvg-name="BEIN BOXOFFICE 3" group-title="Sinema",BEIN BOXOFFICE 3
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/1701.ts
-#EXTINF:-1 tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/9842.ts
-#EXTINF:-1 tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160033.ts
-#EXTINF:-1 tvg-name="SİNEMA 1001" group-title="Sinema",SİNEMA 1001
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28586.ts
-#EXTINF:-1 tvg-name="SİNEMA 1002" group-title="Sinema",SİNEMA 1002
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/28587.ts
-#EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/816.ts
-#EXTINF:-1 tvg-name="SİNEMA AKSİYON 2" group-title="Sinema",SİNEMA AKSİYON 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59414.ts
-#EXTINF:-1 tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/721.ts
-#EXTINF:-1 tvg-name="SİNEMA AİLE 2" group-title="Sinema",SİNEMA AİLE 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/29587.ts
-#EXTINF:-1 tvg-name="SİNEMA KOMEDİ 2" group-title="Sinema",SİNEMA KOMEDİ 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59413.ts
-#EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236519.ts
-#EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236520.ts
-#EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236521.ts
-#EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/236522.ts
-#EXTINF:-1 tvg-name="BBC FIRST" group-title="Dizi",BBC FIRST
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/320011.ts
-#EXTINF:-1 tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/682.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts
+#EXTINF:-1 tvg-name="NUMBER1 TV" group-title="Müzik",NUMBER1 TV
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts
 #EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" group-title="Belgesel",NATIONAL GEOGRAPHIC
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
@@ -167,63 +47,15 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts
 #EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts
-#EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/692.ts
-#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139272.ts
-#EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/179240.ts
-#EXTINF:-1 tvg-name="DA VINCI LEARNING" group-title="Belgesel",DA VINCI LEARNING
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121107.ts
-#EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/197424.ts
-#EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/304525.ts
-#EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/449115.ts
-#EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/224469.ts
-#EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/160039.ts
-#EXTINF:-1 tvg-name="TRT ÇOCUK" group-title="Çocuk",TRT ÇOCUK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/786.ts
-#EXTINF:-1 tvg-name="MİNİKA ÇOCUK" group-title="Çocuk",MİNİKA ÇOCUK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/667.ts
-#EXTINF:-1 tvg-name="MİNİKA GO" group-title="Çocuk",MİNİKA GO
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/670.ts
-#EXTINF:-1 tvg-name="CARTOON NETWORK" group-title="Çocuk",CARTOON NETWORK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/4933.ts
-#EXTINF:-1 tvg-name="CARTOONITO" group-title="Çocuk",CARTOONITO
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/701.ts
-#EXTINF:-1 tvg-name="BABY TV" group-title="Çocuk",BABY TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/13269.ts
 #EXTINF:-1 tvg-name="MOONBUG" group-title="Çocuk",MOONBUG
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/156325.ts
-#EXTINF:-1 tvg-name="BLOOMBERG HT" group-title="Ekonomi",BLOOMBERG HT
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts
-#EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/41154.ts
 #EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/59429.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337955.ts
 #EXTINF:-1 tvg-name="EKOTÜRK" group-title="Ekonomi",EKOTÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts
 #EXTINF:-1 tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/691.ts
-#EXTINF:-1 tvg-name="TLC" group-title="Yaşam",TLC
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts
-#EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/679.ts
-#EXTINF:-1 tvg-name="AGRO TV" group-title="Tarım",AGRO TV
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/350613.ts
-#EXTINF:-1 tvg-name="TRT TÜRK" group-title="Uluslararası",TRT TÜRK
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/12774.ts
-#EXTINF:-1 tvg-name="TRT AVAZ" group-title="Uluslararası",TRT AVAZ
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/121064.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts
 #EXTINF:-1 tvg-name="TRT KURDİ" group-title="Uluslararası",TRT KURDİ
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/694.ts
-#EXTINF:-1 tvg-name="TRT ARABİ" group-title="Uluslararası",TRT ARABİ
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/158688.ts
-#EXTINF:-1 tvg-name="A NEWS" group-title="Uluslararası",A NEWS
-http://4.438069.xyz:2086/live/murat.revi2/01.11@2020/139365.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts
 #EXTINF:-1 tvg-name="RUSSIA 24" group-title="Uluslararası",RUSSIA 24
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts
