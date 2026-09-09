@@ -1102,7 +1102,7 @@ def main():
     timeout = int(
         config.get(
             "request_timeout",
-            15,
+            30,
         )
     )
 
