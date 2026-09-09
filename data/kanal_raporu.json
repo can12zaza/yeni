@@ -1,10 +1,10 @@
 {
   "total_channels": 189,
-  "matched": 30,
-  "not_found": 159,
+  "matched": 28,
+  "not_found": 161,
   "source_count": 6,
-  "candidate_count": 54725,
-  "indexed_channels": 50189,
+  "candidate_count": 54729,
+  "indexed_channels": 50193,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -193,9 +193,7 @@
     {
       "name": "24",
       "category": "Haber",
-      "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "status": "not_found",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452570.ts",
@@ -218,8 +216,104 @@
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": true,
-          "reason": "http-200"
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452442.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452476.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452433.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/416752.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417607.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452541.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452483.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452438.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452434.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452445.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452481.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452548.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452437.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452510.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452594.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452461.ts",
+          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+          "ok": false,
+          "reason": "TimeoutError"
         }
       ]
     },
@@ -274,7 +368,7 @@
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337953.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "TimeoutError"
         }
       ]
     },
@@ -666,15 +760,13 @@
     {
       "name": "NUMBER1 TV",
       "category": "Müzik",
-      "status": "working",
-      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts",
-      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
+      "status": "not_found",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": true,
-          "reason": "http-200"
+          "ok": false,
+          "reason": "TimeoutError"
         }
       ]
     },

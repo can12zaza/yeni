@@ -30,7 +30,7 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts
 #EXTINF:-1 tvg-name="TV NET" group-title="Haber",TV NET
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337957.ts
 #EXTINF:-1 tvg-name="24" group-title="Haber",24
-http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452570.ts
 #EXTINF:-1 tvg-name="ÜLKE TV" group-title="Haber",ÜLKE TV
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/343379.ts
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
@@ -95,8 +95,6 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452098.ts
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452099.ts
-#EXTINF:-1 tvg-name="NUMBER1 TV" group-title="Müzik",NUMBER1 TV
-http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452008.ts
 #EXTINF:-1 tvg-name="SEMERKAND TV" group-title="Dini",SEMERKAND TV
@@ -45237,6 +45235,8 @@ http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/480427.mkv
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/480428.mkv
 #EXTINF:-1 tvg-name="Abbott Elementary S05 E22" group-title="Diğer",Abbott Elementary S05 E22
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/480429.mkv
+#EXTINF:-1 tvg-name="Abi S02 E01" group-title="Diğer",Abi S02 E01
+http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488955.mkv
 #EXTINF:-1 tvg-logo="https://www.hdfilmizle.life/v/31052/poster/thumb/acayip-bi-film.jpg" tvg-name="Acaip bi film" group-title="Diğer",Acaip bi film
 https://vs12.pictureflix.org/v/Disaster.Movie.2008.WEB-DL.1080p.DUAL.H.264-HDM/master.m3u8
 #EXTINF:-1 tvg-logo="https://www.hdfilmizle.life/v/18812/poster/thumb/acar-hafiye-is-basinda.jpg" tvg-name="Acar Hafiye İşbaşında" group-title="Diğer",Acar Hafiye İşbaşında
@@ -46045,6 +46045,8 @@ http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/472355.mkv
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/485929.mkv
 #EXTINF:-1 tvg-name="Altı Üstü İstanbul S01 E11" group-title="Diğer",Altı Üstü İstanbul S01 E11
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/485930.mkv
+#EXTINF:-1 tvg-name="Altı Üstü İstanbul S01 E12" group-title="Diğer",Altı Üstü İstanbul S01 E12
+http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488956.mkv
 #EXTINF:-1 tvg-name="Altın Gibiyiz S01 E01" group-title="Diğer",Altın Gibiyiz S01 E01
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/486040.mkv
 #EXTINF:-1 tvg-name="Altın Gibiyiz S01 E02" group-title="Diğer",Altın Gibiyiz S01 E02
@@ -54247,6 +54249,8 @@ http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/481163.mkv
 http://wu09.xyz:8080/movie/LzsumChy2C/EjdZe39gGp/483778.mp4
 #EXTINF:-1 tvg-logo="https://www.hdfilmizle.life/v/22393/poster/thumb/murder-on-the-home-front.jpg" tvg-name="Evin Önünde Cinayet" group-title="Diğer",Evin Önünde Cinayet
 https://vs6.photour.org/v/h9818wvtu8zq/master.m3u8
+#EXTINF:-1 tvg-name="Evlilik Güzeldir S01 E01" group-title="Diğer",Evlilik Güzeldir S01 E01
+http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488957.mkv
 #EXTINF:-1 tvg-name="Evrokino HD" group-title="Diğer",Evrokino HD
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452234.ts
 #EXTINF:-1 tvg-name="Ex Aşkım S01 E01" group-title="Diğer",Ex Aşkım S01 E01
@@ -57701,6 +57705,8 @@ http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488375.mkv
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488376.mkv
 #EXTINF:-1 tvg-name="Hayranların Gece Vardiyası S01 E08" group-title="Diğer",Hayranların Gece Vardiyası S01 E08
 http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488377.mkv
+#EXTINF:-1 tvg-name="Haysiyet S01 E01" group-title="Diğer",Haysiyet S01 E01
+http://wu09.xyz:8080/series/LzsumChy2C/EjdZe39gGp/488958.mkv
 #EXTINF:-1 tvg-logo="https://www.hdfilmizle.life/v/29211/poster/thumb/nar-dyrene-drommer.jpg" tvg-name="Hayvan Düşü" group-title="Diğer",Hayvan Düşü
 https://vs4.photour.org/v/a4j7iy40k3xz/master.m3u8
 #EXTINF:-1 tvg-name="Hazel Moore The Hole 08 07 2026 Anal Hardcore Bigtits BBC ILUVY" group-title="Diğer",Hazel Moore The Hole 08 07 2026 Anal Hardcore Bigtits BBC ILUVY
@@ -70455,6 +70461,8 @@ http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452085.ts
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314444.ts
 #EXTINF:-1 tvg-name="Number 1 Dance (720p)" group-title="Diğer",Number 1 Dance (720p)
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452086.ts
+#EXTINF:-1 tvg-name="Number 1 TV" group-title="Diğer",Number 1 TV
+http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts
 #EXTINF:-1 tvg-name="Number 1 TV (720p)" group-title="Diğer",Number 1 TV (720p)
 http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452088.ts
 #EXTINF:-1 tvg-name="Nurse Step Stepmom Gives Me a Check up Brianna Beach Stepmom Comes First" group-title="Diğer",Nurse Step Stepmom Gives Me a Check up Brianna Beach Stepmom Comes First
