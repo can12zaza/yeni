@@ -1,7 +1,7 @@
 {
   "total_channels": 189,
-  "matched": 0,
-  "not_found": 189,
+  "matched": 30,
+  "not_found": 159,
   "source_count": 6,
   "candidate_count": 54731,
   "indexed_channels": 50195,
@@ -90,19 +90,15 @@
     {
       "name": "360",
       "category": "Ulusal",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452178.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452178.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452179.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -133,179 +129,75 @@
     {
       "name": "TRT HABER",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337952.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337952.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "HABER GLOBAL",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337951.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337951.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "CNN TÜRK",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337947.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "TV NET",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337957.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337957.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "24",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452570.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452570.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452453.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452491.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452578.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452442.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452476.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452433.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/416752.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417607.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452541.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452483.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452438.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452434.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452445.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452481.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452548.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452437.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452510.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452594.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452461.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -318,38 +210,30 @@
     {
       "name": "NTV",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452299.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452299.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337946.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452298.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "HABERTÜRK",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337945.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337945.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -369,39 +253,45 @@
     {
       "name": "CNBC-E",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337960.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337960.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "TV100",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337949.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337949.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "A HABER",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337948.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337948.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -444,13 +334,15 @@
     {
       "name": "TRT SPOR",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337940.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337940.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -505,7 +397,7 @@
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/335370.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "TimeoutError"
         }
       ]
     },
@@ -542,101 +434,75 @@
     {
       "name": "BEIN SPORTS 1",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418442.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418442.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418443.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418444.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "BEIN SPORTS 2",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418445.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418445.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418446.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "BEIN SPORTS 3",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418447.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418447.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418448.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "BEIN SPORTS 4",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418449.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418449.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418450.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "BEIN SPORTS 5",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418451.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418451.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418452.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -655,25 +521,15 @@
     {
       "name": "BEIN SPORTS HABER",
       "category": "Spor",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418439.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418439.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417137.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/418440.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -716,13 +572,15 @@
     {
       "name": "DREAM TÜRK",
       "category": "Müzik",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314360.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -741,13 +599,15 @@
     {
       "name": "POWER TÜRK",
       "category": "Müzik",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314462.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -784,7 +644,7 @@
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/314446.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "TimeoutError"
         }
       ]
     },
@@ -1073,52 +933,60 @@
     {
       "name": "NATIONAL GEOGRAPHIC",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "NAT GEO",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452291.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "NATIONAL GEOGRAPHIC WILD",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "NAT GEO WILD",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452292.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -1275,13 +1143,15 @@
     {
       "name": "MOONBUG",
       "category": "Çocuk",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/156325.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/156325.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -1306,39 +1176,45 @@
     {
       "name": "A PARA",
       "category": "Ekonomi",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337955.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337955.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "EKOTÜRK",
       "category": "Ekonomi",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
     {
       "name": "EKOTURK",
       "category": "Ekonomi",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/337954.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -1411,13 +1287,15 @@
     {
       "name": "TRT KURDİ",
       "category": "Uluslararası",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/417514.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -1448,19 +1326,15 @@
     {
       "name": "RUSSIA 24",
       "category": "Uluslararası",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
+      "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
       "attempts": [
         {
           "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452340.ts",
           "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://wu09.xyz:8080/live/LzsumChy2C/EjdZe39gGp/452339.ts",
-          "source": "http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
