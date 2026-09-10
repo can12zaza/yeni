@@ -1,4 +1,4 @@
-http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus
+
 http://wu09.xyz:8080/get.php?username=LzsumChy2C&password=EjdZe39gGp&type=m3u
 https://raw.githubusercontent.com/sahind01/vidmoy/refs/heads/main/filmler/films.m3u
 https://raw.githubusercontent.com/can12zaza/my_channels.m3u/refs/heads/main/dd
