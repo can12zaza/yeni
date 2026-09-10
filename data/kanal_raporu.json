@@ -1,10 +1,10 @@
 {
   "total_channels": 189,
-  "matched": 0,
-  "not_found": 189,
+  "matched": 128,
+  "not_found": 61,
   "source_count": 4,
-  "candidate_count": 8130,
-  "indexed_channels": 8128,
+  "candidate_count": 20959,
+  "indexed_channels": 12491,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -12,194 +12,622 @@
     {
       "name": "TRT 4K",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197438&extension=ts&play_token=zkjkoH1DCe",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1842&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197438&extension=ts&play_token=zkjkoH1DCe",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197438&extension=ts&play_token=zkjkoH1DCe",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT 1",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_1/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_1/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT 2",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_2/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_2/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ATV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=268107&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1849&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1850&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=268107&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEYAZ TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://bstelevision.com/proxy.php?url=http://mlatlxfaaa.turknet.ercdn.net/zqhpjaumpm/beyaztv/beyaztv.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://bstelevision.com/proxy.php?url=http://mlatlxfaaa.turknet.ercdn.net/zqhpjaumpm/beyaztv/beyaztv.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL D",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=268109&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1851&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1852&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=268109&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SHOW TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=268108&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1847&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1848&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=268108&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "STAR TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1854&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1853&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1854&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV8",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch825",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10774&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8678&extension=ts&play_token=2OZvMtYH8G",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=942083&extension=ts&play_token=rboshaOeap",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=942084&extension=ts&play_token=M8eK6J7LCK",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557168&extension=ts&play_token=TmP62PfVph",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch825",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV8.5",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch733",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10773&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8686&extension=ts&play_token=8qMkr5gsDg",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557151&extension=ts&play_token=QfWk622sPL",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch733",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL 7",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1863&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1863&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TEVE2",
       "category": "Ulusal",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314615&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196796&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "A2",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1868&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1868&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "360",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196686&extension=ts&play_token=bNDysiy4vA",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196670&extension=ts&play_token=GXnCN0D780",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196702&extension=ts&play_token=iAHsflTbYZ",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196805&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196686&extension=ts&play_token=bNDysiy4vA",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EKOL TV",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594239&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594239&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KANAL B",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv.kanalb.tr/hls/kanalb/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BENGÜTÜRK",
       "category": "Ulusal",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "AKİT TV",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594237&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594237&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT HABER",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1975&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1975&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HABER GLOBAL",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CNN TÜRK",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1985&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1985&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV NET",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197290&extension=ts&play_token=sj6qFNt3zc",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197257&extension=ts&play_token=hQlsXbvuXH",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197248&extension=ts&play_token=Z37YuPMIhU",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197290&extension=ts&play_token=sj6qFNt3zc",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "24",
       "category": "Haber",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196804&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "ÜLKE TV",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=437559&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=437559&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NTV",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1987&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1987&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HABERTÜRK",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1979&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1979&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TGRT HABER",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594211&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594211&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CNBC-E",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594245&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594245&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TV100",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A HABER",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "FLASH HABER",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594225&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594225&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ULUSAL KANAL",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=437556&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=437556&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MECLİS TV",
@@ -222,122 +650,408 @@
     {
       "name": "TRT WORLD",
       "category": "Haber",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594198&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594198&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT SPOR",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2015&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv-trtspor-esdai.medya.trt.com.tr/master_1440p.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2015&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT SPOR YILDIZ",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor&ppid=e67f6aa79d604002f37ace34d2ca101c",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor&ppid=e67f6aa79d604002f37ace34d2ca101c",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A SPOR",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HT SPOR",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TJK TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2050&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2050&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EUROSPORT 1",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2036&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2036&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EUROSPORT 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2037&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2037&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NBA TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2048&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2048&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CBC SPORT",
       "category": "Spor",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314887&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "S SPORT",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tinyurl.com/Fiat-linea-multijet/yula/ceydus1.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tinyurl.com/Fiat-linea-multijet/yula/ceydus1.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "S SPORT 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tinyurl.com/Fiat-linea-multijet/Emu/androstreamlivess2.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tinyurl.com/Fiat-linea-multijet/Emu/androstreamlivess2.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SPORTS TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch754",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=196080&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2035&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=401273&extension=ts&play_token=ilqB8Y9LiA",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=694&extension=ts&play_token=QAMcKCUvkf",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch754",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SPOR SMART",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2031&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2032&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=170681&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SPOR SMART 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2033&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2034&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=401284&extension=ts&play_token=pKyOaRBsrh",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS 1",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418442?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418442.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418442?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418445?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418445.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418445?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS 3",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418447?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418447.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418447?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS 4",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418449?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418449.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418449?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS 5",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418451?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418451.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418451?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS MAX",
@@ -348,14 +1062,50 @@
     {
       "name": "BEIN SPORTS MAX 2",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=551689&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SPORTS HABER",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418439?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/418439.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/417137.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418439?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "FIGHTSCREEN",
@@ -366,26 +1116,62 @@
     {
       "name": "FB TV",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT MÜZİK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KRAL TV",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KRAL POP",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "KRALPOP AKUSTİK",
@@ -396,62 +1182,188 @@
     {
       "name": "DREAM TÜRK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DREAM TV",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "POWER",
       "category": "Müzik",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8706&extension=ts&play_token=ZmawIKZ4rh",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=282271&extension=ts&play_token=j4npsZlUYF",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557142&extension=ts&play_token=opgLv5Rg4o",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "POWER TÜRK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "POWER TÜRK SLOW",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=595425&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595425&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "POWER TÜRK TAPTAZE",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=595424&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595424&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NR1",
       "category": "Müzik",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595421&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595420&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197359&extension=ts&play_token=VTomsfRgFY",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314379&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197359&extension=ts&play_token=VTomsfRgFY",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "NR1 TÜRK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NUMBER1 TV",
       "category": "Müzik",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/314446.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/314446?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        }
+      ]
     },
     {
       "name": "NUMBER1 TÜRK",
       "category": "Müzik",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MTV",
@@ -462,32 +1374,75 @@
     {
       "name": "DİYANET TV",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT DİYANET",
       "category": "Dini",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10786&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "TRT DİYANET ÇOCUK",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SEMERKAND TV",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "LALEGÜL TV",
       "category": "Dini",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://lbl.netmedya.net/hls/lalegultv.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MEKKE CANLI",
@@ -516,32 +1471,77 @@
     {
       "name": "BEIN MOVIES PREMIERE",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591393&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591393&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES PREMIERE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591395&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591395&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES TURK",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591389&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591389&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES STARS",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES ACTION",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES ACTION 2",
@@ -553,85 +1553,285 @@
       "name": "BEIN MOVIES FAMILY",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591397&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=620420&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 1",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591403&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591403&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 3",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591401&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591401&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA TV",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591415&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591415&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA TV 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591429&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinema2.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591429&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA 1001",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinema1001.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196825&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "SİNEMA 1002",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinema1002.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AKSİYON",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://65.108.239.207/bsaction1/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196828&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=201709&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=151763&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AKSİYON 2",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinemaaksiyon2.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196829&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "SİNEMA AİLE",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://sharelink.anonimltc.workers.dev/g/8m95e5.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinemaaile.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196830&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://sharelink.anonimltc.workers.dev/g/8m95e5.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA AİLE 2",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196831&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "SİNEMA KOMEDİ",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://sharelink.anonimltc.workers.dev/g/hy364t.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/sinemakomedi.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196832&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://sharelink.anonimltc.workers.dev/g/hy364t.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA KOMEDİ 2",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://65.108.239.207/sinemakomedi/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196833&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "MOVIESMART",
@@ -642,8 +1842,17 @@
     {
       "name": "MOVIESMART TÜRK",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591431&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591431&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "FILMSCREEN",
@@ -660,26 +1869,86 @@
     {
       "name": "BEIN SERIES 1",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=620418&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/bsseries1.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=620418&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 2",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591385&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/bsseries2.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591385&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 3",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591383&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/bsseries3.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591383&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 4",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591381&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/bsseries4.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591381&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DİZİ SMART",
@@ -690,8 +1959,17 @@
     {
       "name": "DİZİ SMART MAX",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=591441&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=591441&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BBC FIRST",
@@ -702,122 +1980,374 @@
     {
       "name": "TRT BELGESEL",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=1993&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtbelgesel-dash.medya.trt.com.tr/master.mpd",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8?checkedby:MyWay",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8?token=tStZH2zQN1DUgV7dNGbacQ&tms=1767241869",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=1993&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISCOVERY",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594675&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594675&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISCOVERY CHANNEL",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISCOVERY ID",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "INVESTIGATION DISCOVERY",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NATIONAL GEOGRAPHIC",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196851&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200362&extension=ts&play_token=zxuC3Z7UoC",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200332&extension=ts&play_token=KTMEYCKK45",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NAT GEO",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196851&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200362&extension=ts&play_token=zxuC3Z7UoC",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200332&extension=ts&play_token=KTMEYCKK45",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NATIONAL GEOGRAPHIC WILD",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NAT GEO WILD",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DMAX",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BBC EARTH",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594660&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594660&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HISTORY",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594667&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/history.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594667&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "VIASAT HISTORY",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594656&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594656&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "VIASAT EXPLORE",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594657&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594657&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN IZ",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594655&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594655&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "LOVE NATURE",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594669&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://nord.ayakkabiparti.lol/lovenature/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594669&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DA VINCI LEARNING",
       "category": "Belgesel",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196819&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "NATURE ESCAPE",
       "category": "Belgesel",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196853&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "STINGRAY NATURESCAPE",
       "category": "Belgesel",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314475&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "TGRT BELGESEL",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594641&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594641&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DOCUSCREEN",
@@ -828,26 +2358,74 @@
     {
       "name": "YABAN TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "HABITAT TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TARİH TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/tarihtv.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://nord.ayakkabiparti.lol/tarihtv/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "ÇİFTÇİ TV",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CHASSE & PECHE",
@@ -858,44 +2436,117 @@
     {
       "name": "TRT ÇOCUK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8?checkedby:MyWay",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8?checkedby:MyWay",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MİNİKA ÇOCUK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8?checkedby:MyWay",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8?checkedby:MyWay",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "MİNİKA GO",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8?checkedby:MyWay",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8?checkedby:MyWay",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CARTOON NETWORK",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=481404&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=481404&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "CARTOONITO",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=593150&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=593150&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BABY TV",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=481410&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=481410&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DISNEY JUNIOR",
       "category": "Çocuk",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "https://proud-river-e20b.pantonum1.workers.dev/discs.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10750&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200300&extension=ts&play_token=8cv2bWXVaY",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "SPACETOON",
@@ -906,8 +2557,23 @@
     {
       "name": "MOONBUG",
       "category": "Çocuk",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/156325?output=ts",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://wu09.xyz:8080/live/Ali@Durgut16Marzey/gn8Hrw7RrWWp/156325.ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/156325?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "AZOOMEE",
@@ -918,38 +2584,104 @@
     {
       "name": "BLOOMBERG HT",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196806&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BLOOMBERGHT",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196806&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "A PARA",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594209&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594209&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EKOTÜRK",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "EKOTURK",
       "category": "Ekonomi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TLC",
       "category": "Yaşam",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "LIFE TIME",
@@ -984,14 +2716,32 @@
     {
       "name": "TLC HD",
       "category": "Yaşam",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TARIM TV",
       "category": "Tarım",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594649&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594649&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "AGRO TV",
@@ -1002,20 +2752,47 @@
     {
       "name": "TRT TÜRK",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv-trtturk.medya.trt.com.tr/master_1440.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtturk.medya.trt.com.tr/master_1440.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT AVAZ",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT KURDİ",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "TRT ARABİ",
@@ -1026,8 +2803,17 @@
     {
       "name": "A NEWS",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://umperisn.mywire.org/index.php?id=594258&token=DeaTHLesS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594258&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NHK WORLD",
@@ -1044,8 +2830,17 @@
     {
       "name": "RUSSIA 24",
       "category": "Uluslararası",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://gtrk-volga.ru/media/hr24/stream1.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://gtrk-volga.ru/media/hr24/stream1.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "RTR PLANETA",
@@ -1057,7 +2852,14 @@
       "name": "EURONEWS",
       "category": "Uluslararası",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10779&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "RADYO 7",
@@ -1098,8 +2900,17 @@
     {
       "name": "KIRAL FM",
       "category": "Radyo",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8?listeningSessionID=689a71b34a7d0fef_650218_ELAz7Pop__000000061yg&downloadSessionID=0&listenerid=3239e3f5e40f1819ee16c17a3a5f5b3e&awparams=companionAds%3Atrue",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+      "attempts": [
+        {
+          "url": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8?listeningSessionID=689a71b34a7d0fef_650218_ELAz7Pop__000000061yg&downloadSessionID=0&listenerid=3239e3f5e40f1819ee16c17a3a5f5b3e&awparams=companionAds%3Atrue",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "NUMBER1 FM",

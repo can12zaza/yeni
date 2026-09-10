@@ -1,1 +1,257 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="TRT 4K" group-title="Ulusal",TRT 4K
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197438&extension=ts&play_token=zkjkoH1DCe
+#EXTINF:-1 tvg-name="TRT 1" group-title="Ulusal",TRT 1
+https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_1/index.m3u8
+#EXTINF:-1 tvg-name="TRT 2" group-title="Ulusal",TRT 2
+https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_2/index.m3u8
+#EXTINF:-1 tvg-name="ATV" group-title="Ulusal",ATV
+http://umperisn.mywire.org/index.php?id=268107&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
+https://bstelevision.com/proxy.php?url=http://mlatlxfaaa.turknet.ercdn.net/zqhpjaumpm/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
+http://umperisn.mywire.org/index.php?id=268109&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
+http://umperisn.mywire.org/index.php?id=268108&token=DeaTHLesS
+#EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
+http://umperisn.mywire.org/index.php?id=1854&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch825
+#EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch733
+#EXTINF:-1 tvg-name="KANAL 7" group-title="Ulusal",KANAL 7
+http://umperisn.mywire.org/index.php?id=1863&token=DeaTHLesS
+#EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
+http://umperisn.mywire.org/index.php?id=1868&token=DeaTHLesS
+#EXTINF:-1 tvg-name="360" group-title="Ulusal",360
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=196686&extension=ts&play_token=bNDysiy4vA
+#EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
+http://umperisn.mywire.org/index.php?id=594239&token=DeaTHLesS
+#EXTINF:-1 tvg-name="KANAL B" group-title="Ulusal",KANAL B
+https://tv.kanalb.tr/hls/kanalb/index.m3u8
+#EXTINF:-1 tvg-name="BENGÜTÜRK" group-title="Ulusal",BENGÜTÜRK
+https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
+#EXTINF:-1 tvg-name="AKİT TV" group-title="Haber",AKİT TV
+http://umperisn.mywire.org/index.php?id=594237&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT HABER" group-title="Haber",TRT HABER
+http://umperisn.mywire.org/index.php?id=1975&token=DeaTHLesS
+#EXTINF:-1 tvg-name="HABER GLOBAL" group-title="Haber",HABER GLOBAL
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-name="CNN TÜRK" group-title="Haber",CNN TÜRK
+http://umperisn.mywire.org/index.php?id=1985&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TV NET" group-title="Haber",TV NET
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197290&extension=ts&play_token=sj6qFNt3zc
+#EXTINF:-1 tvg-name="ÜLKE TV" group-title="Haber",ÜLKE TV
+http://umperisn.mywire.org/index.php?id=437559&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
+http://umperisn.mywire.org/index.php?id=1987&token=DeaTHLesS
+#EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
+http://umperisn.mywire.org/index.php?id=1979&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
+http://umperisn.mywire.org/index.php?id=594211&token=DeaTHLesS
+#EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
+http://umperisn.mywire.org/index.php?id=594245&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TV100" group-title="Haber",TV100
+http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8
+#EXTINF:-1 tvg-name="A HABER" group-title="Haber",A HABER
+https://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8
+#EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
+http://umperisn.mywire.org/index.php?id=594225&token=DeaTHLesS
+#EXTINF:-1 tvg-name="ULUSAL KANAL" group-title="Haber",ULUSAL KANAL
+http://umperisn.mywire.org/index.php?id=437556&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
+http://umperisn.mywire.org/index.php?id=594198&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
+http://umperisn.mywire.org/index.php?id=2015&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
+https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor&ppid=e67f6aa79d604002f37ace34d2ca101c
+#EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-name="TJK TV" group-title="Spor",TJK TV
+http://umperisn.mywire.org/index.php?id=2050&token=DeaTHLesS
+#EXTINF:-1 tvg-name="EUROSPORT 1" group-title="Spor",EUROSPORT 1
+http://umperisn.mywire.org/index.php?id=2036&token=DeaTHLesS
+#EXTINF:-1 tvg-name="EUROSPORT 2" group-title="Spor",EUROSPORT 2
+http://umperisn.mywire.org/index.php?id=2037&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NBA TV" group-title="Spor",NBA TV
+http://umperisn.mywire.org/index.php?id=2048&token=DeaTHLesS
+#EXTINF:-1 tvg-name="S SPORT" group-title="Spor",S SPORT
+https://tinyurl.com/Fiat-linea-multijet/yula/ceydus1.m3u8
+#EXTINF:-1 tvg-name="S SPORT 2" group-title="Spor",S SPORT 2
+https://tinyurl.com/Fiat-linea-multijet/Emu/androstreamlivess2.m3u8
+#EXTINF:-1 tvg-name="SPORTS TV" group-title="Spor",SPORTS TV
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch754
+#EXTINF:-1 tvg-name="SPOR SMART" group-title="Spor",SPOR SMART
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
+#EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
+#EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418442?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418445?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418447?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Spor",BEIN SPORTS 4
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418449?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418451?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
+http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/418439?output=ts
+#EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
+https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
+http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
+#EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
+#EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
+http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS
+#EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8
+#EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
+http://umperisn.mywire.org/index.php?id=595425&token=DeaTHLesS
+#EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
+http://umperisn.mywire.org/index.php?id=595424&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
+http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NUMBER1 TÜRK" group-title="Müzik",NUMBER1 TÜRK
+http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Dini",TRT DİYANET ÇOCUK
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-name="SEMERKAND TV" group-title="Dini",SEMERKAND TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="LALEGÜL TV" group-title="Dini",LALEGÜL TV
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE" group-title="Sinema",BEIN MOVIES PREMIERE
+http://umperisn.mywire.org/index.php?id=591393&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE 2" group-title="Sinema",BEIN MOVIES PREMIERE 2
+http://umperisn.mywire.org/index.php?id=591395&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES TURK" group-title="Sinema",BEIN MOVIES TURK
+http://umperisn.mywire.org/index.php?id=591389&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES STARS" group-title="Sinema",BEIN MOVIES STARS
+http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES ACTION" group-title="Sinema",BEIN MOVIES ACTION
+http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
+http://umperisn.mywire.org/index.php?id=591405&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 2" group-title="Sinema",BEIN BOXOFFICE 2
+http://umperisn.mywire.org/index.php?id=591403&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 3" group-title="Sinema",BEIN BOXOFFICE 3
+http://umperisn.mywire.org/index.php?id=591401&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
+http://umperisn.mywire.org/index.php?id=591415&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
+http://umperisn.mywire.org/index.php?id=591429&token=DeaTHLesS
+#EXTINF:-1 tvg-name="SİNEMA 1002" group-title="Sinema",SİNEMA 1002
+https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
+https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8
+#EXTINF:-1 tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
+https://sharelink.anonimltc.workers.dev/g/8m95e5.m3u8
+#EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
+https://sharelink.anonimltc.workers.dev/g/hy364t.m3u8
+#EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
+http://umperisn.mywire.org/index.php?id=591431&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
+http://umperisn.mywire.org/index.php?id=620418&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
+http://umperisn.mywire.org/index.php?id=591385&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
+http://umperisn.mywire.org/index.php?id=591383&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
+http://umperisn.mywire.org/index.php?id=591381&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
+http://umperisn.mywire.org/index.php?id=591441&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
+http://umperisn.mywire.org/index.php?id=1993&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DISCOVERY" group-title="Belgesel",DISCOVERY
+http://umperisn.mywire.org/index.php?id=594675&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DISCOVERY CHANNEL" group-title="Belgesel",DISCOVERY CHANNEL
+http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DISCOVERY ID" group-title="Belgesel",DISCOVERY ID
+http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS
+#EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Belgesel",INVESTIGATION DISCOVERY
+http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" group-title="Belgesel",NATIONAL GEOGRAPHIC
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
+#EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
+#EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC WILD" group-title="Belgesel",NATIONAL GEOGRAPHIC WILD
+http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS
+#EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
+http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
+http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
+#EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
+http://umperisn.mywire.org/index.php?id=594660&token=DeaTHLesS
+#EXTINF:-1 tvg-name="HISTORY" group-title="Belgesel",HISTORY
+http://umperisn.mywire.org/index.php?id=594667&token=DeaTHLesS
+#EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
+http://umperisn.mywire.org/index.php?id=594656&token=DeaTHLesS
+#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
+http://umperisn.mywire.org/index.php?id=594657&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
+http://umperisn.mywire.org/index.php?id=594655&token=DeaTHLesS
+#EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
+http://umperisn.mywire.org/index.php?id=594669&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
+http://umperisn.mywire.org/index.php?id=594641&token=DeaTHLesS
+#EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
+http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
+#EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
+http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
+http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS
+#EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
+#EXTINF:-1 tvg-name="TRT ÇOCUK" group-title="Çocuk",TRT ÇOCUK
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8?checkedby:MyWay
+#EXTINF:-1 tvg-name="MİNİKA ÇOCUK" group-title="Çocuk",MİNİKA ÇOCUK
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8?checkedby:MyWay
+#EXTINF:-1 tvg-name="MİNİKA GO" group-title="Çocuk",MİNİKA GO
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8?checkedby:MyWay
+#EXTINF:-1 tvg-name="CARTOON NETWORK" group-title="Çocuk",CARTOON NETWORK
+http://umperisn.mywire.org/index.php?id=481404&token=DeaTHLesS
+#EXTINF:-1 tvg-name="CARTOONITO" group-title="Çocuk",CARTOONITO
+http://umperisn.mywire.org/index.php?id=593150&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BABY TV" group-title="Çocuk",BABY TV
+http://umperisn.mywire.org/index.php?id=481410&token=DeaTHLesS
+#EXTINF:-1 tvg-name="MOONBUG" group-title="Çocuk",MOONBUG
+http://new278.xyz:8080/S26NJVvrTX/rCb2pGeMhb/156325?output=ts
+#EXTINF:-1 tvg-name="BLOOMBERG HT" group-title="Ekonomi",BLOOMBERG HT
+https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8
+#EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
+https://tv.ensonhaber.com/bloomberght/bloomberght_720p.m3u8
+#EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
+http://umperisn.mywire.org/index.php?id=594209&token=DeaTHLesS
+#EXTINF:-1 tvg-name="EKOTÜRK" group-title="Ekonomi",EKOTÜRK
+http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS
+#EXTINF:-1 tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
+http://umperisn.mywire.org/index.php?id=594217&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TLC" group-title="Yaşam",TLC
+http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
+http://umperisn.mywire.org/index.php?id=594665&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TARIM TV" group-title="Tarım",TARIM TV
+http://umperisn.mywire.org/index.php?id=594649&token=DeaTHLesS
+#EXTINF:-1 tvg-name="TRT TÜRK" group-title="Uluslararası",TRT TÜRK
+https://tv-trtturk.medya.trt.com.tr/master_1440.m3u8
+#EXTINF:-1 tvg-name="TRT AVAZ" group-title="Uluslararası",TRT AVAZ
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="TRT KURDİ" group-title="Uluslararası",TRT KURDİ
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-name="A NEWS" group-title="Uluslararası",A NEWS
+http://umperisn.mywire.org/index.php?id=594258&token=DeaTHLesS
+#EXTINF:-1 tvg-name="RUSSIA 24" group-title="Uluslararası",RUSSIA 24
+https://gtrk-volga.ru/media/hr24/stream1.m3u8
+#EXTINF:-1 tvg-name="KIRAL FM" group-title="Radyo",KIRAL FM
+https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8?listeningSessionID=689a71b34a7d0fef_650218_ELAz7Pop__000000061yg&downloadSessionID=0&listenerid=3239e3f5e40f1819ee16c17a3a5f5b3e&awparams=companionAds%3Atrue
