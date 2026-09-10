@@ -1,3 +1,4 @@
+http://4.438069.xyz:8080/get.php?username=murat.revi2&password=01.11@2020&type=m3u_plus
 https://raw.githubusercontent.com/sahind01/vidmoy/refs/heads/main/filmler/films.m3u
 https://raw.githubusercontent.com/can12zaza/my_channels.m3u/refs/heads/main/dd
 https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Reality.m3u8
