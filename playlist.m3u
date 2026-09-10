@@ -100,7 +100,7 @@ https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
 #EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
-http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988851&extension=ts&play_token=i9P5KZaJhe
+http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
 https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein2/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
@@ -120,7 +120,7 @@ https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
 http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197360&extension=ts&play_token=06puQPiAQ5
 #EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
@@ -136,9 +136,9 @@ http://umperisn.mywire.org/index.php?id=595425&token=DeaTHLesS
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NR1" group-title="Müzik",NR1
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197359&extension=ts&play_token=VTomsfRgFY
-#EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a
+http://umperisn.mywire.org/index.php?id=595421&token=DeaTHLesS
+#EXTINF:-1 tvg-logo="http://bluelogo8990.duckdns.org:8080/LOGO.YENI/TR/MUZIK/NR1.TURK.png" tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
+http://bulufhd.shop:8080/soylu746457a1/gvYHe5eGbF/590332?output=ts
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/95389?output=ts
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/43/Diyanet_TV_logo.svg" tvg-name="TRT DİYANET" group-title="Dini",TRT DİYANET
@@ -186,7 +186,7 @@ http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=12377&extension=ts
 #EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471685&extension=ts&play_token=t39wCHGH3S
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
-https://proud-river-e20b.pantonum1.workers.dev/bsseries1.m3u8
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471673&extension=ts&play_token=fDOWsHHnSf
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471674&extension=ts&play_token=5gfhIkzuQg
 #EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
@@ -210,7 +210,7 @@ http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/676707?output=ts
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
 #EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
-http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94153?output=ts
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
 http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
 #EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
@@ -223,8 +223,8 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197420&exte
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
-#EXTINF:-1 tvg-logo="http://sltv-icon.cms-s.com/logo/turkeyT/love_nature.png" tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://tigervip26.xyz:8080/live/35UEwLrghB/UnQnF3KrtY/297.m3u?output=ts
+#EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj
 #EXTINF:-1 tvg-id="davinci.tr" tvg-logo="http://sltv-icon.cms-s.com/logo/turkeyT/da_vici_learning.png" tvg-name="DA VINCI LEARNING" group-title="Belgesel",DA VINCI LEARNING
 http://tigervip26.xyz:8080/live/35UEwLrghB/UnQnF3KrtY/104566.m3u?output=ts
 #EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/NATURE%20ESCAPE.png" tvg-name="NATURE ESCAPE" group-title="Belgesel",NATURE ESCAPE
