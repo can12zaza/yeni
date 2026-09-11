@@ -10,7 +10,7 @@ http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/328685?output=ts
 #EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94080?output=ts
 #EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
-http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94069?output=ts
+http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94070?output=ts
 #EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94066?output=ts
 #EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
@@ -24,13 +24,13 @@ http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94082?output=ts
 #EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/teve2.png" tvg-name="TEVE2" group-title="Ulusal",TEVE2
 http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196796&extension=ts
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://umperisn.mywire.org/index.php?id=1969&token=DeaTHLesS
+http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94086?output=ts
 #EXTINF:-1 tvg-name="360" group-title="Ulusal",360
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196670&extension=ts&play_token=GXnCN0D780
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA
 #EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/675929?output=ts
 #EXTINF:-1 tvg-name="KANAL B" group-title="Ulusal",KANAL B
-https://tv.kanalb.tr/hls/kanalb/index.m3u8
+http://umperisn.mywire.org/index.php?id=594204&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BENGÜTÜRK" group-title="Ulusal",BENGÜTÜRK
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/675909?output=ts
 #EXTINF:-1 tvg-name="AKİT TV" group-title="Haber",AKİT TV
@@ -70,7 +70,7 @@ http://tigervip26.xyz:8080/live/35UEwLrghB/UnQnF3KrtY/110409.m3u?output=ts
 #EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
 http://umperisn.mywire.org/index.php?id=594198&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
-http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94892?output=ts
+http://umperisn.mywire.org/index.php?id=2015&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/151903?output=ts
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
@@ -100,13 +100,13 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&exten
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
 http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
-http://umperisn.mywire.org/index.php?id=2206&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=2207&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
 http://umperisn.mywire.org/index.php?id=2210&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Spor",BEIN SPORTS 4
 http://umperisn.mywire.org/index.php?id=2213&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein5/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://umperisn.mywire.org/index.php?id=423873&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX" group-title="Spor",BEIN SPORTS MAX
 http://umperisn.mywire.org/index.php?id=551691&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
@@ -120,7 +120,7 @@ http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="http://bluelogo8990.duckdns.org:8080/LOGO.YENI/TR/MUZIK/KRAL.TV.png" tvg-name="KRAL TV" group-title="Müzik",KRAL TV
 http://bulufhd.shop:8080/soylu746457a1/gvYHe5eGbF/590322?output=ts
 #EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197361&extension=ts&play_token=88YQcnlyZu
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
@@ -212,7 +212,7 @@ http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS
 #EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Belgesel",INVESTIGATION DISCOVERY
 http://umperisn.mywire.org/index.php?id=594673&token=DeaTHLesS
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
-http://umperisn.mywire.org/index.php?id=594676&token=DeaTHLesS
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
 #EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
 http://umperisn.mywire.org/index.php?id=594678&token=DeaTHLesS
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
@@ -239,8 +239,8 @@ http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314475&extension=ts
 http://umperisn.mywire.org/index.php?id=594641&token=DeaTHLesS
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
-#EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
-http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS
+#EXTINF:-1 tvg-logo="https://www.logolarimiz.com/europa/turkey/habitat.png" tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
+http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/676685?output=ts
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
 http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
