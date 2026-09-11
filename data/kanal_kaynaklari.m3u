@@ -18,7 +18,7 @@ http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94072?output=ts
 #EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94074?output=ts
 #EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
-http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94078?output=ts
+http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/146892?output=ts
 #EXTINF:-1 tvg-name="KANAL 7" group-title="Ulusal",KANAL 7
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/94082?output=ts
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
@@ -52,7 +52,7 @@ http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/675901?output=ts
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
 http://umperisn.mywire.org/index.php?id=594245&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TV100" group-title="Haber",TV100
-http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch738
 #EXTINF:-1 tvg-name="A HABER" group-title="Haber",A HABER
 http://eu.kartal38.com:8080/KeremLindau/myCS2k5dDWbZ/675945?output=ts
 #EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
@@ -86,7 +86,7 @@ https://square-leaf-d613.panorea1000.workers.dev/?xml=ch754
 #EXTINF:-1 tvg-name="SPOR SMART" group-title="Spor",SPOR SMART
 https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
 #EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch793
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
 http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
@@ -97,10 +97,8 @@ http://umperisn.mywire.org/index.php?id=2210&token=DeaTHLesS
 http://umperisn.mywire.org/index.php?id=2213&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
 http://umperisn.mywire.org/index.php?id=423873&token=DeaTHLesS
-#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
-http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
-http://umperisn.mywire.org/index.php?id=2194&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=620421&token=DeaTHLesS
 #EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
@@ -208,7 +206,7 @@ http://umperisn.mywire.org/index.php?id=594641&token=DeaTHLesS
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
-http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=594662&token=DeaTHLesS
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
 #EXTINF:-1 tvg-name="TRT ÇOCUK" group-title="Çocuk",TRT ÇOCUK
