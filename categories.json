@@ -202,7 +202,9 @@
     "EURONEWS"
   ],
   "Radyo": [
+    "Radyo"
     "RADYO 7",
+    "Radyo 7",
     "TRT RADYO 1",
     "TRT FM",
     "TRT TÜRKÜ",
@@ -216,7 +218,8 @@
   "WebCam": [
     "WEBCAM",
     "LIVE CAM",
-    "CAM",
-    "KAMERA"
+    "Beach",
+    "BEACH",
+    "İBB"
   ]
 }
