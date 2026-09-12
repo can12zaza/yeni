@@ -1,7 +1,7 @@
 {
   "total_channels": 192,
-  "matched": 106,
-  "not_found": 86,
+  "matched": 112,
+  "not_found": 80,
   "source_count": 4,
   "candidate_count": 15332,
   "indexed_channels": 5804,
@@ -73,7 +73,7 @@
       "name": "BEYAZ TV",
       "category": "Ulusal",
       "status": "working",
-      "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94079?output=ts",
+      "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94080?output=ts",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -84,12 +84,6 @@
         },
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94080?output=ts",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94079?output=ts",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -435,11 +429,17 @@
       "name": "NTV",
       "category": "Haber",
       "status": "working",
-      "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675933?output=ts",
+      "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675932?output=ts",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675933?output=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675932?output=ts",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -606,7 +606,7 @@
       "name": "TRT SPOR",
       "category": "Spor",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=701&extension=ts&play_token=otMelKJIPh",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -683,6 +683,12 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=701&extension=ts&play_token=otMelKJIPh",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -994,7 +1000,7 @@
       "name": "BEIN SPORTS 1",
       "category": "Spor",
       "status": "working",
-      "url": "http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988851&extension=ts&play_token=i9P5KZaJhe",
+      "url": "http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -1005,12 +1011,6 @@
         },
         {
           "url": "http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988851&extension=ts&play_token=i9P5KZaJhe",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -1268,23 +1268,11 @@
       "name": "KRAL POP",
       "category": "Müzik",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197361&extension=ts&play_token=88YQcnlyZu",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557141&extension=ts&play_token=V9p6cinYum",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197361&extension=ts&play_token=88YQcnlyZu",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -1453,7 +1441,9 @@
     {
       "name": "NR1 TÜRK",
       "category": "Müzik",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
@@ -1470,26 +1460,8 @@
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314377&extension=ts",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8730&extension=ts&play_token=RtxNcPwxBT",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197358&extension=ts&play_token=7iPd5Weu0a",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -1502,7 +1474,9 @@
     {
       "name": "NUMBER1 TÜRK",
       "category": "Müzik",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://umperisn.mywire.org/index.php?id=595423&token=DeaTHLesS",
@@ -1519,26 +1493,8 @@
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=314377&extension=ts",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8730&extension=ts&play_token=RtxNcPwxBT",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197358&extension=ts&play_token=7iPd5Weu0a",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -2535,7 +2491,7 @@
       "name": "NATIONAL GEOGRAPHIC",
       "category": "Belgesel",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -2570,6 +2526,24 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594676&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594677&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -2580,7 +2554,7 @@
       "name": "NAT GEO",
       "category": "Belgesel",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+      "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -2615,6 +2589,24 @@
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594676&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://umperisn.mywire.org/index.php?id=594677&token=DeaTHLesS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "URLError"
+        },
+        {
+          "url": "http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"
@@ -2922,7 +2914,9 @@
     {
       "name": "VIASAT EXPLORE",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676691?output=ts",
@@ -2951,8 +2945,8 @@
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -2986,7 +2980,9 @@
     {
       "name": "LOVE NATURE",
       "category": "Belgesel",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676703?output=ts",
@@ -3039,8 +3035,8 @@
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -3481,7 +3477,9 @@
     {
       "name": "TLC",
       "category": "Yaşam",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197429&extension=ts&play_token=K6dnYNtVcu",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676699?output=ts",
@@ -3534,14 +3532,8 @@
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197429&extension=ts&play_token=K6dnYNtVcu",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10776&extension=ts",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -3578,7 +3570,9 @@
     {
       "name": "TLC HD",
       "category": "Yaşam",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197429&extension=ts&play_token=K6dnYNtVcu",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
           "url": "http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676699?output=ts",
@@ -3631,14 +3625,8 @@
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197429&extension=ts&play_token=K6dnYNtVcu",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=10776&extension=ts",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
@@ -3743,7 +3731,7 @@
       "name": "A NEWS",
       "category": "Uluslararası",
       "status": "working",
-      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197271&extension=ts&play_token=Nx8VX4UaJj",
+      "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch750",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
       "attempts": [
         {
@@ -3754,6 +3742,54 @@
         },
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197271&extension=ts&play_token=Nx8VX4UaJj",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197239&extension=ts&play_token=xp5X57KHYf",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=185788&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196801&extension=ts",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197271&extension=ts&play_token=Nx8VX4UaJj",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197239&extension=ts&play_token=xp5X57KHYf",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197297&extension=ts&play_token=K7FHjiXCNb",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "https://square-leaf-d613.panorea1000.workers.dev/?xml=ch750",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Canli/refs/heads/main/tr.m3u",
           "ok": true,
           "reason": "http-200"

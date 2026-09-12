@@ -8,7 +8,7 @@ http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94063?output=ts
 #EXTINF:-1 tvg-name="ATV" group-title="Ulusal",ATV
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/328685?output=ts
 #EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
-http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94079?output=ts
+http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94080?output=ts
 #EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/94070?output=ts
 #EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
@@ -48,7 +48,7 @@ http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196804&extension=ts
 #EXTINF:-1 tvg-name="ÜLKE TV" group-title="Haber",ÜLKE TV
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675917?output=ts
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
-http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675933?output=ts
+http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675932?output=ts
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675939?output=ts
 #EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
@@ -70,7 +70,7 @@ https://rpn.bozztv.com/GCN-Fwtrn03Ixgt0/gin-bbcworld/index.m3u8?token=0631e8753b
 #EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=701&extension=ts&play_token=otMelKJIPh
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/151903?output=ts
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
@@ -98,7 +98,7 @@ https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
 #EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
-http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988851&extension=ts&play_token=i9P5KZaJhe
+http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
 https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein2/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
@@ -120,7 +120,7 @@ http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
 #EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197361&extension=ts&play_token=88YQcnlyZu
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/dream-tv.png" tvg-name="DREAM TV" group-title="Müzik",DREAM TV
@@ -135,8 +135,8 @@ https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="NR1" group-title="Müzik",NR1
 http://umperisn.mywire.org/index.php?id=595421&token=DeaTHLesS
-#EXTINF:-1 tvg-logo="https://i0.wp.com/resim.yayins.com/muzik/n1turk.png" tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
-http://superiptv21.com/live/Burkay58037/xyMAUdrpNA/56764e52-57d8-4781-8e9f-3ad68493104b.m3u?output=ts
+#EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197358&extension=ts&play_token=7iPd5Weu0a
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/95389?output=ts
 #EXTINF:-1 tvg-logo="http://138.199.27.237:8080/TURKIYE/TRTDIYANET.png" tvg-name="TRT DİYANET" group-title="Dini",TRT DİYANET
@@ -208,7 +208,7 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197427&exte
 #EXTINF:-1 tvg-id="discoveryid.tr" tvg-logo="https://www.logolarimiz.com/logo/Sirbistan/ID.DISCOVERY.png" tvg-name="INVESTIGATION DISCOVERY" group-title="Belgesel",INVESTIGATION DISCOVERY
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676707?output=ts
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
+http://mag.tivi-one-iptv.net:80/play/live.php?mac=00:1A:79:C0:8F:65&stream=197433&extension=ts&play_token=vIAFFKePWW
 #EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
@@ -219,12 +219,12 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197431&exte
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676701?output=ts
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197420&extension=ts&play_token=mT2OGR6h9B
-#EXTINF:-1 tvg-id="viasatexplore.tr" tvg-logo="https://www.logolarimiz.com/logo/Sirbistan/Viasat_Explore.png" tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676691?output=ts
+#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.logolarimiz.com/europa/turkey/lovenature.png" tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676703?output=ts
+#EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj
 #EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/DA%20VINCI%20LEARNING%20RAW.jpg" tvg-name="DA VINCI LEARNING" group-title="Belgesel",DA VINCI LEARNING
 http://sup-4k.org/play/live.php?mac=00:1A:79:A9:BA:5B&stream=196819&extension=ts
 #EXTINF:-1 tvg-logo="http://103.161.34.238/dreamtv/tv/NATURE%20ESCAPE.png" tvg-name="NATURE ESCAPE" group-title="Belgesel",NATURE ESCAPE
@@ -263,8 +263,8 @@ http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675913?output=ts
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675899?output=ts
 #EXTINF:-1 tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/675907?output=ts
-#EXTINF:-1 tvg-id="tlc.tr" tvg-logo="https://www.logolarimiz.com/europa/turkey/tlc.png" tvg-name="TLC HD" group-title="Yaşam",TLC HD
-http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676699?output=ts
+#EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197429&extension=ts&play_token=K6dnYNtVcu
 #EXTINF:-1 tvg-id="tarimtv.tr" tvg-logo="https://www.logolarimiz.com/logo/Turkiye/TARIM.TV.png" tvg-name="TARIM TV" group-title="Tarım",TARIM TV
 http://eu.kartal38.com:8080/MustafatekVoL02/j4YbJ5D6pj7y/676683?output=ts
 #EXTINF:-1 tvg-name="TRT TÜRK" group-title="Uluslararası",TRT TÜRK
@@ -276,7 +276,7 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT ARABİ" group-title="Uluslararası",TRT ARABİ
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="A NEWS" group-title="Uluslararası",A NEWS
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197271&extension=ts&play_token=Nx8VX4UaJj
+https://square-leaf-d613.panorea1000.workers.dev/?xml=ch750
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/yYL6cLc0/CGTN-Documentary-svg.webp" tvg-name="CGTN" group-title="Uluslararası",CGTN
 https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8
 #EXTINF:-1 tvg-name="RUSSIA 24" group-title="Uluslararası",RUSSIA 24
