@@ -10,11 +10,11 @@ http://umperisn.mywire.org/index.php?id=1849&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
 https://bstelevision.com/proxy.php?url=http://mlatlxfaaa.turknet.ercdn.net/zqhpjaumpm/beyaztv/beyaztv.m3u8
 #EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
-http://umperisn.mywire.org/index.php?id=1851&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=1852&token=DeaTHLesS
 #EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
 http://umperisn.mywire.org/index.php?id=1848&token=DeaTHLesS
 #EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
-http://umperisn.mywire.org/index.php?id=1854&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=1853&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
 https://square-leaf-d613.panorea1000.workers.dev/?xml=ch825
 #EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
@@ -24,7 +24,7 @@ http://umperisn.mywire.org/index.php?id=1863&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TEVE2" group-title="Ulusal",TEVE2
 http://umperisn.mywire.org/index.php?id=1867&token=DeaTHLesS
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://umperisn.mywire.org/index.php?id=1868&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=1869&token=DeaTHLesS
 #EXTINF:-1 tvg-name="360" group-title="Ulusal",360
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA
 #EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
@@ -96,7 +96,7 @@ https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
 #EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
-http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988849&extension=ts&play_token=zYB5znYiYr
+http://nexusconnects.org:80/play/live.php?mac=00:1B:79:47:72:00&stream=988851&extension=ts&play_token=i9P5KZaJhe
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
 http://umperisn.mywire.org/index.php?id=2206&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
@@ -108,21 +108,21 @@ http://umperisn.mywire.org/index.php?id=423873&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX" group-title="Spor",BEIN SPORTS MAX
 http://umperisn.mywire.org/index.php?id=551691&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
-http://umperisn.mywire.org/index.php?id=551689&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
 http://umperisn.mywire.org/index.php?id=2194&token=DeaTHLesS
 #EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
 https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
 http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="http://bluelogo8990.duckdns.org:8080/LOGO.YENI/TR/MUZIK/KRAL.TV.png" tvg-name="KRAL TV" group-title="Müzik",KRAL TV
-http://spedtvhd.shop:8080/tunal987785/AQ85K6rbyh/590322?output=ts
+#EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
 #EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://bluelogo8990.duckdns.org:8080/LOGO.YENI/TR/MUZIK/DREAMTV.png" tvg-name="DREAM TV" group-title="Müzik",DREAM TV
-http://spedtvhd.shop:8080/tunal987785/AQ85K6rbyh/590316?output=ts
+#EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
+http://umperisn.mywire.org/index.php?id=595432&token=DeaTHLesS
 #EXTINF:-1 tvg-id="powertv.tr" tvg-logo="http://1kapak.plusbalans.eu/plustr/powerturk.png" tvg-name="POWER" group-title="Müzik",POWER
 http://elit64.eu:2086/alierenersin/pH8YEHx/207?output=ts
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
@@ -156,7 +156,7 @@ http://umperisn.mywire.org/index.php?id=591389&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN MOVIES STARS" group-title="Sinema",BEIN MOVIES STARS
 http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN MOVIES ACTION" group-title="Sinema",BEIN MOVIES ACTION
-http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=591398&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN MOVIES FAMILY" group-title="Sinema",BEIN MOVIES FAMILY
 http://umperisn.mywire.org/index.php?id=591397&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
@@ -240,7 +240,7 @@ http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
 #EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
 http://umperisn.mywire.org/index.php?id=594651&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
-http://umperisn.mywire.org/index.php?id=594663&token=DeaTHLesS
+http://umperisn.mywire.org/index.php?id=594662&token=DeaTHLesS
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
 #EXTINF:-1 tvg-logo="http://1kapak.plusbalans.eu/plustr/chassepeache.png" tvg-name="CHASSE & PECHE" group-title="Belgesel",CHASSE & PECHE
