@@ -14,7 +14,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196696&ex
 #EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196697&extension=ts&play_token=S05dySmbjf
 #EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196695&extension=ts&play_token=9rZyNWfIPX
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196679&extension=ts&play_token=wIZQXtaEUX
 #EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
@@ -24,7 +24,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196690&ex
 #EXTINF:-1 tvg-name="TEVE2" group-title="Ulusal",TEVE2
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196689&extension=ts&play_token=7u6BNeQHj0
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196687&extension=ts&play_token=DGJnc2zcvx
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196671&extension=ts&play_token=9oLEqeVHKo
 #EXTINF:-1 tvg-name="360" group-title="Ulusal",360
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA
 #EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
@@ -68,7 +68,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197261&ex
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
-http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
@@ -173,14 +173,10 @@ http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/lovenature.m3u8
 #EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8?md5=yJ4adbAK5bE0F93vqFevgw&expires=1687122603
-#EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197439&extension=ts&play_token=TfLVZnUFoE
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
 https://proud-river-e20b.pantonum1.workers.dev/tarihtv.m3u8
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
-#EXTINF:-1 tvg-name="TRT ÇOCUK" group-title="Çocuk",TRT ÇOCUK
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-name="MİNİKA ÇOCUK" group-title="Çocuk",MİNİKA ÇOCUK
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197414&extension=ts&play_token=QRcQhhtUMu
 #EXTINF:-1 tvg-name="MİNİKA GO" group-title="Çocuk",MİNİKA GO
