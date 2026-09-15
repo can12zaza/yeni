@@ -2,7 +2,7 @@
   "total_channels": 192,
   "matched": 4,
   "not_found": 188,
-  "source_count": 3,
+  "source_count": 2,
   "candidate_count": 448,
   "indexed_channels": 436,
   "timeout": 15,
