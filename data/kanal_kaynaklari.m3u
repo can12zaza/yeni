@@ -1,242 +1,268 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="TRT 4K" group-title="Ulusal",TRT 4K
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197438&extension=ts&play_token=zkjkoH1DCe
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJQUp6SDVqNFo5ZndFbUZ2Y3NDR2hCTWFkdm02c0xvY0VQcWlZL1pVdWdVcg?output=ts
 #EXTINF:-1 tvg-name="TRT 1" group-title="Ulusal",TRT 1
-https://sweet-truth-729d.han686314.workers.dev/?url=https://helga.iptv2022.com/sh/trt_1/index.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRytTZVBtNDl2aVNxUi82VXNOZmswMEtqK3gyd1NVM0Rodjd4VUc4dUVFbA?output=ts
 #EXTINF:-1 tvg-name="TRT 2" group-title="Ulusal",TRT 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/787.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRytTZVBtNDl2aVNxUi82VXNOZmswMHErZWl2ZktiT09lZGFlWFhjUDdVTA?output=ts
 #EXTINF:-1 tvg-name="ATV" group-title="Ulusal",ATV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/793.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1JcWwrTzhQb3JxUnRKTlViNkMxUGpMQQ?output=ts
 #EXTINF:-1 tvg-name="BEYAZ TV" group-title="Ulusal",BEYAZ TV
-https://bstelevision.com/proxy.php?url=http://mlatlxfaaa.turknet.ercdn.net/zqhpjaumpm/beyaztv/beyaztv.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1JcmJ5SjNWY0VKUStEV2g4N0JyVVM3TQ?output=ts
 #EXTINF:-1 tvg-name="KANAL D" group-title="Ulusal",KANAL D
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/791.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1JcGxWY3BGWlQyWnNrbkhZR05jWnBXNQ?output=ts
 #EXTINF:-1 tvg-name="SHOW TV" group-title="Ulusal",SHOW TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/795.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRytTZVBtNDl2aVNxUi82VXNOZmswMm12dmxRc0dMeXAxMkljL3U5K3U2eA?output=ts
 #EXTINF:-1 tvg-name="STAR TV" group-title="Ulusal",STAR TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/796.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1JcVlZVktoZUFab085U21CRzV3Vm9kQg?output=ts
 #EXTINF:-1 tvg-name="TV8" group-title="Ulusal",TV8
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/799.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1JclFlZi93YTFFd2tWNXdOZVUwdzAvRg?output=ts
 #EXTINF:-1 tvg-name="TV8.5" group-title="Ulusal",TV8.5
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/59410.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRUIxUmpBd1FCRUNjZVhlQlhZbHluQmNwUElZL2FkbFNEUGpkZzh6b3Z6Uw?output=ts
 #EXTINF:-1 tvg-name="KANAL 7" group-title="Ulusal",KANAL 7
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196690&extension=ts&play_token=PndCKJQB2u
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR2phejNZWGpvZFF5M0J3djMxbW1Jb08vaFhFZGlBMFQwb2FYNEZyMHc1VA?output=ts
 #EXTINF:-1 tvg-name="TEVE2" group-title="Ulusal",TEVE2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/159999.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRUIxUmpBd1FCRUNjZVhlQlhZbHluQW55NHM1OC9VL01uMHgwWng0dXg1WA?output=ts
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/726.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJQTM4cFVvWStUWTVoTkhCY25xbFZnWnlQWENpZE83N25jTDFWWHk3QXU4QQ?output=ts
 #EXTINF:-1 tvg-name="360" group-title="Ulusal",360
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJQUp6SDVqNFo5ZndFbUZ2Y3NDR2hCTWxtOEJEL2diNVpEN1BMSkFIREtuaQ?output=ts
 #EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1257377&extension=ts&play_token=DA2nexCTPP
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTElqeFdaMW80Q1Z5SVNKZ2NQc1FUYjlKTkNlSmpuVTU3NkwvVjJFRGJDeA?output=ts
 #EXTINF:-1 tvg-name="KANAL B" group-title="Ulusal",KANAL B
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/213256.ts
+http://umperisn.mywire.org/index.php?id=594204&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BENGÜTÜRK" group-title="Ulusal",BENGÜTÜRK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/802.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSaVZmTVoxbUxVZWNyQTlkU3FUMS9aYw?output=ts
 #EXTINF:-1 tvg-name="AKİT TV" group-title="Haber",AKİT TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/121056.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTElqeFdaMW80Q1Z5SVNKZ2NQc1FUWmhJUml1YnptWTRaQ2c4aExqZEZKZQ?output=ts
 #EXTINF:-1 tvg-name="TRT HABER" group-title="Haber",TRT HABER
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/91203.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTWFqbHlWeHVidFhHd1ExcVE4WmZ1Ym5BZjd6T1lTWllmQVhmOU51T0FadA?output=ts
 #EXTINF:-1 tvg-name="HABER GLOBAL" group-title="Haber",HABER GLOBAL
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/26605.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSEdoc1R1UmxCS1YyWTRsWjRleHNFT2d0akVYL2tQQ285UHl4dXdKQmhNTA?output=ts
 #EXTINF:-1 tvg-name="CNN TÜRK" group-title="Haber",CNN TÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197260&extension=ts&play_token=UJ6cx8th1N
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSEdoc1R1UmxCS1YyWTRsWjRleHNFUFh3cjNXNzlEcFkva1c2RXVjYnZXMw?output=ts
 #EXTINF:-1 tvg-name="TV NET" group-title="Haber",TV NET
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197257&extension=ts&play_token=hQlsXbvuXH
-#EXTINF:-1 tvg-name="24" group-title="Haber",24
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/9449.ts
 #EXTINF:-1 tvg-name="ÜLKE TV" group-title="Haber",ÜLKE TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/676.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJT05vOTVGVTkzV1VQV0ZmUzJMRTJaTVQ5RlZsa25scyt0MEkxQStremo1Sg?output=ts
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/776.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTElqeFdaMW80Q1Z5SVNKZ2NQc1FUWjk3aFR0QjUwVWxUZ0Fac2g3VFFLZA?output=ts
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/91202.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSEdoc1R1UmxCS1YyWTRsWjRleHNFT0IvMDUvRm1GTm11SW5KVTZwcC9ZaQ?output=ts
 #EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/10425.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTGdBSGJRWk0xYWFQbVRURVovRjc1L0hZYTQvaXVSNllQQlZKckxxR0VGaA?output=ts
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8?tv=1
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTElqeFdaMW80Q1Z5SVNKZ2NQc1FUWWlDNGR1cmY0WnhibExKOE5ibXRlZg?output=ts
 #EXTINF:-1 tvg-name="TV100" group-title="Haber",TV100
 http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8
 #EXTINF:-1 tvg-name="A HABER" group-title="Haber",A HABER
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/696.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSEdoc1R1UmxCS1YyWTRsWjRleHNFTUsvOVhTdml1bmlhUlo1amZIMGxWeQ?output=ts
 #EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/198042.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSZzVTV1pXb3lUb24yVXY0Y0hnOVRJeg?output=ts
 #EXTINF:-1 tvg-name="ULUSAL KANAL" group-title="Haber",ULUSAL KANAL
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197178&extension=ts&play_token=8qxzVqk0m2
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTGdBSGJRWk0xYWFQbVRURVovRjc1OStPNHdmRWFoaUI1R1d2YW04L1lnYg?output=ts
+#EXTINF:-1 tvg-name="MECLİS TV" group-title="Haber",MECLİS TV
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJUHFiRE96UzY4aUVhY0xCNDVQMHkvQzZUNk03S2UvOVl6bWVXL25CUTRNUA?output=ts
 #EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/12775.ts
+http://umperisn.mywire.org/index.php?id=594198&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/158685.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRmpXeDFDMlUzRUoxSGJpYVFsVlViQzB1b1FybU1PQkhNSlhWd3NhZ2hiZg?output=ts
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/197433.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRmpXeDFDMlUzRUoxSGJpYVFsVlViQ3dDKzFZREt5ZHRScmRvVjhrcUlLWA?output=ts
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/197434.ts
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRmpXeDFDMlUzRUoxSGJpYVFsVlViQUVkeUJ0bTJ5MHoyUHhVeG9tNFRTQg?output=ts
 #EXTINF:-1 tvg-name="TJK TV" group-title="Spor",TJK TV
-https://tjktv-live.tjk.org/tjktv_1080p.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSDNwN2dVbWhlbGhXckhFNDFnUml2ZTdIalZ4YXN2NUJOekNSZmw1c3lHdQ?output=ts
 #EXTINF:-1 tvg-name="EUROSPORT 1" group-title="Spor",EUROSPORT 1
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/806.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZVaGtTUDRxZWREWUt5bjRHdTlaeEhjU3lGcnNYZmgzSVh0ZWRGZWkyeQ?output=ts
 #EXTINF:-1 tvg-name="EUROSPORT 2" group-title="Spor",EUROSPORT 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/805.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZVaGtTUDRxZWREWUt5bjRHdTlaekljTUdJMEJVQnRSUFpnU1VEdDZLSg?output=ts
 #EXTINF:-1 tvg-name="NBA TV" group-title="Spor",NBA TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/817.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSDNwN2dVbWhlbGhXckhFNDFnUml2Zis3bEZBMGZqRk81T0w1cFlPd251UQ?output=ts
 #EXTINF:-1 tvg-name="S SPORT" group-title="Spor",S SPORT
 https://tinyurl.com/Fiat-linea-multijet/yula/ceydus1.m3u8
 #EXTINF:-1 tvg-name="S SPORT 2" group-title="Spor",S SPORT 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/36881.ts
+https://tinyurl.com/Fiat-linea-multijet/Emu/androstreamlivess2.m3u8
 #EXTINF:-1 tvg-name="SPORTS TV" group-title="Spor",SPORTS TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/686.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJR0JRMGtaZ0lzbFhBemt1ay9nb1F3ekRUbUZESUxUai9vdTd5Zlord0pXdQ?output=ts
 #EXTINF:-1 tvg-name="SPOR SMART" group-title="Spor",SPOR SMART
 https://square-leaf-d613.panorea1000.workers.dev/?xml=ch790
 #EXTINF:-1 tvg-name="SPOR SMART 2" group-title="Spor",SPOR SMART 2
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18631&extension=ts&play_token=B2l3zE1IqA
 #EXTINF:-1 tvg-name="BEIN SPORTS 1" group-title="Spor",BEIN SPORTS 1
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/318926.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRWlDakZLbEdha1U2cHlJOENobUMvWGN0VDZVdWYyTmkraU9Ic2ZUNjNCbw?output=ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 2" group-title="Spor",BEIN SPORTS 2
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein2/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSjEzVE1CekhlWlhlakx2RUYreFpRdjFoaHpoSWhIbkNOYjFnalRncTc4Qw?output=ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 3" group-title="Spor",BEIN SPORTS 3
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein3/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSjEzVE1CekhlWlhlakx2RUYreFpRdHg0K3creFdIVFBJVEhhNU1uRE1NYw?output=ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 4" group-title="Spor",BEIN SPORTS 4
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein4/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSjEzVE1CekhlWlhlakx2RUYreFpRc1A5dHN3d3NUM2p2cytkSThLNWpmVQ?output=ts
 #EXTINF:-1 tvg-name="BEIN SPORTS 5" group-title="Spor",BEIN SPORTS 5
-https://avva.magnitude.workers.dev/?url=https://avvaupdate.com/bein5/index.m3u8?o=1%26e=1781703872%26tk=51d8cf311c0961e87873898f38494c8d
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRnc2TjhDRHFvY0ZJa21oN2NwK3ljQ3FiS3d1UUszdFczWnppZVNnUlU0Ng?output=ts
+#EXTINF:-1 tvg-name="BEIN SPORTS MAX 2" group-title="Spor",BEIN SPORTS MAX 2
+http://umperisn.mywire.org/index.php?id=2217&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SPORTS HABER" group-title="Spor",BEIN SPORTS HABER
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/4743.ts
+http://umperisn.mywire.org/index.php?id=2194&token=DeaTHLesS
 #EXTINF:-1 tvg-name="FB TV" group-title="Spor",FB TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/687.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZVaGtTUDRxZWREWUt5bjRHdTlaejZ2ZVNPQ0NIVFZvbzBWWW1lV0NJdg?output=ts
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
-http://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRFhVaWhrM3hHeVh5K25KUkZDTGZicmxnTG4vd0Iwb0hsTVR6NmhQeXl1cA?output=ts
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
 #EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRFhVaWhrM3hHeVh5K25KUkZDTGZib21NTDlXcUZtTUNjdlZNTWwzUk5udg?output=ts
+#EXTINF:-1 tvg-name="DREAM TV" group-title="Müzik",DREAM TV
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRFhVaWhrM3hHeVh5K25KUkZDTGZicUN1eTZyb0Rxalo4QzNUeDJCc3NlMA?output=ts
 #EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist_b7596000_sltur.m3u8
 #EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
-https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+http://umperisn.mywire.org/index.php?id=595425&token=DeaTHLesS
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
-https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+http://umperisn.mywire.org/index.php?id=595424&token=DeaTHLesS
 #EXTINF:-1 tvg-name="NR1" group-title="Müzik",NR1
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197359&extension=ts&play_token=VTomsfRgFY
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTmZGaXhQdmVCUzZYUEN6VUdWNXkvbmJGaTJ1SU8zNVkvVGZBa2ZlUFErdA?output=ts
+#EXTINF:-1 tvg-name="NR1 TÜRK" group-title="Müzik",NR1 TÜRK
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTmZGaXhQdmVCUzZYUEN6VUdWNXkvbHcwNVA3VFlXaXFUMkRyUy8rRUZxYw?output=ts
+#EXTINF:-1 tvg-name="NUMBER1 TÜRK" group-title="Müzik",NUMBER1 TÜRK
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTmZGaXhQdmVCUzZYUEN6VUdWNXkvbHcwNVA3VFlXaXFUMkRyUy8rRUZxYw?output=ts
 #EXTINF:-1 tvg-name="DİYANET TV" group-title="Dini",DİYANET TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJQ08weVRlb3Y3dUN4M1BkSVdpTzJ6V2pIS0dEL0lxWXNic0FFZWkwMG9KVQ?output=ts
 #EXTINF:-1 tvg-name="TRT DİYANET ÇOCUK" group-title="Dini",TRT DİYANET ÇOCUK
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRW9CbFdpNC8vOFVyZ1JkK1hRL0UyVndPSWE1cjNlODBCakp1YjdHYUVaKw?output=ts
 #EXTINF:-1 tvg-name="SEMERKAND TV" group-title="Dini",SEMERKAND TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJUG5LWVBPNmg3TkpRaTNTNkdLcWV5SVdNYjNxY29iQndOaDdqckc0cnhmMw?output=ts
 #EXTINF:-1 tvg-name="LALEGÜL TV" group-title="Dini",LALEGÜL TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE" group-title="Sinema",BEIN MOVIES PREMIERE
+http://umperisn.mywire.org/index.php?id=591393&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES PREMIERE 2" group-title="Sinema",BEIN MOVIES PREMIERE 2
+http://umperisn.mywire.org/index.php?id=591395&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES TURK" group-title="Sinema",BEIN MOVIES TURK
+http://umperisn.mywire.org/index.php?id=591389&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES STARS" group-title="Sinema",BEIN MOVIES STARS
+http://umperisn.mywire.org/index.php?id=591391&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES ACTION" group-title="Sinema",BEIN MOVIES ACTION
+http://umperisn.mywire.org/index.php?id=591399&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN MOVIES FAMILY" group-title="Sinema",BEIN MOVIES FAMILY
+http://umperisn.mywire.org/index.php?id=591397&token=DeaTHLesS
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 1" group-title="Sinema",BEIN BOXOFFICE 1
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTWpoRUlsbWJZVzNKbm9oYzh0ZnZrUmhtVDZKd2tZcG0xMWhodVJJOGtUYQ?output=ts
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 2" group-title="Sinema",BEIN BOXOFFICE 2
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTnJ2a3VpRHJQUjRucHNoK2IwODZjUWdCV1RoTDRQWmJCYS9WWEFQaFRMaA?output=ts
+#EXTINF:-1 tvg-name="BEIN BOXOFFICE 3" group-title="Sinema",BEIN BOXOFFICE 3
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTnJ2a3VpRHJQUjRucHNoK2IwODZjUXdEY0tZbDJwVGtVVEFrNzFISEN1SQ?output=ts
 #EXTINF:-1 tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/9842.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTDloZFpFbjR5aEM2a2VCSm5aREJqT1VoUitOUzBHN0Y2SE1wQVB2TzloMA?output=ts
 #EXTINF:-1 tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/160033.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSG9uL21mY2xETnZGVUF4ZGVFaWV2SndjN0FUaGN5Z3dsbGZpc0w0RjBTQg?output=ts
 #EXTINF:-1 tvg-name="SİNEMA 1001" group-title="Sinema",SİNEMA 1001
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/28586.ts
+https://proud-river-e20b.pantonum1.workers.dev/sinema1001.m3u8
 #EXTINF:-1 tvg-name="SİNEMA 1002" group-title="Sinema",SİNEMA 1002
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/28587.ts
+https://edge.taksimbilisim.com/altastv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/816.ts
+https://sharelink.anonimltc.workers.dev/g/tahkxy.m3u8
 #EXTINF:-1 tvg-name="SİNEMA AKSİYON 2" group-title="Sinema",SİNEMA AKSİYON 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/59414.ts
+https://proud-river-e20b.pantonum1.workers.dev/sinemaaksiyon2.m3u8
 #EXTINF:-1 tvg-name="SİNEMA AİLE" group-title="Sinema",SİNEMA AİLE
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/721.ts
-#EXTINF:-1 tvg-name="SİNEMA AİLE 2" group-title="Sinema",SİNEMA AİLE 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/29587.ts
+https://proud-river-e20b.pantonum1.workers.dev/sinemaaile.m3u8
 #EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
 https://proud-river-e20b.pantonum1.workers.dev/sinemakomedi.m3u8
-#EXTINF:-1 tvg-name="SİNEMA KOMEDİ 2" group-title="Sinema",SİNEMA KOMEDİ 2
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/59413.ts
 #EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471685&extension=ts&play_token=t39wCHGH3S
+http://umperisn.mywire.org/index.php?id=591431&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471673&extension=ts&play_token=fDOWsHHnSf
+http://umperisn.mywire.org/index.php?id=620418&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471674&extension=ts&play_token=5gfhIkzuQg
+http://umperisn.mywire.org/index.php?id=591385&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471675&extension=ts&play_token=gzHjnGWvXz
+http://umperisn.mywire.org/index.php?id=591383&token=DeaTHLesS
 #EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471676&extension=ts&play_token=x3dLMvs808
+http://umperisn.mywire.org/index.php?id=591381&token=DeaTHLesS
+#EXTINF:-1 tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
+http://umperisn.mywire.org/index.php?id=591441&token=DeaTHLesS
 #EXTINF:-1 tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/682.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRWJTK3RqOFpyZThNTkl4VmxmSmw2T1drQkk3YnhZQjBXWVdTMzdDdkhhUg?output=ts
 #EXTINF:-1 tvg-name="DISCOVERY" group-title="Belgesel",DISCOVERY
-https://proud-river-e20b.pantonum1.workers.dev/discovery.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5b1ozZVBKTXVtOEJ3aUF4MlBFWE9nbQ?output=ts
 #EXTINF:-1 tvg-name="DISCOVERY CHANNEL" group-title="Belgesel",DISCOVERY CHANNEL
-https://nord.ayakkabiparti.lol/discovery/index.m3u8
+http://umperisn.mywire.org/index.php?id=594674&token=DeaTHLesS
 #EXTINF:-1 tvg-name="DISCOVERY ID" group-title="Belgesel",DISCOVERY ID
-https://proud-river-e20b.pantonum1.workers.dev/discs.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5cjh6cVNjSGozUkVQbE94RUZ0YlA4dg?output=ts
 #EXTINF:-1 tvg-name="INVESTIGATION DISCOVERY" group-title="Belgesel",INVESTIGATION DISCOVERY
-https://proud-river-e20b.pantonum1.workers.dev/discs.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5cjh6cVNjSGozUkVQbE94RUZ0YlA4dg?output=ts
 #EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" group-title="Belgesel",NATIONAL GEOGRAPHIC
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5bzFIRTB4RlRuVG5yazNVUCtRTkl0WQ?output=ts
 #EXTINF:-1 tvg-name="NAT GEO" group-title="Belgesel",NAT GEO
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5bzFIRTB4RlRuVG5yazNVUCtRTkl0WQ?output=ts
 #EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC WILD" group-title="Belgesel",NATIONAL GEOGRAPHIC WILD
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5cUFtZUdxdDRuVVprckIvTE5VeVUxYw?output=ts
 #EXTINF:-1 tvg-name="NAT GEO WILD" group-title="Belgesel",NAT GEO WILD
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSHZzclJka1J4K0tkMHJCOXZSNjV5cUFtZUdxdDRuVVprckIvTE5VeVUxYw?output=ts
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
 http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
 #EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
-https://proud-river-e20b.pantonum1.workers.dev/bbc.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLU2pCVVh6eTJKZ1lXOUx5cUczQlhzSg?output=ts
 #EXTINF:-1 tvg-name="HISTORY" group-title="Belgesel",HISTORY
-https://proud-river-e20b.pantonum1.workers.dev/history.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLUVBnbWhsendFVC80M0w4RStCbzhDWg?output=ts
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
-https://proud-river-e20b.pantonum1.workers.dev/viasathistory.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZNNGlZc1NVdXZjMG53K0lMbU9Hdk5hYlN4NmFJWHVsSXhIdVRubStuRw?output=ts
 #EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZNNGlZc1NVdXZjMG53K0lMbU9HdW1qVmdoeC8vcHNLVHE2dkYxOURlRQ?output=ts
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
-http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZNNGlZc1NVdXZjMG53K0lMbU9HdENibFUyd2x3MUp2WHRGcGI3eE9YeQ?output=ts
 #EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-https://nord.ayakkabiparti.lol/lovenature/index.m3u8
-#EXTINF:-1 tvg-name="DA VINCI LEARNING" group-title="Belgesel",DA VINCI LEARNING
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/121107.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLU3owSDN1c1dGS1JubVl3OEd5L0k5RQ?output=ts
 #EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/197424.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRTIvVWIvcEZOUG1OY3UrUXd6YzNpcjAzRGlJb3NOY1hCM1NleU5rMHpuYg?output=ts
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
-http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRTIvVWIvcEZOUG1OY3UrUXd6YzNpb284UmIvN2NXamQwamF4bWxyUDRpdg?output=ts
+#EXTINF:-1 tvg-name="HABITAT TV" group-title="Belgesel",HABITAT TV
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTEZNNGlZc1NVdXZjMG53K0lMbU9HdjdoSWprYjBKajlSWDFVUkE3UDIvNg?output=ts
 #EXTINF:-1 tvg-name="TARİH TV" group-title="Belgesel",TARİH TV
-https://proud-river-e20b.pantonum1.workers.dev/tarihtv.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLUUh4NDloYVBSU20wdEZhOFNFdjR1Ug?output=ts
 #EXTINF:-1 tvg-name="ÇİFTÇİ TV" group-title="Belgesel",ÇİFTÇİ TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRTIvVWIvcEZOUG1OY3UrUXd6YzNpcDhzbWdBMDhyWE1aNkErSWhZbWpJTw?output=ts
 #EXTINF:-1 tvg-name="TRT ÇOCUK" group-title="Çocuk",TRT ÇOCUK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/786.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRW9CbFdpNC8vOFVyZ1JkK1hRL0UyV2xoQ0x6YnVEN2xOdUU1bGk4OW9naQ?output=ts
 #EXTINF:-1 tvg-name="MİNİKA ÇOCUK" group-title="Çocuk",MİNİKA ÇOCUK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/667.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJUDJFNFhvc3ZDZHNpY1MweE5mYkFrZW9yVytIL0I3Q0hDSlNVUHkzZGdzVw?output=ts
 #EXTINF:-1 tvg-name="MİNİKA GO" group-title="Çocuk",MİNİKA GO
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/670.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJUDJFNFhvc3ZDZHNpY1MweE5mYkFrY0krMUlvVWt4YlhEMUJyMHZwVlFVRg?output=ts
 #EXTINF:-1 tvg-name="CARTOON NETWORK" group-title="Çocuk",CARTOON NETWORK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/4933.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTFFBWFpjencyR09TTWoxbUZ1WnFwekpUeWplYk9aM0tWaWhEeTl4SEx1cw?output=ts
 #EXTINF:-1 tvg-name="CARTOONITO" group-title="Çocuk",CARTOONITO
-http://c3921155.edmonst.net/iptv/AVNFCNQBEC9VQU/6850/index.m3u8
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJQ3BCQlNuK2l0Q2VyS2VKN3JLSnU0Rmk4WjArMG9lTmNSNk5BbjVocCtBSg?output=ts
 #EXTINF:-1 tvg-name="BABY TV" group-title="Çocuk",BABY TV
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/13269.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRW9CbFdpNC8vOFVyZ1JkK1hRL0UyVW1wUGVlUnZuZWRaYzJHTFIxZEsweg?output=ts
 #EXTINF:-1 tvg-name="BLOOMBERG HT" group-title="Ekonomi",BLOOMBERG HT
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/41154.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSaUQ4MDZoOEowNDZmRlpvVUpUNFlFTQ?output=ts
 #EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/41154.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSaUQ4MDZoOEowNDZmRlpvVUpUNFlFTQ?output=ts
 #EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/59429.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTGdBSGJRWk0xYWFQbVRURVovRjc1OTkyc0NTV21iWGExeWQzakt1Yk9Cbg?output=ts
 #EXTINF:-1 tvg-name="EKOTÜRK" group-title="Ekonomi",EKOTÜRK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/691.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSaDJQNkRWZy9yOE9heVdDZ1M1NWc4ag?output=ts
 #EXTINF:-1 tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/691.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTXdjYmN6ejdaTURYMUl0VFpmMGJSaDJQNkRWZy9yOE9heVdDZ1M1NWc4ag?output=ts
 #EXTINF:-1 tvg-name="TLC" group-title="Yaşam",TLC
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/679.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLU2FENTBKa3BOengwMVdjY013NE5Jcg?output=ts
 #EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/679.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJSXBtdXFlZlBhb1cyTWRLc0JOaFNLU2FENTBKa3BOengwMVdjY013NE5Jcg?output=ts
+#EXTINF:-1 tvg-name="TARIM TV" group-title="Tarım",TARIM TV
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJRTIvVWIvcEZOUG1OY3UrUXd6YzNpcW5zVno5WHB3Sm5CNTN1SVNmVDlFTg?output=ts
 #EXTINF:-1 tvg-name="TRT TÜRK" group-title="Uluslararası",TRT TÜRK
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/12774.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTHNzWEpzdFZ5WmpmSVpHQTh6K1dvOHJ1ZE83V3VQVWlPbkdvSkJGeThxSA?output=ts
 #EXTINF:-1 tvg-name="TRT AVAZ" group-title="Uluslararası",TRT AVAZ
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/121064.ts
+http://tfx1.com:8080/czBzOHFRTnNWaGVvTlVSRllMT0ZJTlREVUpYVVFJTHpiUnBvT1dLQmNhL1RMZWk5VzNhMEhZMEVFd05ocmFEMQ?output=ts
 #EXTINF:-1 tvg-name="TRT KURDİ" group-title="Uluslararası",TRT KURDİ
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="TRT ARABİ" group-title="Uluslararası",TRT ARABİ
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/158688.ts
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="A NEWS" group-title="Uluslararası",A NEWS
-http://4.438069.xyz:2086/live/Hamdybask.055/12sa11da223gd/139365.ts
+http://umperisn.mywire.org/index.php?id=594258&token=DeaTHLesS
 #EXTINF:-1 tvg-name="RUSSIA 24" group-title="Uluslararası",RUSSIA 24
 https://gtrk-volga.ru/media/hr24/stream1.m3u8
 #EXTINF:-1 tvg-name="KIRAL FM" group-title="Radyo",KIRAL FM
