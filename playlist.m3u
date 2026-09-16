@@ -24,9 +24,9 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196690&ex
 #EXTINF:-1 tvg-name="TEVE2" group-title="Ulusal",TEVE2
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196689&extension=ts&play_token=7u6BNeQHj0
 #EXTINF:-1 tvg-name="A2" group-title="Ulusal",A2
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196687&extension=ts&play_token=DGJnc2zcvx
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196671&extension=ts&play_token=9oLEqeVHKo
 #EXTINF:-1 tvg-name="360" group-title="Ulusal",360
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196686&extension=ts&play_token=bNDysiy4vA
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196670&extension=ts&play_token=GXnCN0D780
 #EXTINF:-1 tvg-name="EKOL TV" group-title="Ulusal",EKOL TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1257377&extension=ts&play_token=DA2nexCTPP
 #EXTINF:-1 tvg-name="KANAL B" group-title="Ulusal",KANAL B
@@ -50,7 +50,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197258&ex
 #EXTINF:-1 tvg-name="NTV" group-title="Haber",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197264&extension=ts&play_token=Iw60S9KlXh
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197251&extension=ts&play_token=sCjQ33s91W
 #EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197263&extension=ts&play_token=c53adoDCo6
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
