@@ -3,8 +3,8 @@
   "matched": 108,
   "not_found": 84,
   "source_count": 2,
-  "candidate_count": 1942,
-  "indexed_channels": 1138,
+  "candidate_count": 1945,
+  "indexed_channels": 1141,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -583,7 +583,7 @@
       "name": "TRT SPOR YILDIZ",
       "category": "Spor",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
+      "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
@@ -594,18 +594,6 @@
         },
         {
           "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "URLError"
-        },
-        {
-          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557154&extension=ts&play_token=g9h8nHg27a",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
