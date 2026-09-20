@@ -95,6 +95,8 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&ex
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197364&extension=ts&play_token=FkdL4n4O9g
 #EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE

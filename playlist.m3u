@@ -105,8 +105,8 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&ex
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="POWER" group-title="Müzik",POWER
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="POWER TÜRK" group-title="Müzik",POWER TÜRK
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197364&extension=ts&play_token=FkdL4n4O9g
 #EXTINF:-1 tvg-name="POWER TÜRK SLOW" group-title="Müzik",POWER TÜRK SLOW
 https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="POWER TÜRK TAPTAZE" group-title="Müzik",POWER TÜRK TAPTAZE
