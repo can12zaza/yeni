@@ -1,9 +1,9 @@
 {
   "total_channels": 192,
-  "matched": 108,
-  "not_found": 84,
+  "matched": 107,
+  "not_found": 85,
   "source_count": 2,
-  "candidate_count": 1945,
+  "candidate_count": 1946,
   "indexed_channels": 1141,
   "timeout": 15,
   "max_candidates_per_channel": 20,
@@ -456,15 +456,13 @@
     {
       "name": "TV100",
       "category": "Haber",
-      "status": "working",
-      "url": "http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8",
-      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "status": "not_found",
       "attempts": [
         {
           "url": "http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": true,
-          "reason": "http-200"
+          "ok": false,
+          "reason": "HTTPError"
         }
       ]
     },
@@ -1898,17 +1896,11 @@
       "name": "CARTOON NETWORK",
       "category": "Çocuk",
       "status": "working",
-      "url": "https://nord.ayakkabiparti.lol/cartoonnetwork/index.m3u8",
+      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197411&extension=ts&play_token=6Vh9e7AwnI",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "https://nord.ayakkabiparti.lol/cartoonnetwork/index.m3u8",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -1980,12 +1972,12 @@
       "name": "BLOOMBERG HT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
-      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "url": "http://193.123.61.120:3000/kanal/bloomberght",
+      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
       "attempts": [
         {
-          "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "url": "http://193.123.61.120:3000/kanal/bloomberght",
+          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
           "ok": true,
           "reason": "http-200"
         }
@@ -1995,12 +1987,12 @@
       "name": "BLOOMBERGHT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
-      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "url": "http://193.123.61.120:3000/kanal/bloomberght",
+      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
       "attempts": [
         {
-          "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "url": "http://193.123.61.120:3000/kanal/bloomberght",
+          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
           "ok": true,
           "reason": "http-200"
         }
