@@ -1,10 +1,10 @@
 {
   "total_channels": 192,
-  "matched": 107,
-  "not_found": 85,
+  "matched": 108,
+  "not_found": 84,
   "source_count": 2,
-  "candidate_count": 1946,
-  "indexed_channels": 1141,
+  "candidate_count": 2061,
+  "indexed_channels": 1164,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -148,7 +148,7 @@
       "name": "TV8.5",
       "category": "Ulusal",
       "status": "working",
-      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196692&extension=ts&play_token=021Y7YSYE8",
+      "url": "http://176.65.153.66:6003/play/a00x/index.m3u8",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
@@ -164,7 +164,7 @@
           "reason": "HTTPError"
         },
         {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196692&extension=ts&play_token=021Y7YSYE8",
+          "url": "http://176.65.153.66:6003/play/a00x/index.m3u8",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -412,11 +412,11 @@
       "name": "HABERTÜRK",
       "category": "Haber",
       "status": "working",
-      "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197264&extension=ts&play_token=Iw60S9KlXh",
+      "url": "http://176.65.153.12:6002/play/a05n/index.m3u8",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
-          "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197264&extension=ts&play_token=Iw60S9KlXh",
+          "url": "http://176.65.153.12:6002/play/a05n/index.m3u8",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -581,7 +581,7 @@
       "name": "TRT SPOR YILDIZ",
       "category": "Spor",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
+      "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
@@ -592,18 +592,6 @@
         },
         {
           "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "ConnectionResetError"
-        },
-        {
-          "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557154&extension=ts&play_token=g9h8nHg27a",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -825,8 +813,17 @@
     {
       "name": "BEIN SPORTS HABER",
       "category": "Spor",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://176.65.153.66:6003/play/a00y/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://176.65.153.66:6003/play/a00y/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "FIGHTSCREEN",
@@ -1220,6 +1217,12 @@
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
           "reason": "HTTPError"
+        },
+        {
+          "url": "http://176.65.153.7:6004/play/a025/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
         }
       ]
     },
@@ -1272,7 +1275,14 @@
       "name": "SİNEMA AKSİYON",
       "category": "Sinema",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://176.65.153.7:6004/play/a023/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "SİNEMA AKSİYON 2",
@@ -1827,7 +1837,14 @@
       "name": "HABITAT TV",
       "category": "Belgesel",
       "status": "not_found",
-      "attempts": []
+      "attempts": [
+        {
+          "url": "http://176.65.153.7:6004/play/a024/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        }
+      ]
     },
     {
       "name": "TARİH TV",
@@ -1990,12 +2007,12 @@
       "name": "BLOOMBERG HT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://193.123.61.120:3000/kanal/bloomberght",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+      "url": "http://176.65.153.12:6002/play/a05o/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
-          "url": "http://193.123.61.120:3000/kanal/bloomberght",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+          "url": "http://176.65.153.12:6002/play/a05o/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
         }
@@ -2005,12 +2022,12 @@
       "name": "BLOOMBERGHT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://193.123.61.120:3000/kanal/bloomberght",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+      "url": "http://176.65.153.12:6002/play/a05o/index.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
-          "url": "http://193.123.61.120:3000/kanal/bloomberght",
-          "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+          "url": "http://176.65.153.12:6002/play/a05o/index.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
         }
