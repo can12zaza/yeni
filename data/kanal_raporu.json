@@ -155,13 +155,13 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8686&extension=ts&play_token=8qMkr5gsDg",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557151&extension=ts&play_token=QfWk622sPL",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://176.65.153.66:6003/play/a00x/index.m3u8",
@@ -272,7 +272,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=3435&extension=ts&play_token=6ExdErxyOo",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197227&extension=ts&play_token=BIkfp6yMim",
@@ -561,13 +561,13 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=374967&extension=ts&play_token=nRtYTGfnn5",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=860766&extension=ts&play_token=dfRSS6qrTN",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI",
@@ -933,19 +933,19 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=8706&extension=ts&play_token=ZmawIKZ4rh",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=282271&extension=ts&play_token=j4npsZlUYF",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557142&extension=ts&play_token=opgLv5Rg4o",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         }
       ]
     },
@@ -1210,7 +1210,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=508596&extension=ts&play_token=En45VLPaEZ",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://176.65.153.7:6004/play/a025/index.m3u8",
@@ -1472,13 +1472,13 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=3389&extension=ts&play_token=PnOsjNCN9H",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=557157&extension=ts&play_token=jdqULm7mX8",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197441&extension=ts&play_token=2YxNaeWuvv",
@@ -1514,7 +1514,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200346&extension=ts&play_token=o6DAOh72r0",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197427&extension=ts&play_token=rXjLa9bDy7",
@@ -1565,13 +1565,13 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200362&extension=ts&play_token=zxuC3Z7UoC",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200332&extension=ts&play_token=KTMEYCKK45",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
@@ -1592,13 +1592,13 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200362&extension=ts&play_token=zxuC3Z7UoC",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200332&extension=ts&play_token=KTMEYCKK45",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197433&extension=ts&play_token=vIAFFKePWW",
@@ -1625,7 +1625,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200363&extension=ts&play_token=Wfutr37cHp",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug",
@@ -1652,7 +1652,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200363&extension=ts&play_token=Wfutr37cHp",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&extension=ts&play_token=EgZySyAGug",
@@ -1733,7 +1733,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=587195&extension=ts&play_token=6TCRBIxqrh",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         },
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7",
@@ -1975,7 +1975,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200300&extension=ts&play_token=8cv2bWXVaY",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         }
       ]
     },
@@ -2051,7 +2051,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=239988&extension=ts&play_token=tS73FCFimH",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         }
       ]
     },
@@ -2064,7 +2064,7 @@
           "url": "http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=239988&extension=ts&play_token=tS73FCFimH",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": false,
-          "reason": "HTTPError"
+          "reason": "URLError"
         }
       ]
     },
