@@ -66,7 +66,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197261&ex
 #EXTINF:-1 tvg-name="TRT SPOR" group-title="Spor",TRT SPOR
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=709&extension=ts&play_token=AN3cSmXfyI
 #EXTINF:-1 tvg-name="TRT SPOR YILDIZ" group-title="Spor",TRT SPOR YILDIZ
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq
+http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS
 #EXTINF:-1 tvg-name="A SPOR" group-title="Spor",A SPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-name="HT SPOR" group-title="Spor",HT SPOR
@@ -128,17 +128,17 @@ https://proud-river-e20b.pantonum1.workers.dev/sinemaaile.m3u8
 #EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
 https://proud-river-e20b.pantonum1.workers.dev/sinemakomedi.m3u8
 #EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471685&extension=ts&play_token=t39wCHGH3S
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197136&extension=ts&play_token=XUCMlJbssm
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471673&extension=ts&play_token=fDOWsHHnSf
+https://proud-river-e20b.pantonum1.workers.dev/bsseries1.m3u8
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471674&extension=ts&play_token=5gfhIkzuQg
+https://proud-river-e20b.pantonum1.workers.dev/bsseries2.m3u8
 #EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471675&extension=ts&play_token=gzHjnGWvXz
+https://proud-river-e20b.pantonum1.workers.dev/bsseries3.m3u8
 #EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471676&extension=ts&play_token=x3dLMvs808
+https://proud-river-e20b.pantonum1.workers.dev/bsseries4.m3u8
 #EXTINF:-1 tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471682&extension=ts&play_token=BtvB09wPcF
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197140&extension=ts&play_token=IsxEkfERFU
 #EXTINF:-1 tvg-name="TRT BELGESEL" group-title="Belgesel",TRT BELGESEL
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197441&extension=ts&play_token=2YxNaeWuvv
 #EXTINF:-1 tvg-name="DISCOVERY" group-title="Belgesel",DISCOVERY
@@ -165,8 +165,6 @@ https://proud-river-e20b.pantonum1.workers.dev/bbc.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/history.m3u8
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
 https://proud-river-e20b.pantonum1.workers.dev/viasathistory.m3u8
-#EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
 #EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
