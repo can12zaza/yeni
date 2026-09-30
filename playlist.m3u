@@ -101,8 +101,8 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
-#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="KRAL POP" group-title="Müzik",KRAL POP
-https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-name="KRAL POP" group-title="Müzik",KRAL POP
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197361&extension=ts&play_token=88YQcnlyZu
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerDance.tr@SD" tvg-name="POWER" group-title="Müzik",POWER
@@ -145,8 +145,8 @@ https://proud-river-e20b.pantonum1.workers.dev/sinemaaile.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/sinemakomedi.m3u8
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ SINEMA PLATFORM/MOVIESMART.png" tvg-name="MOVIESMART" group-title="Sinema",MOVIESMART
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471684&extension=ts&play_token=txJYZNZE6k
-#EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197136&extension=ts&play_token=XUCMlJbssm
+#EXTINF:-1 tvg-id="MovieSmartTurk.tr@SD" tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
+http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
 https://proud-river-e20b.pantonum1.workers.dev/bsseries1.m3u8
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
@@ -209,7 +209,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197418&ex
 http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200300&extension=ts&play_token=8cv2bWXVaY
 #EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
 http://176.65.153.12:6002/play/a05o/index.m3u8
-#EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
+#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/TRAPARATV.png" tvg-name="A PARA" group-title="Ekonomi",A PARA
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197272&extension=ts&play_token=YMedtQj0VQ
 #EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
 https://cdn.ekoturk.net/hls/master.m3u8
