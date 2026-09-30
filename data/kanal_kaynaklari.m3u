@@ -127,6 +127,8 @@ https://proud-river-e20b.pantonum1.workers.dev/sinemaaksiyon2.m3u8
 https://proud-river-e20b.pantonum1.workers.dev/sinemaaile.m3u8
 #EXTINF:-1 tvg-name="SİNEMA KOMEDİ" group-title="Sinema",SİNEMA KOMEDİ
 https://proud-river-e20b.pantonum1.workers.dev/sinemakomedi.m3u8
+#EXTINF:-1 tvg-name="MOVIESMART TÜRK" group-title="Sinema",MOVIESMART TÜRK
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197136&extension=ts&play_token=XUCMlJbssm
 #EXTINF:-1 tvg-name="BEIN SERIES 1" group-title="Dizi",BEIN SERIES 1
 https://proud-river-e20b.pantonum1.workers.dev/bsseries1.m3u8
 #EXTINF:-1 tvg-name="BEIN SERIES 2" group-title="Dizi",BEIN SERIES 2
@@ -193,6 +195,8 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197418&ex
 http://176.65.153.12:6002/play/a05o/index.m3u8
 #EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
 http://176.65.153.12:6002/play/a05o/index.m3u8
+#EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197272&extension=ts&play_token=YMedtQj0VQ
 #EXTINF:-1 tvg-name="TLC" group-title="Yaşam",TLC
 https://dogus.daioncdn.net/tlc/tlc.m3u8?app=tlc_web
 #EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD
