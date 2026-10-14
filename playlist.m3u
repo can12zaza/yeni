@@ -52,7 +52,7 @@ https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-name="HABERTÜRK" group-title="Haber",HABERTÜRK
 http://176.65.153.12:6002/play/a05n/index.m3u8
 #EXTINF:-1 tvg-name="TGRT HABER" group-title="Haber",TGRT HABER
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197263&extension=ts&play_token=c53adoDCo6
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197284&extension=ts&play_token=MjTL8rPnjA
 #EXTINF:-1 tvg-name="CNBC-E" group-title="Haber",CNBC-E
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-logo="https://s.tv100.com/assets/web/images/logo.svg" tvg-name="TV100" group-title="Haber",TV100
@@ -61,7 +61,7 @@ http://europe77.xyz:2095/live/sevgul49/nFSNas21UA/120666.m3u8
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197259&extension=ts&play_token=lETzv8vz
 #EXTINF:-1 tvg-name="FLASH HABER" group-title="Haber",FLASH HABER
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197265&extension=ts&play_token=QkFNXps4SM
-#EXTINF:-1 tvg-name="ULUSAL KANAL" group-title="Haber",ULUSAL KANAL
+#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ULUSAL.png" tvg-name="ULUSAL KANAL" group-title="Haber",ULUSAL KANAL
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197178&extension=ts&play_token=8qxzVqk0m2
 #EXTINF:-1 tvg-name="TRT WORLD" group-title="Haber",TRT WORLD
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197261&extension=ts&play_token=cdx7DrYc71
@@ -130,7 +130,7 @@ https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ SINEMA PLATFORM/SINEMA TV 2.png" tvg-name="SİNEMA TV" group-title="Sinema",SİNEMA TV
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471689&extension=ts&play_token=rlz9LlxLPS
 #EXTINF:-1 tvg-name="SİNEMA TV 2" group-title="Sinema",SİNEMA TV 2
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471689&extension=ts&play_token=rlz9LlxLPS
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197129&extension=ts&play_token=zLg0pNC7FA
 #EXTINF:-1 tvg-name="SİNEMA AKSİYON" group-title="Sinema",SİNEMA AKSİYON
 http://176.65.153.7:6004/play/a023/index.m3u8
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ SINEMA PLATFORM/MOVIESMART.png" tvg-name="MOVIESMART" group-title="Sinema",MOVIESMART
@@ -143,7 +143,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471673&e
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471674&extension=ts&play_token=5gfhIkzuQg
 #EXTINF:-1 tvg-name="BEIN SERIES 3" group-title="Dizi",BEIN SERIES 3
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471675&extension=ts&play_token=gzHjnGWvXz
-#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/ TiviOne PLATFORM/TiviOne SERIES.png" tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
+#EXTINF:-1 tvg-name="BEIN SERIES 4" group-title="Dizi",BEIN SERIES 4
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471676&extension=ts&play_token=x3dLMvs808
 #EXTINF:-1 tvg-name="DİZİ SMART MAX" group-title="Dizi",DİZİ SMART MAX
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=1471682&extension=ts&play_token=BtvB09wPcF
@@ -168,7 +168,7 @@ http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=587194&exten
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197420&extension=ts&play_token=mT2OGR6h9B
 #EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
-http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=587195&extension=ts&play_token=6TCRBIxqrh
+http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&extension=ts&play_token=T0Qe2W6ku7
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
 #EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
