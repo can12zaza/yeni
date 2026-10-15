@@ -138,7 +138,9 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&exte
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
 https://dogus.daioncdn.net/dmax/dmax.m3u8?app=dmax_web
 #EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197431&extension=ts&play_token=nCZocT8oj0
+http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200352&extension=ts&play_token=706rpGO6PS
+#EXTINF:-1 tvg-name="HISTORY" group-title="Belgesel",HISTORY
+http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=587194&extension=ts&play_token=e57YMrO07i
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197420&extension=ts&play_token=mT2OGR6h9B
 #EXTINF:-1 tvg-name="VIASAT EXPLORE" group-title="Belgesel",VIASAT EXPLORE
@@ -146,7 +148,7 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&exte
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
 #EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj
+http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=736326&extension=ts&play_token=VKlYGH0kFo
 #EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8?md5=yJ4adbAK5bE0F93vqFevgw&expires=1687122603
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
@@ -169,8 +171,6 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197418&ex
 http://176.65.153.12:6002/play/a05o/index.m3u8
 #EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
 http://176.65.153.12:6002/play/a05o/index.m3u8
-#EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197272&extension=ts&play_token=YMedtQj0VQ
 #EXTINF:-1 tvg-name="TLC" group-title="Yaşam",TLC
 https://dogus.daioncdn.net/tlc/tlc.m3u8?app=tlc_web
 #EXTINF:-1 tvg-name="TLC HD" group-title="Yaşam",TLC HD

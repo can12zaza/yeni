@@ -162,8 +162,8 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197432&exte
 #EXTINF:-1 tvg-name="DMAX" group-title="Belgesel",DMAX
 https://dogus.daioncdn.net/dmax/dmax.m3u8?app=dmax_web
 #EXTINF:-1 tvg-name="BBC EARTH" group-title="Belgesel",BBC EARTH
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197431&extension=ts&play_token=nCZocT8oj0
-#EXTINF:-1 tvg-logo="http://photo-tmdb.com/stalker_portal/misc/logos/320/621.jpg?90113" tvg-name="HISTORY" group-title="Belgesel",HISTORY
+http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200352&extension=ts&play_token=706rpGO6PS
+#EXTINF:-1 tvg-name="HISTORY" group-title="Belgesel",HISTORY
 http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=587194&extension=ts&play_token=e57YMrO07i
 #EXTINF:-1 tvg-name="VIASAT HISTORY" group-title="Belgesel",VIASAT HISTORY
 http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197420&extension=ts&play_token=mT2OGR6h9B
@@ -172,7 +172,7 @@ http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197442&exte
 #EXTINF:-1 tvg-name="BEIN IZ" group-title="Belgesel",BEIN IZ
 http://c3921155.edmonst.net/iptv/DVHP2VB5QXL7UC/19078/index.m3u8
 #EXTINF:-1 tvg-name="LOVE NATURE" group-title="Belgesel",LOVE NATURE
-http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197434&extension=ts&play_token=Ngkcs4n1xj
+http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=736326&extension=ts&play_token=VKlYGH0kFo
 #EXTINF:-1 tvg-name="TGRT BELGESEL" group-title="Belgesel",TGRT BELGESEL
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8?md5=yJ4adbAK5bE0F93vqFevgw&expires=1687122603
 #EXTINF:-1 tvg-name="YABAN TV" group-title="Belgesel",YABAN TV
@@ -199,7 +199,7 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197418&ex
 http://204.52.191.254:80/play/live.php?mac=00:1A:79:76:D0:D3&stream=200300&extension=ts&play_token=8cv2bWXVaY
 #EXTINF:-1 tvg-name="BLOOMBERGHT" group-title="Ekonomi",BLOOMBERGHT
 http://176.65.153.12:6002/play/a05o/index.m3u8
-#EXTINF:-1 tvg-name="A PARA" group-title="Ekonomi",A PARA
+#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/MIX/TRAPARATV.png" tvg-name="A PARA" group-title="Ekonomi",A PARA
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197272&extension=ts&play_token=YMedtQj0VQ
 #EXTINF:-1 tvg-id="Ekoturk.tr@SD" tvg-name="EKOTURK" group-title="Ekonomi",EKOTURK
 https://cdn.ekoturk.net/hls/master.m3u8
@@ -1175,6 +1175,8 @@ https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 http://176.65.153.7:6004/play/a03o/index.m3u8
 #EXTINF:-1 tvg-logo="https://r.resimlink.com/AcQk_nfBZwH.jpg" tvg-name="TÜRKMENELİ TV" group-title="Diğer",TÜRKMENELİ TV
 https://135962.global.ssl.fastly.net/5ff366a512987e2c0a3dabfe/live_14378e1002eb11ef9cb025207067897a/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="TurksatTanitim.tr@SD" tvg-name="Turksat Tanitim (1080p) [Geo-blocked]" group-title="Diğer",Turksat Tanitim (1080p) [Geo-blocked]
+http://176.65.153.26:6004/play/a02s/index.m3u8
 #EXTINF:-1 tvg-id="TV1.tr@SD" tvg-name="TV 1 (720p)" group-title="Diğer",TV 1 (720p)
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/tv1kayseri.png" tvg-name="TV 1 KAYSERI" group-title="Diğer",TV 1 KAYSERI
