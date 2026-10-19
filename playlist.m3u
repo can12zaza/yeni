@@ -108,7 +108,7 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TRT MÜZİK" group-title="Müzik",TRT MÜZİK
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="KRAL TV" group-title="Müzik",KRAL TV
-http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197360&extension=ts&play_token=06puQPiAQ5
+http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
 #EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-name="KRAL POP" group-title="Müzik",KRAL POP
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
 #EXTINF:-1 tvg-name="DREAM TÜRK" group-title="Müzik",DREAM TÜRK
@@ -891,8 +891,8 @@ http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197419&ex
 http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=197412&extension=ts&play_token=d2rZJutNho
 #EXTINF:-1 tvg-name="NOW" group-title="Diğer",NOW
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" tvg-name="NOW TV" group-title="Diğer",NOW TV
-http://116.202.238.88/FOXTV_TR/index.m3u8
+#EXTINF:-1 tvg-logo="http://picon.tivi-ott.net:25461/picon/TURKEY/FOXTV.png" tvg-name="NOW TV" group-title="Diğer",NOW TV
+http://line.tivi-one.net:80/play/live.php?mac=00:1A:79:88:CC:0E&stream=196694&extension=ts&play_token=lSQRFJi5TM
 #EXTINF:-1 tvg-id="NOWTV.tr@SD" tvg-name="NOW TV (720p)" group-title="Diğer",NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-name="NR 1 DAMAR" group-title="Diğer",NR 1 DAMAR
