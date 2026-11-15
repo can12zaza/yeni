@@ -1,10 +1,10 @@
 {
   "total_channels": 192,
-  "matched": 90,
-  "not_found": 102,
+  "matched": 91,
+  "not_found": 101,
   "source_count": 2,
-  "candidate_count": 1256,
-  "indexed_channels": 752,
+  "candidate_count": 1257,
+  "indexed_channels": 753,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -503,13 +503,15 @@
     {
       "name": "ULUSAL KANAL",
       "category": "Haber",
-      "status": "not_found",
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197178&extension=ts&play_token=8qxzVqk0m2",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
           "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197178&extension=ts&play_token=8qxzVqk0m2",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "HTTPError"
+          "ok": true,
+          "reason": "http-200"
         }
       ]
     },
