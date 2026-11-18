@@ -1,3 +1,5 @@
 https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u
 https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u
-
+https://raw.githubusercontent.com/cugucugu/nuvioiptv/refs/heads/main/r.m3u
+https://raw.githubusercontent.com/iskader/rec__full/refs/heads/main/rec__full.m3u
+https://raw.githubusercontent.com/patr0nq/flmS/refs/heads/main/jetfilm_tum.m3u
