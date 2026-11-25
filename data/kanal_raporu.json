@@ -1,10 +1,10 @@
 {
   "total_channels": 192,
-  "matched": 91,
-  "not_found": 101,
+  "matched": 99,
+  "not_found": 93,
   "source_count": 5,
-  "candidate_count": 1261,
-  "indexed_channels": 800,
+  "candidate_count": 915,
+  "indexed_channels": 585,
   "timeout": 15,
   "max_candidates_per_channel": 20,
   "source_errors": [],
@@ -280,11 +280,11 @@
       "name": "AKİT TV",
       "category": "Haber",
       "status": "working",
-      "url": "http://umperisn.mywire.org/index.php?id=594236&token=DeaTHLesS",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197233&extension=ts&play_token=5x13V8PrEV",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
-          "url": "http://umperisn.mywire.org/index.php?id=594236&token=DeaTHLesS",
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197233&extension=ts&play_token=5x13V8PrEV",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -565,7 +565,7 @@
       "name": "TRT SPOR YILDIZ",
       "category": "Spor",
       "status": "working",
-      "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
@@ -575,7 +575,7 @@
           "reason": "HTTPError"
         },
         {
-          "url": "http://umperisn.mywire.org/index.php?id=2019&token=DeaTHLesS",
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=18644&extension=ts&play_token=6fextF0Ovq",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -1092,8 +1092,17 @@
     {
       "name": "BEIN MOVIES STARS",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471680&extension=ts&play_token=mZ2ehyWIXk",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471680&extension=ts&play_token=mZ2ehyWIXk",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN MOVIES ACTION",
@@ -1116,20 +1125,65 @@
     {
       "name": "BEIN BOXOFFICE 1",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197154&extension=ts&play_token=DhHmxaaEy1",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471698&extension=ts&play_token=ZzrLzmL66r",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197154&extension=ts&play_token=DhHmxaaEy1",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 2",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197153&extension=ts&play_token=X6RnnsIbuZ",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471699&extension=ts&play_token=vtxTsTkH2o",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197153&extension=ts&play_token=X6RnnsIbuZ",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN BOXOFFICE 3",
       "category": "Sinema",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197152&extension=ts&play_token=fkElbmWwon",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=1471700&extension=ts&play_token=i0YM1UnDab",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": false,
+          "reason": "HTTPError"
+        },
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197152&extension=ts&play_token=fkElbmWwon",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "SİNEMA TV",
@@ -1236,14 +1290,32 @@
     {
       "name": "BEIN SERIES 1",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197146&extension=ts&play_token=1rohPQEEBT",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197146&extension=ts&play_token=1rohPQEEBT",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 2",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197148&extension=ts&play_token=AZ1nfBwDC5",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197148&extension=ts&play_token=AZ1nfBwDC5",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "BEIN SERIES 3",
@@ -1254,8 +1326,17 @@
     {
       "name": "BEIN SERIES 4",
       "category": "Dizi",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197150&extension=ts&play_token=Qyg7xZtKPS",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197150&extension=ts&play_token=Qyg7xZtKPS",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "DİZİ SMART",
@@ -1467,8 +1548,17 @@
     {
       "name": "BEIN IZ",
       "category": "Belgesel",
-      "status": "not_found",
-      "attempts": []
+      "status": "working",
+      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197425&extension=ts&play_token=ZLI7ilYODf",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+      "attempts": [
+        {
+          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197425&extension=ts&play_token=ZLI7ilYODf",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
+          "ok": true,
+          "reason": "http-200"
+        }
+      ]
     },
     {
       "name": "LOVE NATURE",
@@ -1591,17 +1681,11 @@
       "name": "MİNİKA ÇOCUK",
       "category": "Çocuk",
       "status": "working",
-      "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197414&extension=ts&play_token=QRcQhhtUMu",
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8",
       "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
           "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8",
-          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
-          "ok": false,
-          "reason": "HTTPError"
-        },
-        {
-          "url": "http://me.mdmfista.com:80/play/live.php?mac=00:1A:79:F5:CE:D7&stream=197414&extension=ts&play_token=QRcQhhtUMu",
           "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
@@ -1687,12 +1771,18 @@
       "name": "BLOOMBERG HT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://193.123.61.120:3000/kanal/bloomberght",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+      "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
           "url": "http://193.123.61.120:3000/kanal/bloomberght",
           "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
         }
@@ -1702,12 +1792,18 @@
       "name": "BLOOMBERGHT",
       "category": "Ekonomi",
       "status": "working",
-      "url": "http://193.123.61.120:3000/kanal/bloomberght",
-      "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+      "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
+      "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
       "attempts": [
         {
           "url": "http://193.123.61.120:3000/kanal/bloomberght",
           "source": "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tr.m3u",
+          "ok": false,
+          "reason": "TimeoutError"
+        },
+        {
+          "url": "https://ciner.daioncdn.net/bloomberght/bloomberght.m3u8",
+          "source": "https://raw.githubusercontent.com/batuhansabri55/AkcagozTV_Film/refs/heads/main/FilmDizi.m3u",
           "ok": true,
           "reason": "http-200"
         }
